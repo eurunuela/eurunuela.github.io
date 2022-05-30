@@ -30,25 +30,28 @@ export default function Index() {
     <div className="remix__page">
       <main>
         <div className="flex justify-center min-h-screen ">
-          <div className="w-full grid-cols-2 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 block p-6 rounded-lg shadow-lg h-60">
-            <div className="flex flex-col px-4 py-4">
-              <h1 className="pt-4 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight whitespace-nowrap text-black">
-                Hi, I'm Eneko <span className="whitespace-nowrap">👋</span>
-              </h1>
-              <h2 className="py-2 text-xl text-black ">
-                I am a PhD student working on inverse problems and denoising of
-                functional MRI data.
-              </h2>
-              <p className="py-2 italic text-black">
-                I want to make healthcare more accesible to everyone.
-              </p>
-            </div>
-            <div className="py-2 pr-4 ml-8 right-0">
-              <img
-                src={profilePic}
-                alt="Eneko"
-                className="rounded-full shadow-2xl object-fit-cover w-48 h-48"
-              />
+          <div className="w-full block items-center bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-6 rounded-lg shadow-lg h-[fit-content] mt-8">
+            <div className="grid grid-cols-6">
+              <div></div>
+              <div className="flex flex-col ml-8 px-8 py-4 col-span-3">
+                <h1 className="pt-4 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight whitespace-nowrap text-black">
+                  Hi, I'm Eneko <span className="whitespace-nowrap">👋</span>
+                </h1>
+                <h2 className="py-2 text-xl text-black ">
+                  I am a PhD student working on inverse problems and denoising
+                  of functional MRI data.
+                </h2>
+                <p className="py-2 italic text-black">
+                  I want to make healthcare more accesible to everyone.
+                </p>
+              </div>
+              <div className="flex flex-row ml-8 py-2 pr-4 ">
+                <img
+                  src={profilePic}
+                  alt="Eneko"
+                  className="rounded-full shadow-2xl object-fit-cover w-auto h-auto"
+                />
+              </div>
             </div>
           </div>
         </div>
