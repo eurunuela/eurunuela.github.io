@@ -5,7 +5,7 @@ import profilePic from "../images/profile.png";
 function Card() {
   return (
     <div className="flex justify-center">
-      <div className="block p-6 rounded-lg shadow-lg bg-white max-w-sm">
+      <div className="block p-6 rounded-lg shadow-lg bg-white h-full">
         <h5 className="text-gray-900 text-xl leading-tight font-medium mb-2">
           Card title
         </h5>
@@ -29,8 +29,8 @@ export default function Index() {
   return (
     <div className="remix__page">
       <main>
-        <div className="flex justify-center min-h-screen ">
-          <div className="w-full block items-center bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-6 rounded-lg drop-shadow-lg h-[fit-content] mt-8">
+        <div className="flex justify-center ">
+          <div className="w-full block items-center bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 mx-5 p-6 rounded-lg drop-shadow-lg h-[fit-content] mt-8">
             <div className="grid grid-cols-7">
               <div></div>
               <div className="flex flex-col px-8 py-4 col-span-4">
@@ -55,7 +55,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center min-h-screen grid-cols-2 ">
+        <div className="grid mt-8 grid-cols-2 ">
           <Card />
         </div>
       </main>
