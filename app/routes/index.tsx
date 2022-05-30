@@ -2,12 +2,12 @@ import type { MetaFunction, LoaderFunction } from "remix";
 import { useLoaderData, json, Link } from "remix";
 import profilePic from "../images/profile.png";
 
-function Card() {
+function Card({ title }: { title: string }) {
   return (
     <div className="flex justify-center">
       <div className="block p-6 rounded-lg shadow-lg bg-white h-full">
         <h5 className="text-gray-900 text-xl leading-tight font-medium mb-2">
-          Card title
+          {title}
         </h5>
         <p className="text-gray-700 text-base mb-4">
           Some quick example text to build on the card title and make up the
@@ -45,7 +45,7 @@ export default function Index() {
                   I want to make healthcare more accesible to everyone.
                 </p>
               </div>
-              <div className="flex flex-row ml-8 py-2 pr-4 ">
+              <div className="flex flex-row ml-8 py-2 ">
                 <img
                   src={profilePic}
                   alt="Eneko"
@@ -55,8 +55,13 @@ export default function Index() {
             </div>
           </div>
         </div>
-        <div className="grid mt-8 grid-cols-2 ">
-          <Card />
+        <div className="grid my-8 grid-cols-2 ">
+          <Card title="Google Scholar" />
+          <Card title="Conference Abstracts" />
+        </div>
+        <div className="grid my-8 grid-cols-2 ">
+          <Card title="Twitter Timeline" />
+          <Card title="GitHub Contributions" />
         </div>
       </main>
     </div>
