@@ -30,10 +30,10 @@ export default function Index() {
     <div className="remix__page">
       <main>
         <div className="flex justify-center min-h-screen ">
-          <div className="w-full block items-center bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-6 rounded-lg shadow-lg h-[fit-content] mt-8">
-            <div className="grid grid-cols-6">
+          <div className="w-full block items-center bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-6 rounded-lg drop-shadow-lg h-[fit-content] mt-8">
+            <div className="grid grid-cols-7">
               <div></div>
-              <div className="flex flex-col ml-8 px-8 py-4 col-span-3">
+              <div className="flex flex-col px-8 py-4 col-span-4">
                 <h1 className="pt-4 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight whitespace-nowrap text-black">
                   Hi, I'm Eneko <span className="whitespace-nowrap">👋</span>
                 </h1>
