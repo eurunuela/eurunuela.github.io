@@ -1,0 +1,415 @@
+{
+    "container_type": "Author",
+    "filled": [
+        "basics",
+        "indices",
+        "counts",
+        "coauthors",
+        "publications",
+        "public_access"
+    ],
+    "scholar_id": "KLIjERgAAAAJ",
+    "source": "AUTHOR_PROFILE_PAGE",
+    "name": "Eneko Uru\u00f1uela",
+    "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=KLIjERgAAAAJ&citpid=1",
+    "affiliation": "BCBL",
+    "organization": 5741100943680040988,
+    "interests": [
+        "Multi-Echo fMRI",
+        "Spatio-Temporal Deconvolution",
+        "Tensor Decomposition",
+        "Multi-Subject fMRI"
+    ],
+    "email_domain": "@bcbl.eu",
+    "homepage": "https://www.eneko-urunuela.com/",
+    "citedby": 33,
+    "citedby5y": 33,
+    "hindex": 3,
+    "hindex5y": 3,
+    "i10index": 2,
+    "i10index5y": 2,
+    "cites_per_year": {
+        "2020": 1,
+        "2021": 21,
+        "2022": 11
+    },
+    "coauthors": [
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "EGyN5_YAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Cesar Caballero Gaudes",
+            "affiliation": "MRI Engineer, Group Leader & Ram\u00f3n y Cajal Fellow, Basque Center on Cognition, Brain \u2026"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "sKSyDscAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Stefano Moia",
+            "affiliation": "Medical Imaging Processign Lab, EPFL"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "Weu-NwQAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Molly G. Bright",
+            "affiliation": "Northwestern University"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "OAg74-QAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Maite Termenon ORCID: 0000-0001-8102-5135",
+            "affiliation": "Mondragon Unibertsitatea - Goi eskola politeknikoa"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "O0zC2skAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Thomas AW Bolton",
+            "affiliation": "Scientific collaborator, Department of Clinical Neuroscience, CHUV"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "kFz4LNMAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Dimitri Van De Ville",
+            "affiliation": "Associate Professor of Bioengineering, EPF Lausanne and University of Geneva"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "r7BTR4cAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Rachael Stickland",
+            "affiliation": "Northwestern University"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "btIfabIAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Mark Lowe",
+            "affiliation": "Cleveland Clinic"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "gV3dH1YAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Se Hong Oh",
+            "affiliation": "Associate Professor @ Hankuk University of Foreign Studies, Adjunct Staff @ Cleveland \u2026"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "j0q0f4YAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Stephen Jones",
+            "affiliation": "Cleveland Clinic"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "LmnMR3MAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Andrew Zalesky",
+            "affiliation": "Engineering & Medicine, University of Melbourne, Australia"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "ocJSFvUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Ye Tian",
+            "affiliation": "Mary Lugton Postdoctoral Research Fellow, University of Melbourne, Australia"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "CGQ3Lw4AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Javier Gonzalez-Castillo",
+            "affiliation": "Senior Associate Scientist, Section on Functional Imaging Methods, NIMH, NIH"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "SIwRcDEAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Maryam Vaziri Pashkam",
+            "affiliation": "Research fellow, LBC, NIMH"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "3Rr07DkAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Logan T. Dowdle",
+            "affiliation": "Post Doc, Center for Magnetic Resonance Research"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "YbH1akIAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Taylor Salo",
+            "affiliation": "Graduate student, Florida International University"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "qgU89nQAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Angela Laird",
+            "affiliation": "Professor, Florida International University"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "X9OdRnYAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Peter A. Bandettini",
+            "affiliation": "Chief, Section on Functional Imaging Methods, National Institute of Mental Health"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "kSXl63oAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Prantik Kundu, PhD",
+            "affiliation": "Hyperfine Research Inc., Icahn School of Medicine at Mount Sinai"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "ZXxr85IAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Katherine L Bottenhorn",
+            "affiliation": "Postdoctoral Scholar, University of Southern California"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "Tn9x4pQAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Kirstie J Whitaker",
+            "affiliation": "Research Fellow, Alan Turing Institute for Data Science; Research Associate, Department of"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "rMRpQqUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Daniel Handwerker",
+            "affiliation": "Staff Scientist, National Institute of Mental Health"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "9FzK0bcAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Elizabeth DuPre",
+            "affiliation": "Montreal Neurological Institute"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "8yh5_cgAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Christopher J Markiewicz",
+            "affiliation": "Stanford University"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "4smzqdQAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Stephan Heunis",
+            "affiliation": "Forschunszentrum J\u00fclich"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "wBoKqdkAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Ross D. Markello",
+            "affiliation": "Octave Bioscience"
+        }
+    ],
+    "publications": [
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Brainhack: Developing a culture of open, inclusive, community-driven neuroscience",
+                "pub_year": "2021"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
+            "num_citations": 12,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9529080646369587268",
+            "cites_id": [
+                "9529080646369587268"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "ICA-based denoising strategies in breath-hold induced cerebrovascular reactivity mapping with multi echo BOLD fMRI",
+                "pub_year": "2021"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
+            "num_citations": 10,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4562738519788536351",
+            "cites_id": [
+                "4562738519788536351"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Stability-based sparse paradigm free mapping algorithm for deconvolution of functional MRI data",
+                "pub_year": "2020"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:hFOr9nPyWt4C",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8974637943734706401",
+            "cites_id": [
+                "8974637943734706401"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "TE-dependent analysis of multi-echo fMRI with* tedana",
+                "pub_year": "2021"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=227638211023025062",
+            "cites_id": [
+                "227638211023025062"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A Low Rank and Sparse Paradigm Free Mapping Algorithm For Deconvolution of FMRI Data",
+                "pub_year": "2021"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:R3hNpaxXUhUC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=586821217265377317",
+            "cites_id": [
+                "586821217265377317"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Sparse coupled logistic regression to estimate co-activation and modulatory influences of brain regions",
+                "pub_year": "2020"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:hC7cP41nSMkC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7743941460708886334",
+            "cites_id": [
+                "7743941460708886334"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Hemodynamic Deconvolution Demystified: Sparsity-Driven Regularization at Work",
+                "pub_year": "2021"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:e5wmG9Sq2KIC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10117778681508834011",
+            "cites_id": [
+                "10117778681508834011"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A multivariate sparse deconvolution algorithm for multi echo fMRI.",
+                "pub_year": "2019"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:qUcmZB5y_30C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Assessment of longitudinal cerebrovascular reactivity measurements based on breath-hold and resting state BOLD multi-echo fMRI"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:r0BpntZqJG4C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:j3f4tGmQtD8C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Deconvolution of multi-echo functional MRI data with Multivariate Multi-Echo Sparse Paradigm Free Mapping"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:4JMBOYKVnBMC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Fingerprinting individual subjects from resting-state functional magnetic resonance imaging head motion"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:RHpTSmoSYBkC",
+            "num_citations": 0
+        }
+    ],
+    "public_access": {
+        "available": 7,
+        "not_available": 0
+    }
+}

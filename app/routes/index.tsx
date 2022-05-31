@@ -27,13 +27,19 @@ function Card({ title }: { title: string }) {
 // https://remix.run/guides/routing#index-routes
 export default function Index() {
   return (
-    <div className="remix__page">
+    <div className="remix__page max-w-screen-xl mx-auto">
       <main>
-        <div className="flex justify-center ">
-          <div className="w-full block items-center bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 mx-5 p-6 rounded-lg drop-shadow-lg h-[fit-content] mt-8">
-            <div className="grid grid-cols-7">
-              <div></div>
-              <div className="flex flex-col px-8 py-4 col-span-4">
+        <div className="flex justify-center  ">
+          <div className="w-full block items-center bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-6 rounded-lg drop-shadow-lg h-[fit-content] mt-8">
+            <div className="grid sm:grid-cols-1 lg:grid-cols-2">
+              <div className=" py-4 flex flex-row sm:justify-center sm:items-center ">
+                <img
+                  src={profilePic}
+                  alt="Eneko"
+                  className="rounded-full shadow-2xl object-fit-cover w-48 h-48"
+                />
+              </div>
+              <div className="flex flex-col px-8 py-4">
                 <h1 className="pt-4 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight whitespace-nowrap text-black">
                   Hi, I'm Eneko <span className="whitespace-nowrap">👋</span>
                 </h1>
@@ -45,21 +51,14 @@ export default function Index() {
                   I want to make healthcare more accesible to everyone.
                 </p>
               </div>
-              <div className="flex flex-row ml-8 py-2 ">
-                <img
-                  src={profilePic}
-                  alt="Eneko"
-                  className="rounded-full shadow-2xl object-fit-cover w-auto h-auto"
-                />
-              </div>
             </div>
           </div>
         </div>
-        <div className="grid my-8 grid-cols-2 ">
+        <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
           <Card title="Google Scholar" />
           <Card title="Conference Abstracts" />
         </div>
-        <div className="grid my-8 grid-cols-2 ">
+        <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
           <Card title="Twitter Timeline" />
           <Card title="GitHub Contributions" />
         </div>
