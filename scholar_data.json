@@ -2,11 +2,11 @@
     "container_type": "Author",
     "filled": [
         "basics",
+        "publications",
+        "public_access",
         "indices",
         "counts",
-        "coauthors",
-        "publications",
-        "public_access"
+        "coauthors"
     ],
     "scholar_id": "KLIjERgAAAAJ",
     "source": "AUTHOR_PROFILE_PAGE",
@@ -23,6 +23,175 @@
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.eneko-urunuela.com/",
     "citedby": 33,
+    "publications": [
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "TE-dependent analysis of multi-echo fMRI with* tedana",
+                "pub_year": "2021"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=227638211023025062",
+            "cites_id": [
+                "227638211023025062"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Hemodynamic Deconvolution Demystified: Sparsity-Driven Regularization at Work",
+                "pub_year": "2021"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:e5wmG9Sq2KIC",
+            "num_citations": 1,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10117778681508834011",
+            "cites_id": [
+                "10117778681508834011"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Brainhack: Developing a culture of open, inclusive, community-driven neuroscience",
+                "pub_year": "2021"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
+            "num_citations": 12,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9529080646369587268",
+            "cites_id": [
+                "9529080646369587268"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "ICA-based denoising strategies in breath-hold induced cerebrovascular reactivity mapping with multi echo BOLD fMRI",
+                "pub_year": "2021"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
+            "num_citations": 10,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4562738519788536351",
+            "cites_id": [
+                "4562738519788536351"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A Low Rank and Sparse Paradigm Free Mapping Algorithm For Deconvolution of FMRI Data",
+                "pub_year": "2021"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:R3hNpaxXUhUC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=586821217265377317",
+            "cites_id": [
+                "586821217265377317"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Stability-based sparse paradigm free mapping algorithm for deconvolution of functional MRI data",
+                "pub_year": "2020"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:hFOr9nPyWt4C",
+            "num_citations": 4,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8974637943734706401",
+            "cites_id": [
+                "8974637943734706401"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Sparse coupled logistic regression to estimate co-activation and modulatory influences of brain regions",
+                "pub_year": "2020"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:hC7cP41nSMkC",
+            "num_citations": 2,
+            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7743941460708886334",
+            "cites_id": [
+                "7743941460708886334"
+            ],
+            "public_access": true
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A multivariate sparse deconvolution algorithm for multi echo fMRI.",
+                "pub_year": "2019"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:qUcmZB5y_30C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Assessment of longitudinal cerebrovascular reactivity measurements based on breath-hold and resting state BOLD multi-echo fMRI"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:r0BpntZqJG4C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:j3f4tGmQtD8C",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Deconvolution of multi-echo functional MRI data with Multivariate Multi-Echo Sparse Paradigm Free Mapping"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:4JMBOYKVnBMC",
+            "num_citations": 0
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Fingerprinting individual subjects from resting-state functional magnetic resonance imaging head motion"
+            },
+            "filled": false,
+            "author_pub_id": "KLIjERgAAAAJ:RHpTSmoSYBkC",
+            "num_citations": 0
+        }
+    ],
+    "public_access": {
+        "available": 7,
+        "not_available": 0
+    },
     "citedby5y": 33,
     "hindex": 3,
     "hindex5y": 3,
@@ -242,174 +411,5 @@
             "name": "Ross D. Markello",
             "affiliation": "Octave Bioscience"
         }
-    ],
-    "publications": [
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Brainhack: Developing a culture of open, inclusive, community-driven neuroscience",
-                "pub_year": "2021"
-            },
-            "filled": false,
-            "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
-            "num_citations": 12,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9529080646369587268",
-            "cites_id": [
-                "9529080646369587268"
-            ],
-            "public_access": true
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "ICA-based denoising strategies in breath-hold induced cerebrovascular reactivity mapping with multi echo BOLD fMRI",
-                "pub_year": "2021"
-            },
-            "filled": false,
-            "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 10,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4562738519788536351",
-            "cites_id": [
-                "4562738519788536351"
-            ],
-            "public_access": true
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Stability-based sparse paradigm free mapping algorithm for deconvolution of functional MRI data",
-                "pub_year": "2020"
-            },
-            "filled": false,
-            "author_pub_id": "KLIjERgAAAAJ:hFOr9nPyWt4C",
-            "num_citations": 4,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8974637943734706401",
-            "cites_id": [
-                "8974637943734706401"
-            ],
-            "public_access": true
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "TE-dependent analysis of multi-echo fMRI with* tedana",
-                "pub_year": "2021"
-            },
-            "filled": false,
-            "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 2,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=227638211023025062",
-            "cites_id": [
-                "227638211023025062"
-            ],
-            "public_access": true
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "A Low Rank and Sparse Paradigm Free Mapping Algorithm For Deconvolution of FMRI Data",
-                "pub_year": "2021"
-            },
-            "filled": false,
-            "author_pub_id": "KLIjERgAAAAJ:R3hNpaxXUhUC",
-            "num_citations": 2,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=586821217265377317",
-            "cites_id": [
-                "586821217265377317"
-            ],
-            "public_access": true
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Sparse coupled logistic regression to estimate co-activation and modulatory influences of brain regions",
-                "pub_year": "2020"
-            },
-            "filled": false,
-            "author_pub_id": "KLIjERgAAAAJ:hC7cP41nSMkC",
-            "num_citations": 2,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7743941460708886334",
-            "cites_id": [
-                "7743941460708886334"
-            ],
-            "public_access": true
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Hemodynamic Deconvolution Demystified: Sparsity-Driven Regularization at Work",
-                "pub_year": "2021"
-            },
-            "filled": false,
-            "author_pub_id": "KLIjERgAAAAJ:e5wmG9Sq2KIC",
-            "num_citations": 1,
-            "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10117778681508834011",
-            "cites_id": [
-                "10117778681508834011"
-            ],
-            "public_access": true
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "A multivariate sparse deconvolution algorithm for multi echo fMRI.",
-                "pub_year": "2019"
-            },
-            "filled": false,
-            "author_pub_id": "KLIjERgAAAAJ:qUcmZB5y_30C",
-            "num_citations": 0
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Assessment of longitudinal cerebrovascular reactivity measurements based on breath-hold and resting state BOLD multi-echo fMRI"
-            },
-            "filled": false,
-            "author_pub_id": "KLIjERgAAAAJ:r0BpntZqJG4C",
-            "num_citations": 0
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI"
-            },
-            "filled": false,
-            "author_pub_id": "KLIjERgAAAAJ:j3f4tGmQtD8C",
-            "num_citations": 0
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Deconvolution of multi-echo functional MRI data with Multivariate Multi-Echo Sparse Paradigm Free Mapping"
-            },
-            "filled": false,
-            "author_pub_id": "KLIjERgAAAAJ:4JMBOYKVnBMC",
-            "num_citations": 0
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Fingerprinting individual subjects from resting-state functional magnetic resonance imaging head motion"
-            },
-            "filled": false,
-            "author_pub_id": "KLIjERgAAAAJ:RHpTSmoSYBkC",
-            "num_citations": 0
-        }
-    ],
-    "public_access": {
-        "available": 7,
-        "not_available": 0
-    }
+    ]
 }

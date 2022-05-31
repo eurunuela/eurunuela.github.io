@@ -1,8 +1,15 @@
 import json
 
-from scholarly import scholarly
+from scholarly import ProxyGenerator, scholarly
+
+# Set up a ProxyGenerator object to use free proxies
+# This needs to be done only once per session
+pg = ProxyGenerator()
+pg.FreeProxies()
+scholarly.use_proxy(pg)
 
 author_ID = "KLIjERgAAAAJ"
+scholar_sections = ["basics", "indices", "counts", "coauthors", "publications", "public_access"]
 
 # Retrieve the author's data, fill-in, and print
 # Get an iterator for the author results
@@ -11,7 +18,7 @@ search_query = scholarly.search_author_id(author_ID)
 
 # Retrieve all the details for the author
 print("Retrieving author details...")
-author = scholarly.fill(search_query)
+author = scholarly.fill(search_query, sections=scholar_sections, sortby="year")
 scholarly.pprint(author)
 
 # Save the author's data to a json file
