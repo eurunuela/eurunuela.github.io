@@ -24,8 +24,8 @@ function ScholarCard({ data }: { data: any }) {
             </p>
           </div>
         </div>
-        {/* Map the first 10 publications in data with number of citations on the right */}
-        {data["publications"].slice(0, 10).map((publication, index) => (
+        {/* Map the first 7 publications in data with number of citations on the right */}
+        {data["publications"].slice(0, 7).map((publication, index) => (
           <div key={index} className="border-b-1 border-gray-500 mb-3">
             <a
               href={
@@ -41,7 +41,9 @@ function ScholarCard({ data }: { data: any }) {
                     {publication["bib"]["title"]}
                   </p>
                   <p className="font-light text-sm leading-tight">
-                    {publication["bib"]["pub_year"]}
+                    {publication["bib"]["journal"] ||
+                      publication["bib"]["conference"]}{" "}
+                    ({publication["bib"]["pub_year"]})
                   </p>
                 </div>
                 <p className="leading-tight ml-6">
