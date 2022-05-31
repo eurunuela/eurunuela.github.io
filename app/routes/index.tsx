@@ -10,34 +10,41 @@ export async function loader() {
 }
 
 function ScholarCard({ data }: { data: any }) {
-  console.log(data["publications"]);
-  console.log(data["publications"][0]["bib"]["title"]);
-
   return (
-    <div className="flex justify-center">
-      <div className="block p-6 rounded-lg shadow-lg bg-white h-full">
-        <h5 className="text-scholar text-2xl leading-tight font-bold mb-4">
-          Recent publications
-        </h5>
-        {/* Add little box on the top right corner with the total number of citations */}
-        <div className="block right-0 top-0 bg-gray-200">
-          <p className="text-gray-800">Cited by {data["citedby"]}</p>
+    <div className="flex justify-center relative">
+      <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full">
+        <div className="flex justify-between mb-4">
+          <h5 className="text-scholar text-2xl leading-tight font-bold">
+            Recent publications
+          </h5>
+          {/* Add little box on the top right corner with the total number of citations */}
+          <div className="flex justify-end items-center">
+            <p className="text-gray-800 font-light leading-tight text-sm pt-1">
+              Cited by {data["citedby"]}
+            </p>
+          </div>
         </div>
         {/* Map the first 10 publications in data with number of citations on the right */}
         {data["publications"].slice(0, 10).map((publication, index) => (
-          <div key={index} className="border-b-1 border-gray-300">
+          <div key={index} className="border-b-1 border-gray-500 mb-3">
             <a
               href={
                 "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=" +
                 publication["author_pub_id"]
               }
               target="_blank"
+              className="text-gray-700 hover:text-scholar"
             >
-              <div className="flex justify-between">
-                <p className="text-gray-800 leading-tight mb-2">
-                  {publication["bib"]["title"]}
-                </p>
-                <p className="text-gray-800 leading-tight mb-2 ml-6">
+              <div className="flex justify-between my-4">
+                <div>
+                  <p className=" leading-tight font-medium">
+                    {publication["bib"]["title"]}
+                  </p>
+                  <p className="font-light text-sm leading-tight">
+                    {publication["bib"]["pub_year"]}
+                  </p>
+                </div>
+                <p className="leading-tight ml-6">
                   {publication["num_citations"]}
                 </p>
               </div>
