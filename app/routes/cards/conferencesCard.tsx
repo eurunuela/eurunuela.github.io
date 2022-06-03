@@ -3,36 +3,27 @@ export default function ConferencesCard({ data }: { data: any }) {
     <div className="flex justify-center relative">
       <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full">
         <div className="flex justify-between mb-4">
-          <h5 className="text-scholar text-2xl leading-tight font-bold">
+          <h5 className="text-conferences text-2xl leading-tight font-bold">
             Conference abstracts
           </h5>
         </div>
-        {data["publications"].slice(0, 7).map((publication, index) => (
+        {data["abstracts"].slice(0, 7).map((abstract, index) => (
           <div key={index} className="border-b-1 border-gray-500 mb-3">
-            <a
-              href={
-                "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=" +
-                publication["author_pub_id"]
-              }
-              target="_blank"
-              className="text-gray-700 hover:text-scholar"
-            >
-              <div className="flex justify-between my-4">
-                <div>
-                  <p className=" leading-tight font-medium">
-                    {publication["bib"]["title"]}
-                  </p>
-                  <p className="font-light text-sm leading-tight">
-                    {publication["bib"]["journal"] ||
-                      publication["bib"]["conference"]}{" "}
-                    ({publication["bib"]["pub_year"]})
-                  </p>
-                </div>
-                <p className="leading-tight ml-6">
-                  {publication["num_citations"]}
+            <div className="flex justify-between my-4">
+              <div>
+                <p className=" leading-tight font-medium">
+                  {abstract["title"]}
                 </p>
+                <p className="font-light text-sm leading-tight">
+                  {abstract["conference"]} ({abstract["year"]})
+                </p>
+                {
+                  <p className="font-light text-conferences text-sm leading-tight">
+                    {abstract["awards"]}
+                  </p>
+                }
               </div>
-            </a>
+            </div>
           </div>
         ))}
       </div>

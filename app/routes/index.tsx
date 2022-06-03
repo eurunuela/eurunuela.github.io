@@ -8,25 +8,24 @@ export async function loader() {
   );
   const scholar_data = await scholar_res.json();
 
-  // const conferences_res = await fetch(
-  //   "https://raw.githubusercontent.com/eurunuela/eurunuela.github.io/main/conferences_data.json"
-  // );
-  // const conferences_data = await conferences_res.json();
+  const conferences_res = await fetch(
+    "https://raw.githubusercontent.com/eurunuela/eurunuela.github.io/main/conferences_data.json"
+  );
+  const conferences_data = await conferences_res.json();
 
-  // return {
-  //   scholar_data,
-  //   conferences_data,
-  // };
-  return json(scholar_data);
+  return {
+    scholar_data,
+    conferences_data,
+  };
 }
 
 // https://remix.run/guides/routing#index-routes
 export default function Index() {
-  const scholar_json = useLoaderData();
+  const json_data = useLoaderData();
   return (
     <div className="remix__page max-w-screen-xl mx-auto">
       <main>
-        <Cards data={scholar_json} />
+        <Cards data={json_data} />
       </main>
     </div>
   );

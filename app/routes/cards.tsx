@@ -1,5 +1,6 @@
 import ScholarCard from "./cards/scholarCard";
 import ProfileCard from "./cards/profileCard";
+import ConferencesCard from "./cards/conferencesCard";
 
 function Card({ title }: { title: string }) {
   return (
@@ -24,12 +25,13 @@ function Card({ title }: { title: string }) {
 }
 
 export default function Cards({ data }: { data: any }) {
+  const { scholar_data, conferences_data } = data;
   return (
     <div>
       <ProfileCard />
       <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
-        <ScholarCard data={data} />
-        <Card title="Conference Abstracts" />
+        <ScholarCard data={scholar_data} />
+        <ConferencesCard data={conferences_data} />
       </div>
       <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
         <Card title="Twitter Timeline" />
