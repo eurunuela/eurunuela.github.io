@@ -3,10 +3,21 @@ import type { MetaFunction, LoaderFunction } from "remix";
 import { useLoaderData, json, Link } from "remix";
 
 export async function loader() {
-  const res = await fetch(
+  const scholar_res = await fetch(
     "https://raw.githubusercontent.com/eurunuela/eurunuela.github.io/main/scholar_data.json"
   );
-  return json(await res.json());
+  const scholar_data = await scholar_res.json();
+
+  // const conferences_res = await fetch(
+  //   "https://raw.githubusercontent.com/eurunuela/eurunuela.github.io/main/conferences_data.json"
+  // );
+  // const conferences_data = await conferences_res.json();
+
+  // return {
+  //   scholar_data,
+  //   conferences_data,
+  // };
+  return json(scholar_data);
 }
 
 // https://remix.run/guides/routing#index-routes
