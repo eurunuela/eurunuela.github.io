@@ -1,18 +1,4 @@
-import type { MetaFunction, LoaderFunction } from "remix";
-import { useLoaderData, json, Link } from "remix";
-
-export async function loader() {
-  const res = await fetch(
-    "https://raw.githubusercontent.com/eurunuela/eurunuela.github.io/main/scholar_data.json"
-  );
-  return json(await res.json());
-}
-
 export default function ScholarCard({ data }: { data: any }) {
-  const scholar_json = useLoaderData();
-
-  console.log(scholar_json);
-
   return (
     <div className="flex justify-center relative">
       <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full">
