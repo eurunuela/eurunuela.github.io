@@ -1,6 +1,5 @@
 import Cards from "./cards";
-import type { MetaFunction, LoaderFunction } from "remix";
-import { useLoaderData, json, Link } from "remix";
+import { useLoaderData } from "remix";
 
 export async function loader() {
   const scholar_res = await fetch(
