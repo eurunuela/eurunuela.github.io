@@ -133,7 +133,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       <footer className="remix-app__footer">
         <div className="container remix-app__footer-content text-gray-600">
           <p>
-            &copy; Eneko Uruñuela | Inspired by{" "}
+            Inspired by{" "}
             <a href="fabrizio.so" target="_blank">
               fabrizio.so
             </a>
