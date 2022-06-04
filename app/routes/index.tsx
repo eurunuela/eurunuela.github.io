@@ -1,4 +1,4 @@
-import Cards from "./Cards";
+import Cards from "./cards";
 import type { MetaFunction, LoaderFunction } from "remix";
 import { useLoaderData, json, Link } from "remix";
 
