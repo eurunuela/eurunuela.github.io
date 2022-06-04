@@ -23,6 +23,7 @@ module.exports = {
       red: colors.red,
       scholar: "#4D91FF",
       conferences: "#F63E54",
+      github: "#19D7AC",
     },
     extend: {},
   }, // customize the theme however you want here

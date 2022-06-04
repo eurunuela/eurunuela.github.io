@@ -1,6 +1,7 @@
 import ScholarCard from "./cards/scholarCard";
 import ProfileCard from "./cards/profileCard";
 import ConferencesCard from "./cards/conferencesCard";
+import GitHubCard from "./cards/githubCard";
 
 function Card({ title }: { title: string }) {
   return (
@@ -25,7 +26,8 @@ function Card({ title }: { title: string }) {
 }
 
 export default function Cards({ data }: { data: any }) {
-  const { scholar_data, conferences_data } = data;
+  const { scholar_data, conferences_data, github_data } = data;
+
   return (
     <div>
       <ProfileCard />
@@ -34,8 +36,8 @@ export default function Cards({ data }: { data: any }) {
         <ConferencesCard data={conferences_data} />
       </div>
       <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
+        <GitHubCard data={github_data} />
         <Card title="Twitter Timeline" />
-        <Card title="GitHub Contributions" />
       </div>
     </div>
   );

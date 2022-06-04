@@ -13,9 +13,15 @@ export async function loader() {
   );
   const conferences_data = await conferences_res.json();
 
+  const github_res = await fetch(
+    "https://raw.githubusercontent.com/eurunuela/eurunuela.github.io/main/github_data.json"
+  );
+  const github_data = await github_res.json();
+
   return {
     scholar_data,
     conferences_data,
+    github_data,
   };
 }
 

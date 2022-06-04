@@ -1,6 +1,13 @@
+import { Link } from "@remix-run/react";
+
 export default function ConferencesCard({ data }: { data: any }) {
   return (
     <div className="flex justify-center relative">
+      {/* <Link
+        to="/cards/pages/conferences"
+        prefetch="intent"
+        className="hover:no-underline hover:decoration-transparent"
+      > */}
       <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full">
         <div className="flex justify-between mb-4">
           <h5 className="text-conferences text-2xl leading-tight font-bold">
@@ -27,6 +34,7 @@ export default function ConferencesCard({ data }: { data: any }) {
           </div>
         ))}
       </div>
+      {/* </Link> */}
     </div>
   );
 }
