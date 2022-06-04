@@ -131,11 +131,16 @@ function Layout({ children }: { children: React.ReactNode }) {
       <div className="remix-app__main">
         <div className="container remix-app__main-content">{children}</div>
       </div>
-      {/* <footer className="remix-app__footer">
-        <div className="container remix-app__footer-content">
-          <p>&copy; You!</p>
+      <footer className="remix-app__footer">
+        <div className="container remix-app__footer-content text-gray-600">
+          <p>
+            &copy; Eneko Uruñuela | Inspired by{" "}
+            <a href="fabrizio.so" target="_blank">
+              fabrizio.so
+            </a>
+          </p>
         </div>
-      </footer> */}
+      </footer>
     </div>
   );
 }

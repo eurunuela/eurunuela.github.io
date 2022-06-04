@@ -24,6 +24,7 @@ module.exports = {
       scholar: "#4D91FF",
       conferences: "#F63E54",
       github: "#19D7AC",
+      twitter: "#299DED",
     },
     extend: {},
   }, // customize the theme however you want here

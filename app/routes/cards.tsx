@@ -2,6 +2,7 @@ import ScholarCard from "./cards/scholarCard";
 import ProfileCard from "./cards/profileCard";
 import ConferencesCard from "./cards/conferencesCard";
 import GitHubCard from "./cards/githubCard";
+import TwitterCard from "./cards/twitterCard";
 
 function Card({ title }: { title: string }) {
   return (
@@ -37,7 +38,7 @@ export default function Cards({ data }: { data: any }) {
       </div>
       <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
         <GitHubCard data={github_data} />
-        <Card title="Twitter Timeline" />
+        <TwitterCard data={github_data} />
       </div>
     </div>
   );
