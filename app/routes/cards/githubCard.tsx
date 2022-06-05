@@ -16,7 +16,7 @@ export default function GitHubCard({ data }: { data: any }) {
               target="_blank"
               className="hover:no-underline"
             >
-              <GitHub className="text-github" />
+              <GitHub className="text-github -mr-0.5 " />
             </a>
           </div>
         </div>

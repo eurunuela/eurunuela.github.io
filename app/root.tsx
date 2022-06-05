@@ -134,7 +134,7 @@ function Layout({ children }: { children: React.ReactNode }) {
         <div className="container remix-app__footer-content text-gray-600">
           <p>
             Inspired by{" "}
-            <a href="fabrizio.so" target="_blank">
+            <a href="https://www.fabrizio.so/" target="_blank">
               fabrizio.so
             </a>
           </p>

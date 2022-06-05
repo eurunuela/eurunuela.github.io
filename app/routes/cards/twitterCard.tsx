@@ -14,7 +14,7 @@ export default function TwitterCard({ data }: { data: any }) {
               target="_blank"
               className="hover:no-underline"
             >
-              <Twitter className="text-twitter" />
+              <Twitter className="text-twitter -mr-0.5" />
             </a>
           </div>
         </div>
