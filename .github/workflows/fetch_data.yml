@@ -19,9 +19,12 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.8 #install the python needed
+      - name: Install dependencies for Python
+        run: |
+          python -m pip install --upgrade pip
+          pip install scholarly
       - name: Fetch Scholar data
         run: |
-          pip install scholarly
           python3 workflows/fetch_from_scholar.py
       - name: Commit fetched data files
         run: |
