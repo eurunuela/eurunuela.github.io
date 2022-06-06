@@ -12,12 +12,10 @@ jobs:
           pwd
           ls
           pip3 install scholarly
-          python3 fetch_from_scholar.py
-        working-directory: workflows
+          python3 workflows/fetch_from_scholar.py
       - name: Fetch GitHub data
         run: |
-          sh fetch_from_github.sh
-        working-directory: workflows
+          sh workflows/fetch_from_github.sh
       - name: Commit fetched data files
         run: |
           git config --local user.email "actions@github.com"
