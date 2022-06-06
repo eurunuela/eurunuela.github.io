@@ -9,6 +9,7 @@ jobs:
     steps:
       - name: Fetch Scholar data
         run: |
+          pwd
           python3 fetch_from_scholar.py
         working-directory: .
       - name: Fetch GitHub data
