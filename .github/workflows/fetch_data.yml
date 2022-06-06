@@ -10,6 +10,7 @@ jobs:
       - name: Fetch Scholar data
         run: |
           pwd
+          ls
           pip3 install scholarly
           python3 fetch_from_scholar.py
         working-directory: workflows
