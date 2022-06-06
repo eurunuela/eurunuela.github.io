@@ -10,14 +10,17 @@ jobs:
       - name: Fetch Scholar data
         run: |
           pwd
+          pip3 install scholarly
           python3 fetch_from_scholar.py
+        working-directory: ./workflows
       - name: Fetch GitHub data
         run: |
           sh fetch_from_github.sh
+        working-directory: ./workflows
       - name: Commit fetched data files
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add --all
           git commit -am "Update fetched data"
-          git push 
+          git push
