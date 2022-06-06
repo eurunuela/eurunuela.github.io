@@ -10,7 +10,7 @@ jobs:
       - name: Fetch Scholar data
         run: |
           pwd
-          ls
+          ls .
           pip3 install scholarly
           python3 workflows/fetch_from_scholar.py
       - name: Fetch GitHub data
