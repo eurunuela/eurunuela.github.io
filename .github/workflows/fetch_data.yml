@@ -1,7 +1,7 @@
 name: Fetch Scholar and GitHub data
 on:
   schedule:
-    - cron: "0 12 6 * *"
+    - cron: "0 0 1 * *"
   workflow_dispatch:
 jobs:
   fetch_data:
@@ -9,9 +9,16 @@ jobs:
     steps:
       - name: Fetch Scholar data
         run: |
-          python3 .github/workflows/fetch_from_scholar.py
+          python3 fetch_from_scholar.py
         working-directory: .
       - name: Fetch GitHub data
         run: |
-          sh .github/workflows/fetch_from_github.sh
+          sh fetch_from_github.sh
         working-directory: .
+      - name: Commit fetched data files
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add --all
+          git commit -am "Update fetched data"
+          git push 
