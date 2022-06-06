@@ -1,6 +1,117 @@
 {
     "abstracts": [
         {
+            "title": "A multi-echo low-rank and sparse method to estimate neuronal signal with less global signals bias",
+            "authors": [
+                "E. Uruñuela",
+                "S. Moia",
+                "C. Caballero-Gaudes"
+            ],
+            "year": "2022",
+            "conference": "OHBM Annual Meeting"
+        },
+        {
+            "title": "Rica - Reports for visualizing and classifying ICA components of multi-echo fMRI",
+            "authors": [
+                "E. Uruñuela"
+            ],
+            "year": "2022",
+            "conference":"OHBM Annual Meeting"
+        },
+        {
+            "title": "Blind estimation of neuronal-related activity in fMRI informed by co-fluctuations of brain regions",
+            "authors": [
+                "E. Uruñuela",
+                "V. Ferrer",
+                "C. Caballero-Gaudes"
+            ],
+            "year": "2022",
+            "conference": "OHBM Annual Meeting"
+        },
+        {
+            "title": "Tedana+: Multi-echo fMRI and related open tools",
+            "authors": [
+                "D. Handwerker",
+                "Z. Ahmed",
+                "P. Bandettini",
+                "K. Bottenhorn",
+                "C. Caballero-Gaudes",
+                "L. Dowdle",
+                "E. DuPre",
+                "S. Heunis",
+                "M. Kitzbicher",
+                "A. Laird",
+                "S. Moia",
+                "T. Salo",
+                "J. Teves",
+                "E. Uruñuela",
+                "M. Vaziri-Pashkam"
+            ],
+            "year": "2022",
+            "conference":"OHBM Annual Meeting"
+        },
+        {
+            "title": "Standardizing support for multi-echo fMRI data across the NiPreps ecosystem",
+            "authors": [
+                "C. Markiewicz",
+                "E. DuPre",
+                "O. Esteban",
+                "M. Goncalves",
+                "J. Gonzalez-Castillo",
+                "D. Handwerker",
+                "E. MacNicol",
+                "T. Salo",
+                "L. Sepeta",
+                "J. Teves",
+                "E. Uruñuela",
+                "X. You"
+            ],
+            "year": "2022",
+            "conference": "OHBM Annual Meeting"
+        },
+        {
+            "title": "Physiopy: a Python suite for handling physiological data recorded in MRI settings",
+            "authors": [
+                "D. Romero-Bascones",
+                "S. Moia",
+                "D. Alcalá-López",
+                "A. Ayyagari",
+                "K. Bottenhorn",
+                "M. Bright",
+                "C. Caballero-Gaudes",
+                "I. Chavarria",
+                "N. Duncan",
+                "V. Ferrer",
+                "S. Hayashi",
+                "V. Iacovella",
+                "T. Lenc",
+                "F. Lespinasse",
+                "R. Oostenveld",
+                "T. Salo",
+                "R. Stickland",
+                "E. Uruñuela",
+                "H. Wang",
+                "K. Zvolanek",
+                "M. Zwiers"
+            ],
+            "year": "2022",
+            "conference":"OHBM Annual Meeting"
+        },
+        {
+            "title": "Dense mapping reveals disconnect between resting state fMRI metrics and cerebrovascular physiology",
+            "authors": [
+                "S. Moia",
+                "G. Chen",
+                "M. Termenon",
+                "E. Uruñuela",
+                "R. Stickland",
+                "C. Caballero-Gaudes",
+                "M. Bright"
+            ],
+            "year": "2022",
+            "conference": "OHBM Annual Meeting"
+        },
+        {
             "title": "Automatic detection of spatio-temporal patterns of interictal epileptic activity with fMRI",
             "authors": [
                 "C. Tobias",
