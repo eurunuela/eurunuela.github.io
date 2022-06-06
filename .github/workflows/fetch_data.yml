@@ -11,11 +11,9 @@ jobs:
         run: |
           pwd
           python3 fetch_from_scholar.py
-        working-directory: .
       - name: Fetch GitHub data
         run: |
           sh fetch_from_github.sh
-        working-directory: .
       - name: Commit fetched data files
         run: |
           git config --local user.email "actions@github.com"
