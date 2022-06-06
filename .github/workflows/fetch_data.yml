@@ -10,6 +10,8 @@ jobs:
       - name: Fetch Scholar data
         run: |
           python3 .github/workflows/fetch_from_scholar.py
+        working-directory: .
       - name: Fetch GitHub data
         run: |
           sh .github/workflows/fetch_from_github.sh
+        working-directory: .
