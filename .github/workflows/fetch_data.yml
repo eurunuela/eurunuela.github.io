@@ -21,7 +21,7 @@ jobs:
           python-version: 3.8 #install the python needed
       - name: Fetch Scholar data
         run: |
-          pip3 install scholarly
+          pip install scholarly
           python3 workflows/fetch_from_scholar.py
       - name: Commit fetched data files
         run: |
