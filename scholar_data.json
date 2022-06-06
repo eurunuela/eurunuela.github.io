@@ -30,6 +30,7 @@
             "bib": {
                 "title": "TE-dependent analysis of multi-echo fMRI with* tedana",
                 "pub_year": 2021,
+                "citation": "Journal of Open Source Software 6 (66), 3669, 2021",
                 "author": "Elizabeth DuPre and Taylor Salo and Zaki Ahmed and Peter A Bandettini and Katherine L Bottenhorn and C\u00e9sar Caballero-Gaudes and Logan T Dowdle and Javier Gonzalez-Castillo and Stephan Heunis and Prantik Kundu and Angela R Laird and Ross Markello and Christopher J Markiewicz and Stefano Moia and Isla Staden and Joshua B Teves and Eneko Uru\u00f1uela and Maryam Vaziri-Pashkam and Kirstie Whitaker and Daniel A Handwerker",
                 "journal": "Journal of Open Source Software",
                 "volume": "6",
@@ -40,7 +41,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
             "num_citations": 2,
-            "citedby_url": "/scholar?cites=227638211023025062",
+            "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
             ],
@@ -68,6 +69,7 @@
             "bib": {
                 "title": "Hemodynamic Deconvolution Demystified: Sparsity-Driven Regularization at Work",
                 "pub_year": 2021,
+                "citation": "arXiv preprint arXiv:2107.12026, 2021",
                 "author": "Eneko Uru\u00f1uela and Thomas AW Bolton and Dimitri Van De Ville and C\u00e9sar Caballero-Gaudes",
                 "journal": "arXiv preprint arXiv:2107.12026",
                 "abstract": "Deconvolution of the hemodynamic response is an important step to access short timescales of brain activity recorded by functional magnetic resonance imaging (fMRI). Albeit conventional deconvolution algorithms have been around for a long time (e.g., Wiener deconvolution), recent state-of-the-art methods based on sparsity-pursuing regularization are attracting increasing interest to investigate brain dynamics and connectivity. This technical note revisits the main concepts underlying two main methods, Paradigm Free Mapping and Total Activation, in the most accessible way. Despite their apparent differences, these methods are theoretically equivalent as they represent the synthesis and analysis sides of the same problem. We demonstrate this equivalence in practice with their best-available implementations using both simulations, with different signal-to-noise ratios, and experimental data of motor task and resting-state fMRI. We evaluate the parameter settings that lead to equivalent results, and showcase the potential of these algorithms compared to other widely-used approaches. This note is useful for practitioners interested in gaining a better understanding of state-of-the-art hemodynamic deconvolution, and who want to make use of them with the most efficient implementation."
@@ -75,7 +77,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:e5wmG9Sq2KIC",
             "num_citations": 1,
-            "citedby_url": "/scholar?cites=10117778681508834011",
+            "citedby_url": "/scholar?hl=en&cites=10117778681508834011",
             "cites_id": [
                 "10117778681508834011"
             ],
@@ -102,6 +104,7 @@
             "bib": {
                 "title": "Brainhack: Developing a culture of open, inclusive, community-driven neuroscience",
                 "pub_year": 2021,
+                "citation": "Neuron 109 (11), 1769-1775, 2021",
                 "author": "R\u00e9mi Gau and Stephanie Noble and Katja Heuer and Katherine L Bottenhorn and Isil P Bilgin and Yu-Fang Yang and Julia M Huntenburg and Johanna MM Bayer and Richard AI Bethlehem and Shawn A Rhoads and Christoph Vogelbacher and Valentina Borghesani and Elizabeth Levitis and Hao-Ting Wang and Sofie Van Den Bossche and Xenia Kobeleva and Jon Haitz Legarreta and Samuel Guay and Selim Melvin Atay and Gael P Varoquaux and Dorien C Huijser and Malin S Sandstr\u00f6m and Peer Herholz and Samuel A Nastase and AmanPreet Badhwar and Guillaume Dumas and Simon Schwab and Stefano Moia and Michael Dayan and Yasmine Bassil and Paula P Brooks and Matteo Mancini and James M Shine and David O\u2019connor and Xihe Xie and Davide Poggiali and Patrick Friedrich and Anibal S Heinsfeld and Lydia Riedl and Roberto Toro and C\u00e9sar Caballero-Gaudes and Anders Eklund and Kelly G Garner and Christopher R Nolan and Damion V Demeter and Fernando A Barrios and Junaid S Merchant and Elizabeth A McDevitt and Robert Oostenveld and R Cameron Craddock and Ariel Rokem and Andrew Doyle and Satrajit S Ghosh and Aki Nikolaidis and Olivia W Stanley and Eneko Uru\u00f1uela and Nasim Anousheh and Aurina Arnatkeviciute and Guillaume Auzias and Dipankar Bachar and Elise Bannier and Ruggero Basanisi and Arshitha Basavaraj and Marco Bedini and Pierre Bellec and R Austin Benn and Kathryn Berluti and Steffen Bollmann and Saskia Bollmann and Claire Bradley and Jesse Brown and Augusto Buchweitz and Patrick Callahan and Micaela Y Chan and Bramsh Q Chandio and Theresa Cheng and Sidhant Chopra and Ai Wern Chung and Thomas G Close and Etienne Combrisson and Giorgia Cona and R Todd Constable and Claire Cury and Kamalaker Dadi and Pablo F Damasceno and Samir Das and Fabrizio De Vico Fallani and Krista DeStasio and Erin W Dickie and Lena Dorfschmidt and Eugene P Duff and Elizabeth DuPre and Sarah Dziura and Nathalia B Esper and Oscar Esteban and Shreyas Fadnavis and Guillaume Flandin and Jessica E Flannery and John Flournoy and Stephanie J Forkel and Alexandre R Franco and Saampras Ganesan and Siyuan Gao and Jos\u00e9 C Garc\u00eda Alanis and Eleftherios Garyfallidis and Tristan Glatard and Enrico Glerean and Javier Gonzalez-Castillo and Cassandra D Gould van Praag and Abigail S Greene and Geetika Gupta and Catherine Alice Hahn and Yaroslav O Halchenko and Daniel Handwerker and Thomas S Hartmann and Val\u00e9rie Hayot-Sasson and Stephan Heunis and Felix Hoffstaedter and Daniela M Hohmann and Corey Horien and Horea-Ioan Ioanas and Alexandru Iordan and Chao Jiang and Michael Joseph and Jason Kai and Agah Karakuzu and David N Kennedy and Anisha Keshavan and Ali R Khan and Gregory Kiar and P Christiaan Klink and Vincent Koppelmans and Serge Koudoro and Angela R Laird and Georg Langs and Marissa Laws and Roxane Licandro and Sook-Lei Liew and Tomislav Lipic and Krisanne Litinas and Daniel J Lurie and D\u00e9sir\u00e9e Lussier and Christopher R Madan and Lea-Theresa Mais and Jose Pedro Manzano-Patron and Dimitra Maoutsa and Matheus Marcon and Daniel S Margulies and Giorgio Marinato and Daniele Marinazzo",
                 "journal": "Neuron",
                 "volume": "109",
@@ -113,7 +116,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
             "num_citations": 12,
-            "citedby_url": "/scholar?cites=9529080646369587268",
+            "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
             ],
@@ -121,10 +124,18 @@
             "pub_url": "https://www.sciencedirect.com/science/article/pii/S0896627321002312",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:RLDoUlwYPoQJ:scholar.google.com/",
             "cites_per_year": {
-                "2021": 8,
-                "2022": 4
+                "2021": 7,
+                "2022": 5
             },
             "mandates": [
+                {
+                    "agency": "US National Institutes of Health",
+                    "url_policy": "https://publicaccess.nih.gov/policy.htm",
+                    "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
+                    "effective_date": "2008/4",
+                    "embargo": "12 months",
+                    "acknowledgement": " \u2026NIH K00MH122372 \u2026"
+                },
                 {
                     "agency": "Agence Nationale de la Recherche",
                     "url_policy": "https://anr.fr/fileadmin/documents/2019/anr_depliant_science_ouverte_GB_100x210_final.pdf",
@@ -140,14 +151,6 @@
                     "effective_date": "2021/2",
                     "embargo": "none",
                     "acknowledgement": " \u2026European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement no. 867458 \u2026"
-                },
-                {
-                    "agency": "US National Institutes of Health",
-                    "url_policy": "https://publicaccess.nih.gov/policy.htm",
-                    "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
-                    "effective_date": "2008/4",
-                    "embargo": "12 months",
-                    "acknowledgement": " \u2026NIH K00MH122372 \u2026"
                 }
             ]
         },
@@ -157,6 +160,7 @@
             "bib": {
                 "title": "ICA-based denoising strategies in breath-hold induced cerebrovascular reactivity mapping with multi echo BOLD fMRI",
                 "pub_year": 2021,
+                "citation": "NeuroImage 233, 117914, 2021",
                 "author": "Stefano Moia and Maite Termenon and Eneko Uru\u00f1uela and Gang Chen and Rachael C Stickland and Molly G Bright and C\u00e9sar Caballero-Gaudes",
                 "journal": "NeuroImage",
                 "volume": "233",
@@ -167,7 +171,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
             "num_citations": 10,
-            "citedby_url": "/scholar?cites=4562738519788536351",
+            "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
             ],
@@ -181,12 +185,12 @@
             },
             "mandates": [
                 {
-                    "agency": "Government of Spain",
-                    "url_policy": "https://www.boe.es/boe/dias/2011/06/02/pdfs/BOE-A-2011-9617.pdf",
-                    "url_policy_cached": "/mandates/boe_es-2021-02-13-es.pdf",
-                    "effective_date": "2011/6",
+                    "agency": "US National Institutes of Health",
+                    "url_policy": "https://publicaccess.nih.gov/policy.htm",
+                    "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
+                    "effective_date": "2008/4",
                     "embargo": "12 months",
-                    "acknowledgement": " \u2026Basque Government (BERC 2018-2021 and PIBA_2019_104 \u2026"
+                    "acknowledgement": " \u2026Eunice Kennedy Shriver National Institute of Child Health and Human Development of the National Institutes of Health under award number K12HD073945 \u2026"
                 },
                 {
                     "agency": "European Commission",
@@ -197,12 +201,12 @@
                     "acknowledgement": " \u2026European Union's Horizon 2020 research and innovation program (Marie Sk\u0142odowska-Curie grant agreement No. 713673) \u2026"
                 },
                 {
-                    "agency": "US National Institutes of Health",
-                    "url_policy": "https://publicaccess.nih.gov/policy.htm",
-                    "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
-                    "effective_date": "2008/4",
+                    "agency": "Government of Spain",
+                    "url_policy": "https://www.boe.es/boe/dias/2011/06/02/pdfs/BOE-A-2011-9617.pdf",
+                    "url_policy_cached": "/mandates/boe_es-2021-02-13-es.pdf",
+                    "effective_date": "2011/6",
                     "embargo": "12 months",
-                    "acknowledgement": " \u2026Eunice Kennedy Shriver National Institute of Child Health and Human Development of the National Institutes of Health under award number K12HD073945 \u2026"
+                    "acknowledgement": " \u2026Basque Government (BERC 2018-2021 and PIBA_2019_104 \u2026"
                 }
             ]
         },
@@ -212,6 +216,7 @@
             "bib": {
                 "title": "A Low Rank and Sparse Paradigm Free Mapping Algorithm For Deconvolution of FMRI Data",
                 "pub_year": 2021,
+                "citation": "2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI), 1726-1729, 2021",
                 "author": "Eneko Uru\u00f1uela and Stefano Moia and C\u00e9sar Caballero-Gaudes",
                 "conference": "2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI)",
                 "pages": "1726-1729",
@@ -221,7 +226,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:R3hNpaxXUhUC",
             "num_citations": 2,
-            "citedby_url": "/scholar?cites=586821217265377317",
+            "citedby_url": "/scholar?hl=en&cites=586821217265377317",
             "cites_id": [
                 "586821217265377317"
             ],
@@ -233,20 +238,20 @@
             },
             "mandates": [
                 {
-                    "agency": "Government of Spain",
-                    "url_policy": "https://www.boe.es/boe/dias/2011/06/02/pdfs/BOE-A-2011-9617.pdf",
-                    "url_policy_cached": "/mandates/boe_es-2021-02-13-es.pdf",
-                    "effective_date": "2011/6",
-                    "embargo": "12 months",
-                    "acknowledgement": " \u2026Basque Government (BERC 2018-2021, PIBA 2019 104, PRE 2019 1 0054 \u2026"
-                },
-                {
                     "agency": "European Commission",
                     "url_policy": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/agr-contr/general-mga_horizon-euratom_en.pdf",
                     "url_policy_cached": "/mandates/horizon-europe-eu-2021-08-14-en.pdf",
                     "effective_date": "2021/2",
                     "embargo": "none",
                     "acknowledgement": " \u2026European Union\u2019s Horizon 2020 research and innovation program (Marie Sk\u0142odowska-Curie grant agreement No. 713673) \u2026"
+                },
+                {
+                    "agency": "Government of Spain",
+                    "url_policy": "https://www.boe.es/boe/dias/2011/06/02/pdfs/BOE-A-2011-9617.pdf",
+                    "url_policy_cached": "/mandates/boe_es-2021-02-13-es.pdf",
+                    "effective_date": "2011/6",
+                    "embargo": "12 months",
+                    "acknowledgement": " \u2026Basque Government (BERC 2018-2021, PIBA 2019 104, PRE 2019 1 0054 \u2026"
                 }
             ]
         },
@@ -256,6 +261,7 @@
             "bib": {
                 "title": "Stability-based sparse paradigm free mapping algorithm for deconvolution of functional MRI data",
                 "pub_year": 2020,
+                "citation": "2020 42nd Annual International Conference of the IEEE Engineering in \u2026, 2020",
                 "author": "Eneko Uru\u00f1uela and Stephen Jones and Anna Crawford and Wanyong Shin and Sehong Oh and Mark Lowe and C\u00e9sar Caballero-Gaudes",
                 "conference": "2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
                 "pages": "1092-1095",
@@ -265,7 +271,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hFOr9nPyWt4C",
             "num_citations": 4,
-            "citedby_url": "/scholar?cites=8974637943734706401",
+            "citedby_url": "/scholar?hl=en&cites=8974637943734706401",
             "cites_id": [
                 "8974637943734706401"
             ],
@@ -293,6 +299,7 @@
             "bib": {
                 "title": "Sparse coupled logistic regression to estimate co-activation and modulatory influences of brain regions",
                 "pub_year": 2020,
+                "citation": "Journal of Neural Engineering, 2020",
                 "author": "Thomas Bolton and Eneko Uru\u00f1uela and Ye Tian and Andrew Zalesky and C\u00e9sar Caballero-Gaudes and Dimitri Van De Ville",
                 "journal": "Journal of Neural Engineering",
                 "publisher": "IOP Publishing",
@@ -301,7 +308,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hC7cP41nSMkC",
             "num_citations": 2,
-            "citedby_url": "/scholar?cites=7743941460708886334",
+            "citedby_url": "/scholar?hl=en&cites=7743941460708886334",
             "cites_id": [
                 "7743941460708886334"
             ],
@@ -329,6 +336,7 @@
             "bib": {
                 "title": "A multivariate sparse deconvolution algorithm for multi echo fMRI",
                 "pub_year": 2019,
+                "citation": "Servicio de Publicaciones. Universidad de Navarra, 2019",
                 "author": "Eneko Uru\u00f1uela",
                 "publisher": "Servicio de Publicaciones. Universidad de Navarra",
                 "abstract": "This thesis presents a novel algorithm for the deconvolution of multi echo fMRI data with no prior information on the timings of the neuronal events. Based on previous work on the field, a new signal model is proposed in order to take the processing from a voxelwise analysis to an entire brain one. Different proximal operators have been studied for solving the optimisation problem present in the deconvolution, since it is an ill-posed inverse problem, and a novel method based on the stability selection procedure has been suggested to answer to the choice of the regularization parameter dilemma. The method takes advantage of the area under the curve (AUC) of the stability paths to avoid the selection of a single regularization parameter. An optimal approach for the thresholding of AUC timeseries is studied and different debiasing methods for removing the sparsity in prolonged events are presented. The results demonstrate that the MvMESPFM algorithm provides promising results when estimating neuronal-related events even on noisy data. Subject to being thoroughly tested on experimental data, testing conducted on simulated signals suggests that the tool could eventually be introduced to the processing pipelines of different research lines regarding fMRI data analysis."
@@ -345,6 +353,7 @@
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
                 "title": "Assessment of longitudinal cerebrovascular reactivity measurements based on breath-hold and resting state BOLD multi-echo fMRI",
+                "citation": "",
                 "author": "Stefano Moia and Rachael C Stickland and Maite Termenon and Eneko Uru\u00f1uela-Tremi\u00f1o and C\u00e9sar Caballero-Gaudes and Molly G Bright",
                 "abstract": "Cerebrovascular reactivity (CVR) is an important measure of vascular function, but true variability in CVR can be masked by numerous confounds. We explore the variability of CVR maps, extracted using breath-holding and resting state data, over 9 weekly scanning sessions. Our results show that CVR demonstrates robust spatial patterns that vary across known neural networks."
             },
@@ -359,6 +368,7 @@
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
                 "title": "Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI",
+                "citation": "",
                 "author": "Stefano Moia and Maite Termenon and Eneko Uru\u00f1uela-Tremi\u00f1o and Rachael C Stickland and Molly G Bright and C\u00e9sar Caballero-Gaudes",
                 "abstract": "Cerebrovascular reactivity (CVR) is an emerging metric for quantifying vascular health. During a BOLD fMRI acquisition, breath-holding is a simple approach for increasing blood CO 2 levels, thereby driving the vasodilatory CVR response. However, breath-holding is associated with increased head motion artifacts, which can confound our estimates of CVR. We demonstrate that multi-echo BOLD fMRI acquisitions, in conjunction with denoising with multi-echo independent component analysis approaches, enable better differentiation of true vasodilatory responses and improve the reliability of CVR estimates across multiple sessions in highly sampled individuals."
             },
@@ -373,6 +383,7 @@
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
                 "title": "Deconvolution of multi-echo functional MRI data with Multivariate Multi-Echo Sparse Paradigm Free Mapping",
+                "citation": "",
                 "author": "Eneko Uru\u00f1uela-Tremi\u00f1o and Stefano Moia and Javier Gonzalez-Castillo and C\u00e9sar Caballero-Gaudes",
                 "abstract": "This work introduces a novel multivariate deconvolution method to blindly estimate neuronal-related-signal changes in multi-echo fMRI data without prior knowledge of their timings. In contrast to current voxel-based approaches, this algorithm simultaneously deconvolves all brain\u2019s voxel time series and uses structured spatio-temporal regularization to improve the quality of the estimates. Besides, it employs stability selection procedures to overcome the selection of regularization parameters of the deconvolution problem. We evaluate its performance in multiple realistic simulations, showing its potential to blindly detect BOLD events in paradigms when no prior information can be obtained."
             },
@@ -387,6 +398,7 @@
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
                 "title": "Fingerprinting individual subjects from resting-state functional magnetic resonance imaging head motion",
+                "citation": "",
                 "author": "Thomas Bolton and Stefano Moia and Eneko Urunuela and Dimitri Van De Ville and C\u00e9sar Caballero-Gaudes",
                 "abstract": "Head motion during resting-state functional magnetic resonance imaging acquisitions is an infamous confound requiring dedicated preprocessing steps. Here, we probed the level of complexity at which motion should be characterised. To do so, we designed a clustering-based approach that determines the spatio-temporal motion patterns that can fingerprint an individual. We found that each subject's motion could be fingerprinted at a different space/time granularity, some more easily than others. Our results call for refined motion descriptions in which space and time should not be over-simplified, and point towards the relevance of motion-related fingerprints as an individual's functional trait."
             },
@@ -408,8 +420,8 @@
     "i10index5y": 2,
     "cites_per_year": {
         "2020": 1,
-        "2021": 21,
-        "2022": 11
+        "2021": 20,
+        "2022": 12
     },
     "coauthors": [
         {
