@@ -2,10 +2,10 @@ import { GitHub, Star } from "react-feather";
 
 export default function GitHubCard({ data }: { data: any }) {
   const github_data = data.data.user.pinnedItems.edges;
-  console.log(github_data);
+
   return (
     <div className="flex justify-center relative">
-      <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full">
+      <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full ">
         <div className="flex justify-between mb-4">
           <h5 className="text-github text-2xl leading-tight font-bold">
             Featured projects
