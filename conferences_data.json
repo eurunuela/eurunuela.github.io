@@ -48,7 +48,36 @@
                 "M. Vaziri-Pashkam"
             ],
             "year": "2022",
-            "conference":"OHBM Annual Meeting"
+            "conference": "OHBM Annual Meeting"
+        },
+        {
+            "title": "Automatic detection of spatio-temporal patterns of interictal epileptic activity with fMRI",
+            "authors": [
+                "C. Tobias",
+                "E. Uruñuela",
+                "V. Ferrer",
+                "H. Goldberg",
+                "C. Engelman",
+                "M. Lowe",
+                "S. Jones",
+                "C. Caballero-Gaudes"
+            ],
+            "year": "2022",
+            "conference": "OHBM Annual Meeting"
+        },
+        {
+            "title": "Clustintime - a computational and visualization tool for time clustering of fMRI data",
+            "authors": [
+                "C. Tobias",
+                "E. Uruñuela",
+                "V. Ferrer",
+                "H. Goldberg",
+                "C. Engelman",
+                "M. Lowe",
+                "S. Jones",
+            ],
+            "year": "2022",
+            "conference": "OHBM Annual Meeting"
         },
         {
             "title": "Standardizing support for multi-echo fMRI data across the NiPreps ecosystem",
