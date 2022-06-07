@@ -271,7 +271,7 @@
             ],
             "year": "2021",
             "conference": "ISMRM Iberian Chapter 1st Annual Meeting",
-            "awards": "Awarded with an Oral Scientific session"
+            "awards": ["Oral Scientific session"]
         },
         {
             "title": "Synthesis-based Paradigm Free Mapping and analysis-based Total Activation are identical for temporal deconvolution of fMRI data",
