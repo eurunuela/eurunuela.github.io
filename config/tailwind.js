@@ -25,8 +25,13 @@ module.exports = {
       conferences: "#F63E54",
       github: "#19D7AC",
       twitter: "#299DED",
+      text: "hsl(0, 0%, 7%)",
     },
-    extend: {},
+    extend: {
+      scale: {
+        101: "1.01",
+      },
+    },
   }, // customize the theme however you want here
   variants: {}, // activate any variant you want here
   plugins: [], // add any plugin you need here
