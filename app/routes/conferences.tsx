@@ -21,22 +21,23 @@ export default function Conferences() {
   );
   const years_unique = [...new Set(years)];
 
-  console.log(conferences_data);
-
   return (
-    <div className="flex justify-center items-center px-10 h-full">
+    <div className="flex justify-center items-center h-full">
       <div className="flex flex-col lg:w-3/5 py-6 lg:px-10 h-full">
-        <div className="flex justify-between mb-4">
-          <h5 className="text-conferences text-4xl leading-tight font-bold">
+        <div className="flex justify-between mb-4 px-8">
+          <h5 className="text-conferences sm:text-2xl xs:text-2xl text-4xl leading-tight font-bold">
             Conference abstracts
           </h5>
         </div>
         {/* Show the abstracts that match with that year */}
         {years_unique.map((year) => (
-          <div key={year} className="border-b-1 border-gray-500 mb-3">
+          <div
+            key={year}
+            className="block pb-6 px-8 mb-3 rounded-lg shadow-lg bg-white h-full "
+          >
             <div className="flex justify-between my-4">
               <div>
-                <h3 className="text-xl font-bold">{year}</h3>
+                <h3 className="text-2xl font-bold">{year}</h3>
               </div>
             </div>
             <ul className="space-y-4">
