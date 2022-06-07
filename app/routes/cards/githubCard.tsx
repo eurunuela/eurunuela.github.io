@@ -5,7 +5,7 @@ export default function GitHubCard({ data }: { data: any }) {
 
   return (
     <div className="flex justify-center relative">
-      <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full transform transition duration-500 hover:scale-101">
+      <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full ">
         <div className="flex justify-between mb-4">
           <h5 className="text-github text-2xl leading-tight font-bold">
             Featured projects

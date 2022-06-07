@@ -8,7 +8,7 @@ export default function ConferencesCard({ data }: { data: any }) {
         prefetch="intent"
         className="hover:no-underline hover:decoration-inherit hover:text-text"
       >
-        <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full transform transition duration-500 hover:scale-101">
+        <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full ">
           <div className="flex justify-between mb-4">
             <h5 className="text-conferences text-2xl leading-tight font-bold">
               Conference abstracts

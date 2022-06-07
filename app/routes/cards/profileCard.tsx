@@ -4,7 +4,7 @@ export default function ProfileCard() {
   return (
     <div className="flex justify-center  ">
       {/* <div className="w-full block items-center bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-6 rounded-lg drop-shadow-lg h-[fit-content] mt-8"> */}
-      <div className="w-full block items-center candy_mesh p-6 rounded-lg drop-shadow-lg h-[fit-content] mt-8 transform transition duration-500 hover:scale-101">
+      <div className="w-full block items-center candy_mesh p-6 rounded-lg drop-shadow-lg h-[fit-content] mt-8 ">
         <div className="grid sm:grid-cols-1 lg:grid-cols-3">
           <div className=" py-4 flex flex-row justify-center sm:items-center ">
             <img

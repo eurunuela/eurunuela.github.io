@@ -7,7 +7,7 @@ export default function ScholarCard({ data }: { data: any }) {
         target="_blank"
         className="hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
       >
-        <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full transform transition duration-500 hover:scale-101">
+        <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full ">
           <div className="flex justify-between mb-4">
             <h5 className="text-scholar text-2xl leading-tight font-bold">
               Recent publications
