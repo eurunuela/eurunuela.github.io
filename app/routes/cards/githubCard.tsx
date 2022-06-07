@@ -2,7 +2,7 @@ import { GitHub, Star } from "react-feather";
 
 export default function GitHubCard({ data }: { data: any }) {
   const github_data = data.data.user.pinnedItems.edges;
-  console.log(github_data);
+
   return (
     <div className="flex justify-center relative">
       <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full">
