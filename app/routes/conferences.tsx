@@ -53,10 +53,10 @@ export default function Conferences() {
                           <CheckCircle className="text-conferences" size={16} />
                         </div>
                         <div>
-                          <h4 className=" leading-tight font-medium">
+                          <h4 className=" leading-tight font-medium mb-1">
                             {abstract["title"]}
                           </h4>
-                          <p className="font-light text-sm leading-tight">
+                          <p className="font-light text-sm leading-tight mb-1">
                             {/* Show author names separated with commas. Use text-conferences and bold if the
                         author name is "E. Uruñuela" */}
                             {abstract["authors"].map((author, index) => (
@@ -70,23 +70,26 @@ export default function Conferences() {
                                 )}
                                 {index !== abstract["authors"].length - 1
                                   ? ", "
-                                  : ""}
+                                  : "."}
                               </i>
                             ))}
                           </p>
-                          <p className="font-light text-sm leading-tight">
+                          <p className="font-light text-sm leading-tight mb-1">
                             {abstract["conference"]}
                           </p>
                           {/* If the abstract has awards, show them */}
                           {abstract["awards"] ? (
                             <div className="flex flex-row">
                               {/* Show awards separated with comma if there are more than one */}
+                              <Award
+                                className="text-conferences mr-1"
+                                size={16}
+                              />
                               <p className="font-medium text-conferences text-sm leading-tight">
                                 {abstract["awards"].length > 1
                                   ? abstract["awards"].join(", ")
                                   : abstract["awards"][0]}
                               </p>
-                              <Award className="text-conferences" size={16} />
                             </div>
                           ) : (
                             ""
