@@ -1,5 +1,4 @@
 export default function ScholarCard({ data }: { data: any }) {
-  console.log(data);
   return (
     <div className="flex justify-center relative">
       <a
