@@ -60,7 +60,7 @@ export default function Conferences() {
                             {/* Show author names separated with commas. Use text-conferences and bold if the
                         author name is "E. Uruñuela" */}
                             {abstract["authors"].map((author, index) => (
-                              <span key={index}>
+                              <i key={index}>
                                 {author === "E. Uruñuela" ? (
                                   <span className="text-conferences">
                                     {author}
@@ -71,7 +71,7 @@ export default function Conferences() {
                                 {index !== abstract["authors"].length - 1
                                   ? ", "
                                   : ""}
-                              </span>
+                              </i>
                             ))}
                           </p>
                           <p className="font-light text-sm leading-tight">
