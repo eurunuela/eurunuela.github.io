@@ -25,7 +25,7 @@ export default function Conferences() {
     <div className="flex justify-center items-center h-full">
       <div className="flex flex-col lg:w-3/5 py-6 lg:px-10 h-full">
         <div className="flex justify-between mb-4 px-8">
-          <h5 className="text-conferences sm:text-2xl xs:text-2xl text-4xl leading-tight font-bold">
+          <h5 className="text-conferences text-4xl leading-tight font-bold">
             Conference abstracts
           </h5>
         </div>
