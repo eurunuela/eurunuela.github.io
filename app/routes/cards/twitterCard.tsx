@@ -3,9 +3,9 @@ import { Twitter } from "react-feather";
 export default function TwitterCard({ data }: { data: any }) {
   return (
     <div className="flex justify-center relative">
-      <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full ">
+      <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full w-full ">
         <div className="flex justify-between mb-4">
-          <h5 className="text-twitter text-2xl leading-tight font-bold">
+          <h5 className="text-sky-500 text-2xl leading-tight font-bold">
             Latest tweets
           </h5>
           <div className="flex justify-end items-center">
@@ -14,7 +14,7 @@ export default function TwitterCard({ data }: { data: any }) {
               target="_blank"
               className="hover:no-underline"
             >
-              <Twitter className="text-twitter -mr-0.5" />
+              <Twitter className="text-sky-500 -mr-0.5" />
             </a>
           </div>
         </div>

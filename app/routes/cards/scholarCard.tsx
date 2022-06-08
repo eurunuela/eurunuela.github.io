@@ -1,5 +1,4 @@
 export default function ScholarCard({ data }: { data: any }) {
-  console.log(data);
   return (
     <div className="flex justify-center relative">
       <a
@@ -9,7 +8,7 @@ export default function ScholarCard({ data }: { data: any }) {
       >
         <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full ">
           <div className="flex justify-between mb-4">
-            <h5 className="text-scholar text-2xl leading-tight font-bold">
+            <h5 className="text-blue-500 text-2xl leading-tight font-bold">
               Recent publications
             </h5>
             <div className="flex justify-end items-center text-right ">
@@ -26,7 +25,7 @@ export default function ScholarCard({ data }: { data: any }) {
                   publication["author_pub_id"]
                 }
                 target="_blank"
-                className="text-gray-700 hover:text-scholar"
+                className="text-gray-700 hover:text-blue-500"
               >
                 <div className="flex justify-between my-4">
                   <div>

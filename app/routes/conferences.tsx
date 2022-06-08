@@ -25,7 +25,7 @@ export default function Conferences() {
     <div className="flex justify-center items-center h-full">
       <div className="flex flex-col lg:w-3/5 py-6 lg:px-10 h-full">
         <div className="flex justify-between mb-4 px-8">
-          <h5 className="text-conferences text-4xl leading-tight font-bold">
+          <h5 className="text-rose-500 text-4xl leading-tight font-bold">
             Conference abstracts
           </h5>
         </div>
@@ -50,19 +50,19 @@ export default function Conferences() {
                     <div className="flex justify-between items-center space-y-1 my-4">
                       <div className="flex flex-row">
                         <div className="mr-4 mt-0.5">
-                          <CheckCircle className="text-conferences" size={16} />
+                          <CheckCircle className="text-rose-500" size={16} />
                         </div>
                         <div>
                           <h4 className=" leading-tight font-medium mb-1">
                             {abstract["title"]}
                           </h4>
                           <p className="font-light text-sm leading-tight mb-1">
-                            {/* Show author names separated with commas. Use text-conferences and bold if the
+                            {/* Show author names separated with commas. Use text-rose-500 and bold if the
                         author name is "E. Uruñuela" */}
                             {abstract["authors"].map((author, index) => (
                               <i key={index}>
                                 {author === "E. Uruñuela" ? (
-                                  <span className="text-conferences">
+                                  <span className="text-rose-500">
                                     {author}
                                   </span>
                                 ) : (
@@ -81,11 +81,8 @@ export default function Conferences() {
                           {abstract["awards"] ? (
                             <div className="flex flex-row">
                               {/* Show awards separated with comma if there are more than one */}
-                              <Award
-                                className="text-conferences mr-1"
-                                size={16}
-                              />
-                              <p className="font-medium text-conferences text-sm leading-tight">
+                              <Award className="text-rose-500 mr-1" size={16} />
+                              <p className="font-medium text-rose-500 text-sm leading-tight">
                                 {abstract["awards"].length > 1
                                   ? abstract["awards"].join(", ")
                                   : abstract["awards"][0]}
