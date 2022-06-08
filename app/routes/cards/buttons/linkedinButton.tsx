@@ -1,17 +1,17 @@
-import { Mail } from "react-feather";
+import { Linkedin } from "react-feather";
 
-export default function EmailButton() {
+export default function LinkedinButton() {
   return (
     <div>
       <a
-        href="mailto:e.urunuela@bcbl.eu"
+        href="https://www.twitter.com/eurunuela"
         target="_blank"
         className="flex justify-center items-center py-3 px-10 rounded-md w-full h-auto bg-gray-100 text-gray-700 hover:decoration-none hover:bg-gray-200 hover:text-gray-700 hover:no-underline"
       >
         <div className="flex flex-row">
-          <Mail className="mr-1 mt-0.5 text-orange-400" size={20} />
+          <Linkedin className="mr-1 text-orange-400" size={20} />
           <span>
-            Reach me via <span className="text-orange-400">email</span>
+            Connect with me on <span className="text-orange-400">LinkedIn</span>
           </span>
         </div>
       </a>
