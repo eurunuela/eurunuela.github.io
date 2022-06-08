@@ -26,6 +26,7 @@ module.exports = {
       github: "#19D7AC",
       twitter: "#299DED",
       text: "hsl(0, 0%, 7%)",
+      podcast: "#887AFA",
     },
     extend: {
       scale: {
