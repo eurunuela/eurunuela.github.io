@@ -1,4 +1,5 @@
 import EmailButton from "./buttons/emailButton";
+import LinkedinButton from "./buttons/linkedinButton";
 import TwitterButton from "./buttons/twitterButton";
 
 export default function ButtonsCard() {
@@ -13,6 +14,7 @@ export default function ButtonsCard() {
         <div className="grid my-4 grid-cols-1 gap-4 ">
           <TwitterButton />
           <EmailButton />
+          <LinkedinButton />
         </div>
       </div>
     </div>
