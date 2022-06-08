@@ -6,7 +6,7 @@ export default function ConferencesCard({ data }: { data: any }) {
       <Link
         to="/conferences"
         prefetch="intent"
-        className="hover:no-underline hover:decoration-inherit hover:text-text"
+        className="hover:no-underline hover:decoration-inherit hover:text-gray-700"
       >
         <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full ">
           <div className="flex justify-between mb-4">

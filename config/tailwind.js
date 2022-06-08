@@ -22,7 +22,6 @@ module.exports = {
       orange: colors.orange,
       red: colors.red,
       rose: colors.rose,
-      text: "hsl(0, 0%, 7%)",
     },
     extend: {
       scale: {

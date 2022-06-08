@@ -6,7 +6,7 @@ export default function EmailButton() {
       <a
         href="mailto:e.urunuela@bcbl.eu"
         target="_blank"
-        className="flex justify-center items-center py-3 px-10 rounded-md w-full h-auto bg-gray-100 text-text hover:decoration-none hover:bg-gray-200 hover:text-text hover:no-underline"
+        className="flex justify-center items-center py-3 px-10 rounded-md w-full h-auto bg-gray-100 text-gray-700 hover:decoration-none hover:bg-gray-200 hover:text-gray-700 hover:no-underline"
       >
         <div className="flex flex-row">
           <Mail className="mr-1 text-orange-400" />
