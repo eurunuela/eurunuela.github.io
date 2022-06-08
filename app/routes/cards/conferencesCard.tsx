@@ -6,11 +6,11 @@ export default function ConferencesCard({ data }: { data: any }) {
       <Link
         to="/conferences"
         prefetch="intent"
-        className="hover:no-underline hover:decoration-inherit hover:text-text"
+        className="hover:no-underline hover:decoration-inherit hover:text-gray-700"
       >
         <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full ">
           <div className="flex justify-between mb-4">
-            <h5 className="text-conferences text-2xl leading-tight font-bold">
+            <h5 className="text-rose-500 text-2xl leading-tight font-bold">
               Conference abstracts
             </h5>
           </div>
@@ -25,7 +25,7 @@ export default function ConferencesCard({ data }: { data: any }) {
                     {abstract["conference"]} ({abstract["year"]})
                   </p>
                   {
-                    <p className="font-light text-conferences text-sm leading-tight">
+                    <p className="font-light text-rose-500 text-sm leading-tight">
                       {abstract["awards"]}
                     </p>
                   }

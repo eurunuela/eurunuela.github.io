@@ -10,7 +10,7 @@ export default function TwitterCard({ data }: { data: any }) {
       >
         <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full ">
           <div className="flex justify-between mb-4">
-            <h5 className="text-twitter text-2xl leading-tight font-bold">
+            <h5 className="text-sky-500 text-2xl leading-tight font-bold">
               Latest tweets
             </h5>
             <div className="flex justify-end items-center">
