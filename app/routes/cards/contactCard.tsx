@@ -2,7 +2,7 @@ import EmailButton from "./buttons/emailButton";
 import LinkedinButton from "./buttons/linkedinButton";
 import TwitterButton from "./buttons/twitterButton";
 
-export default function ButtonsCard() {
+export default function ContactCard() {
   return (
     <div className="flex justify-center relative">
       <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full w-full ">
@@ -11,7 +11,7 @@ export default function ButtonsCard() {
             Let's chat 👇
           </h5>
         </div>
-        <div className="grid my-4 grid-cols-1 gap-4 ">
+        <div className="grid mt-8 grid-cols-1 gap-4 ">
           <TwitterButton />
           <EmailButton />
           <LinkedinButton />
