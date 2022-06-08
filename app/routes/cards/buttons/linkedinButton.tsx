@@ -11,7 +11,7 @@ export default function LinkedinButton() {
         <div className="flex flex-row">
           <Linkedin className="mr-1 text-orange-400" size={20} />
           <span>
-            Connect with me on <span className="text-orange-400">LinkedIn</span>
+            Add me on <span className="text-orange-400">LinkedIn</span>
           </span>
         </div>
       </a>

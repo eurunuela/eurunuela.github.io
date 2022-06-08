@@ -669,6 +669,11 @@ video {
   margin-bottom: auto;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -941,6 +946,10 @@ video {
   font-weight: 300;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
 .italic {
   font-style: italic;
 }
@@ -996,6 +1005,11 @@ video {
 .text-sky-500 {
   --tw-text-opacity: 1;
   color: rgba(14, 165, 233, var(--tw-text-opacity));
+}
+
+.text-violet-500 {
+  --tw-text-opacity: 1;
+  color: rgba(139, 92, 246, var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -1057,6 +1071,11 @@ video {
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
