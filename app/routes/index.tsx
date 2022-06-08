@@ -1,5 +1,6 @@
 import Cards from "./cards";
 import { useLoaderData } from "remix";
+import { parse } from "rss-to-json";
 
 export async function loader() {
   const scholar_res = await fetch(
@@ -17,10 +18,14 @@ export async function loader() {
   );
   const github_data = await github_res.json();
 
+  const typefully_url = "https://typefully.com/eurunuela/rss.xml";
+  const typefully_data = await parse(typefully_url);
+
   return {
     scholar_data,
     conferences_data,
     github_data,
+    typefully_data,
   };
 }
 
