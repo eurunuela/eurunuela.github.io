@@ -11,7 +11,8 @@ export default function EmailButton() {
         <div className="flex flex-row">
           <Mail className="mr-1 mt-0.5 text-orange-400" size={20} />
           <span>
-            Reach me via <span className="text-orange-400">email</span>
+            Reach me via{" "}
+            <span className="text-orange-400 font-medium">email</span>
           </span>
         </div>
       </a>

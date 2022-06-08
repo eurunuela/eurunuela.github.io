@@ -11,7 +11,8 @@ export default function TwitterButton() {
         <div className="flex flex-row">
           <MessageCircle className="mr-1 mt-0.5 text-orange-400" size={20} />
           <span>
-            DM me on <span className="text-orange-400">Twitter</span>
+            DM me on{" "}
+            <span className="text-orange-400 font-medium">Twitter</span>
           </span>
         </div>
       </a>
