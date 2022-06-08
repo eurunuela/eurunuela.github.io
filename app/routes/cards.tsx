@@ -3,7 +3,7 @@ import ProfileCard from "./cards/profileCard";
 import ConferencesCard from "./cards/conferencesCard";
 import GitHubCard from "./cards/githubCard";
 import TwitterCard from "./cards/twitterCard";
-import ButtonsCard from "./cards/buttonsCard";
+import ContactCard from "./cards/contactCard";
 import InterestsCard from "./cards/interestsCard";
 
 export default function Cards({ data }: { data: any }) {
@@ -22,7 +22,7 @@ export default function Cards({ data }: { data: any }) {
       </div>
       <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
         <InterestsCard />
-        <ButtonsCard />
+        <ContactCard />
       </div>
     </div>
   );
