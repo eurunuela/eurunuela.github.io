@@ -21,12 +21,8 @@ module.exports = {
       violet: colors.violet,
       orange: colors.orange,
       red: colors.red,
-      scholar: "#4D91FF",
-      conferences: "#F63E54",
-      github: "#19D7AC",
-      twitter: "#299DED",
+      rose: colors.rose,
       text: "hsl(0, 0%, 7%)",
-      podcast: "#887AFA",
     },
     extend: {
       scale: {
