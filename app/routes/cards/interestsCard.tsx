@@ -13,9 +13,9 @@ export default function InterestsCard() {
           <div className="flex flex-col justify-between my-4">
             <ul className="flex flex-col">
               <li className="my-2">
-                <div className="flex flex-row">
-                  <Terminal className="text-violet-500 mr-4 mt-0.5" size={20} />
-                  <p>
+                <div className="grid grid-cols-10 gap-4">
+                  <Terminal className="text-violet-500 mt-0.5" size={20} />
+                  <p className="col-span-9">
                     working on new{" "}
                     <span className="text-violet-500 font-medium">
                       deep learning
@@ -25,18 +25,18 @@ export default function InterestsCard() {
                 </div>
               </li>
               <li className="my-2">
-                <div className="flex flex-row">
+                <div className="grid grid-cols-10 gap-4">
                   <Edit className="text-violet-500 mr-4 mt-0.5" size={20} />
-                  <p>
+                  <p className="col-span-9">
                     making the most of my notes on{" "}
                     <a className="text-violet-500 font-medium">Roam Research</a>
                   </p>
                 </div>
               </li>
               <li className="my-2">
-                <div className="flex flex-row">
+                <div className="grid grid-cols-10 gap-4">
                   <Users className="text-violet-500 mr-4 mt-0.5" size={20} />
-                  <p>
+                  <p className="col-span-9">
                     making{" "}
                     <a className="text-violet-500 font-medium">
                       Brainhack Donostia
@@ -46,9 +46,9 @@ export default function InterestsCard() {
                 </div>
               </li>
               <li className="my-2">
-                <div className="flex flex-row">
+                <div className="grid grid-cols-10 gap-4">
                   <Code className="text-violet-500 mr-4 mt-0.5" size={20} />
-                  <p>
+                  <p className="col-span-9">
                     learning about frontend development with{" "}
                     <span className="text-violet-500 font-medium">React</span>{" "}
                     and web design
@@ -56,9 +56,9 @@ export default function InterestsCard() {
                 </div>
               </li>
               <li className="my-2">
-                <div className="flex flex-row">
+                <div className="grid grid-cols-10 gap-4">
                   <MapPin className="text-violet-500 mr-4 mt-0.5" size={20} />
-                  <p>
+                  <p className="col-span-9">
                     exploring{" "}
                     <span className="text-violet-500 font-medium">
                       new cities
