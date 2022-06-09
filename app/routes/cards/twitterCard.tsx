@@ -8,7 +8,7 @@ export default function TwitterCard({ data }: { data: any }) {
         target="_blank"
         className="hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
       >
-        <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full w-full ">
+        <div className="block py-6 px-10 rounded-lg shadow-lg bg-white dark:bg-gray-800 h-full w-full ">
           <div className="flex justify-between">
             <h5 className="text-sky-500 text-2xl leading-tight font-bold">
               Latest threads
@@ -22,7 +22,7 @@ export default function TwitterCard({ data }: { data: any }) {
               <a
                 href={thread["link"]}
                 target="_blank"
-                className="text-gray-700 hover:text-sky-500 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
+                className="text-gray-800 dark:text-white hover:text-sky-500 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
               >
                 <div className="flex justify-between my-4">
                   <div>
@@ -43,7 +43,7 @@ export default function TwitterCard({ data }: { data: any }) {
                       </span>
                     </p>
                     {/* Show all text until the third occurrence of "<br>" */}
-                    <span className="font-light text-sm leading-tight mt-1">
+                    <span className="font-light text-sm leading-tight mt-1 dark:text-gray-200 text-gray-600 ">
                       <div
                         dangerouslySetInnerHTML={{
                           __html: thread["content"]

@@ -3,7 +3,7 @@ import { Code, Edit, MapPin, Terminal, Users } from "react-feather";
 export default function InterestsCard() {
   return (
     <div className="flex justify-center relative">
-      <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full w-full ">
+      <div className="block py-6 px-10 rounded-lg shadow-lg bg-white dark:bg-gray-800 h-full w-full ">
         <div className="flex justify-between mb-4">
           <h5 className="text-violet-500 text-2xl leading-tight font-bold">
             My interests 🤔

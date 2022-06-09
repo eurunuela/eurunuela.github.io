@@ -10,7 +10,7 @@ export default function GitHubCard({ data }: { data: any }) {
         target="_blank"
         className="hover:no-underline hover:decoration-none"
       >
-        <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full ">
+        <div className="block py-6 px-10 rounded-lg shadow-lg bg-white dark:bg-gray-800 h-full ">
           <div className="flex justify-between mb-4">
             <h5 className="text-emerald-400 text-2xl leading-tight font-bold">
               Featured projects
@@ -24,14 +24,14 @@ export default function GitHubCard({ data }: { data: any }) {
               <a
                 href={repo["node"]["url"]}
                 target="_blank"
-                className="text-gray-700 hover:text-emerald-400 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
+                className="text-gray-800 dark:text-white hover:text-emerald-400 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
               >
                 <div className="flex justify-between my-4">
                   <div>
                     <p className=" leading-tight font-medium">
                       {repo["node"]["name"]}
                     </p>
-                    <p className="font-light text-sm leading-tight">
+                    <p className="font-light text-sm leading-tight text-gray-600 dark:text-gray-200">
                       {repo["node"]["description"]}
                     </p>
                   </div>

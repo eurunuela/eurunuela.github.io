@@ -6,9 +6,9 @@ export default function ConferencesCard({ data }: { data: any }) {
       <Link
         to="/conferences"
         prefetch="intent"
-        className="hover:no-underline hover:decoration-inherit hover:text-gray-700"
+        className="hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit hover:text-gray-800 dark:hover:text-white text-gray-800 dark:text-white"
       >
-        <div className="block py-6 px-10 rounded-lg shadow-lg bg-white h-full ">
+        <div className="block py-6 px-10 rounded-lg shadow-lg bg-white dark:bg-gray-800 h-full ">
           <div className="flex justify-between mb-4">
             <h5 className="text-rose-500 text-2xl leading-tight font-bold">
               Conference abstracts
@@ -16,21 +16,23 @@ export default function ConferencesCard({ data }: { data: any }) {
           </div>
           {data["abstracts"].slice(0, 7).map((abstract, index) => (
             <div key={index} className="border-b-1 border-gray-500 mb-3">
-              <div className="flex justify-between my-4">
-                <div>
-                  <p className=" leading-tight font-medium">
-                    {abstract["title"]}
-                  </p>
-                  <p className="font-light text-sm leading-tight">
-                    {abstract["conference"]} ({abstract["year"]})
-                  </p>
-                  {
-                    <p className="font-light text-rose-500 text-sm leading-tight">
-                      {abstract["awards"]}
+              <a className="hover:text-rose-500 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit">
+                <div className="flex justify-between my-4">
+                  <div>
+                    <p className=" leading-tight font-medium">
+                      {abstract["title"]}
                     </p>
-                  }
+                    <p className="font-light text-sm leading-tight text-gray-600 dark:text-gray-200">
+                      {abstract["conference"]} ({abstract["year"]})
+                    </p>
+                    {
+                      <p className="font-light text-rose-500 text-sm leading-tight">
+                        {abstract["awards"]}
+                      </p>
+                    }
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           ))}
         </div>
