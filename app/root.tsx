@@ -131,7 +131,7 @@ function Layout({ children }: { children: React.ReactNode }) {
         <div className="container remix-app__main-content">{children}</div>
       </div>
       <footer className="remix-app__footer">
-        <div className="container remix-app__footer-content text-gray-600 text-sm">
+        <div className="container remix-app__footer-content text-gray-600 dark:text-white-200 text-sm">
           <p>
             Inspired by{" "}
             <a href="https://www.fabrizio.so/" target="_blank">
