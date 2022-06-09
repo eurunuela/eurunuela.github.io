@@ -7,7 +7,7 @@ import ContactCard from "./cards/contactCard";
 import InterestsCard from "./cards/interestsCard";
 
 export default function Cards({ data }: { data: any }) {
-  const { scholar_data, conferences_data, github_data } = data;
+  const { scholar_data, conferences_data, github_data, typefully_data } = data;
 
   return (
     <div>
@@ -18,7 +18,7 @@ export default function Cards({ data }: { data: any }) {
       </div>
       <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
         <GitHubCard data={github_data} />
-        <TwitterCard data={github_data} />
+        <TwitterCard data={typefully_data} />
       </div>
       <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
         <InterestsCard />
