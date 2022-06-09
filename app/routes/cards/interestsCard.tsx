@@ -5,7 +5,7 @@ export default function InterestsCard() {
     <div className="flex justify-center relative">
       <div className="block py-6 px-10 rounded-lg shadow-lg bg-white dark:bg-gray-800 h-full w-full ">
         <div className="flex justify-between mb-4">
-          <h5 className="text-violet-500 text-2xl leading-tight font-bold">
+          <h5 className="text-violet-500 dark:text-violet-400 text-2xl leading-tight font-bold">
             My interests 🤔
           </h5>
         </div>
@@ -14,10 +14,13 @@ export default function InterestsCard() {
             <ul className="flex flex-col">
               <li className="my-2">
                 <div className="grid grid-cols-10 gap-4">
-                  <Terminal className="text-violet-500 mt-0.5" size={20} />
+                  <Terminal
+                    className="text-violet-500 dark:text-violet-400 mt-0.5"
+                    size={20}
+                  />
                   <p className="col-span-9">
                     Working on new{" "}
-                    <span className="text-violet-500 font-medium">
+                    <span className="text-violet-500 dark:text-violet-400 font-medium">
                       deep learning
                     </span>{" "}
                     projects.
@@ -26,11 +29,14 @@ export default function InterestsCard() {
               </li>
               <li className="my-2">
                 <div className="grid grid-cols-10 gap-4">
-                  <Edit className="text-violet-500 mr-4 mt-0.5" size={20} />
+                  <Edit
+                    className="text-violet-500 dark:text-violet-400 mr-4 mt-0.5"
+                    size={20}
+                  />
                   <p className="col-span-9">
                     Making the most of my notes on{" "}
                     <a
-                      className="text-violet-500 font-medium hover:text-violet-700"
+                      className="text-violet-500 dark:text-violet-400 font-medium hover:text-violet-700 dark:hover:text-violet-600"
                       href="https://roamresearch.com"
                       target="_blank"
                     >
@@ -42,11 +48,14 @@ export default function InterestsCard() {
               </li>
               <li className="my-2">
                 <div className="grid grid-cols-10 gap-4">
-                  <Users className="text-violet-500 mr-4 mt-0.5" size={20} />
+                  <Users
+                    className="text-violet-500 dark:text-violet-400 mr-4 mt-0.5"
+                    size={20}
+                  />
                   <p className="col-span-9">
                     Making{" "}
                     <a
-                      className="text-violet-500 font-medium hover:text-violet-700"
+                      className="text-violet-500 dark:text-violet-400 font-medium hover:text-violet-700 dark:hover:text-violet-600"
                       href="https://brainhack-donostia.github.io/"
                       target="_blank"
                     >
@@ -58,20 +67,28 @@ export default function InterestsCard() {
               </li>
               <li className="my-2">
                 <div className="grid grid-cols-10 gap-4">
-                  <Code className="text-violet-500 mr-4 mt-0.5" size={20} />
+                  <Code
+                    className="text-violet-500 dark:text-violet-400 mr-4 mt-0.5"
+                    size={20}
+                  />
                   <p className="col-span-9">
                     Learning about frontend development with{" "}
-                    <span className="text-violet-500 font-medium">React</span>{" "}
+                    <span className="text-violet-500 dark:text-violet-400 font-medium">
+                      React
+                    </span>{" "}
                     and web design.
                   </p>
                 </div>
               </li>
               <li className="my-2">
                 <div className="grid grid-cols-10 gap-4">
-                  <MapPin className="text-violet-500 mr-4 mt-0.5" size={20} />
+                  <MapPin
+                    className="text-violet-500 dark:text-violet-400 mr-4 mt-0.5"
+                    size={20}
+                  />
                   <p className="col-span-9">
                     Exploring{" "}
-                    <span className="text-violet-500 font-medium">
+                    <span className="text-violet-500 dark:text-violet-400 font-medium">
                       new cities
                     </span>{" "}
                     and learning from new connections.

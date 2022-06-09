@@ -8,7 +8,7 @@ export default function ScholarCard({ data }: { data: any }) {
       >
         <div className="block py-6 px-10 rounded-lg shadow-lg bg-white dark:bg-gray-800 h-full ">
           <div className="flex justify-between mb-4">
-            <h5 className="text-blue-500 text-2xl leading-tight font-bold">
+            <h5 className="text-blue-500 dark:text-blue-400 text-2xl leading-tight font-bold">
               Recent publications
             </h5>
             <div className="flex justify-end items-center text-right ">
@@ -25,7 +25,7 @@ export default function ScholarCard({ data }: { data: any }) {
                   publication["author_pub_id"]
                 }
                 target="_blank"
-                className="text-gray-800 dark:text-white hover:text-blue-500 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
+                className="text-gray-800 dark:text-white hover:text-blue-500 dark:hover:text-blue-400 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
               >
                 <div className="flex justify-between my-4">
                   <div>

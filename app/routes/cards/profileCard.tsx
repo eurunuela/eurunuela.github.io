@@ -15,14 +15,14 @@ export default function ProfileCard() {
           </div>
           <div className="flex flex-col px-8 py-4 lg:col-span-2 ">
             <div className="my-auto">
-              <h1 className="pt-4 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight whitespace-nowrap text-black">
+              <h1 className="pt-4 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight whitespace-nowrap text-gray-800 dark:text-white">
                 Hi, I'm Eneko <span className="whitespace-nowrap">👋</span>
               </h1>
-              <h2 className="py-2 text-xl text-black ">
+              <h2 className="py-2 text-xl text-gray-600 dark:text-gray-200">
                 I am a PhD student working on inverse problems and denoising of
                 functional MRI data.
               </h2>
-              <p className="py-2 italic text-black">
+              <p className="py-2 italic text-gray-600 dark:text-gray-200">
                 I want to make healthcare more accessible to everyone.
               </p>
             </div>
