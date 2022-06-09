@@ -44,11 +44,14 @@ export default function TwitterCard({ data }: { data: any }) {
                         {")"}
                       </span>
                     </p>
-                    {/* Show all text until third <br /> */}
+                    {/* Show all text until the third occurrence of "<br>" */}
                     <span className="font-light text-sm leading-tight mt-1">
                       <div
                         dangerouslySetInnerHTML={{
-                          __html: thread["content"].slice(0, 380),
+                          __html: thread["content"]
+                            .split("<br>")
+                            .slice(0, 5)
+                            .join("<br>"),
                         }}
                       />
                     </span>
