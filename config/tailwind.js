@@ -27,6 +27,9 @@ module.exports = {
       scale: {
         101: "1.01",
       },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
     },
   }, // customize the theme however you want here
   variants: {}, // activate any variant you want here
