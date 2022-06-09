@@ -33,7 +33,7 @@ export default function Conferences() {
         {years_unique.map((year) => (
           <div
             key={year}
-            className="block pb-6 px-8 mb-3 rounded-lg shadow-lg bg-white h-full "
+            className="block pb-6 px-8 mb-3 rounded-lg shadow-lg bg-white dark:bg-gray-800 h-full "
           >
             <div className="flex justify-between my-4">
               <div>
@@ -56,7 +56,7 @@ export default function Conferences() {
                           <h4 className=" leading-tight font-medium mb-1">
                             {abstract["title"]}
                           </h4>
-                          <p className="font-light text-sm leading-tight mb-1">
+                          <p className="font-light text-sm leading-tight mb-1 dark:text-gray-200">
                             {/* Show author names separated with commas. Use text-rose-500 and bold if the
                         author name is "E. Uruñuela" */}
                             {abstract["authors"].map((author, index) => (
@@ -74,7 +74,7 @@ export default function Conferences() {
                               </i>
                             ))}
                           </p>
-                          <p className="font-light text-sm leading-tight mb-1">
+                          <p className="font-light text-sm leading-tight mb-1 dark:text-gray-200">
                             {abstract["conference"]}
                           </p>
                           {/* If the abstract has awards, show them */}
