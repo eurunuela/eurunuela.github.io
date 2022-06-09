@@ -1102,6 +1102,11 @@ video {
     background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
   }
 
+  .dark\:bg-gray-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(24, 24, 27, var(--tw-bg-opacity));
+  }
+
   .dark\:text-gray-200 {
     --tw-text-opacity: 1;
     color: rgba(228, 228, 231, var(--tw-text-opacity));

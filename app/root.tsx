@@ -2,6 +2,7 @@ import {
   Links,
   LiveReload,
   Meta,
+  MetaFunction,
   Outlet,
   Scripts,
   ScrollRestoration,
@@ -12,6 +13,14 @@ import tailwindUrl from "./styles/tailwind.css";
 
 import globalStylesUrl from "~/styles/global.css";
 import darkStylesUrl from "~/styles/dark.css";
+import logo from "~/images/logo.svg";
+
+export const meta: MetaFunction = () => ({
+  title: "Eneko Uruñuela",
+  description:
+    "Eneko Uruñuela's personal website. Ph.D. candidate in the Signal Processing in Neuroimaging lab at the Basque Center on Cognition, Brain and Language. His research is focused on the development of novel algorithms that detect and separate neuronal and non-neuronal components of functional MRI data using inver problems and tensor decomposition.",
+  "og:img": "https://eurunuela.github.io/img/profile.jpg",
+});
 
 // https://remix.run/api/app#links
 export let links: LinksFunction = () => {
@@ -23,10 +32,12 @@ export let links: LinksFunction = () => {
       media: "(prefers-color-scheme: dark)",
     },
     { rel: "stylesheet", href: tailwindUrl },
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />,
+    {
+      href: "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap",
+      rel: "stylesheet",
+    },
+    // Logo
+    { rel: "icon", href: logo },
   ];
 };
 
