@@ -25,7 +25,7 @@ export default function ScholarCard({ data }: { data: any }) {
                   publication["author_pub_id"]
                 }
                 target="_blank"
-                className="text-gray-700 hover:text-blue-500"
+                className="text-gray-700 hover:text-blue-500 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
               >
                 <div className="flex justify-between my-4">
                   <div>
