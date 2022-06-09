@@ -23,7 +23,7 @@ export default function ProfileCard() {
                 functional MRI data.
               </h2>
               <p className="py-2 italic text-black">
-                I want to make healthcare more accesible to everyone.
+                I want to make healthcare more accessible to everyone.
               </p>
             </div>
           </div>
