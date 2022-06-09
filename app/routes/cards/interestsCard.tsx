@@ -16,11 +16,11 @@ export default function InterestsCard() {
                 <div className="grid grid-cols-10 gap-4">
                   <Terminal className="text-violet-500 mt-0.5" size={20} />
                   <p className="col-span-9">
-                    working on new{" "}
+                    Working on new{" "}
                     <span className="text-violet-500 font-medium">
                       deep learning
                     </span>{" "}
-                    projects
+                    projects.
                   </p>
                 </div>
               </li>
@@ -28,8 +28,8 @@ export default function InterestsCard() {
                 <div className="grid grid-cols-10 gap-4">
                   <Edit className="text-violet-500 mr-4 mt-0.5" size={20} />
                   <p className="col-span-9">
-                    making the most of my notes on{" "}
-                    <a className="text-violet-500 font-medium">Roam Research</a>
+                    Making the most of my notes on{" "}
+                    <a className="text-violet-500 font-medium">Roam Research</a>.
                   </p>
                 </div>
               </li>
@@ -37,11 +37,11 @@ export default function InterestsCard() {
                 <div className="grid grid-cols-10 gap-4">
                   <Users className="text-violet-500 mr-4 mt-0.5" size={20} />
                   <p className="col-span-9">
-                    making{" "}
+                    Making{" "}
                     <a className="text-violet-500 font-medium">
                       Brainhack Donostia
                     </a>{" "}
-                    projects more accesible to newcomers
+                    projects more accesible to newcomers.
                   </p>
                 </div>
               </li>
@@ -49,9 +49,9 @@ export default function InterestsCard() {
                 <div className="grid grid-cols-10 gap-4">
                   <Code className="text-violet-500 mr-4 mt-0.5" size={20} />
                   <p className="col-span-9">
-                    learning about frontend development with{" "}
+                    Learning about frontend development with{" "}
                     <span className="text-violet-500 font-medium">React</span>{" "}
-                    and web design
+                    and web design.
                   </p>
                 </div>
               </li>
@@ -59,11 +59,11 @@ export default function InterestsCard() {
                 <div className="grid grid-cols-10 gap-4">
                   <MapPin className="text-violet-500 mr-4 mt-0.5" size={20} />
                   <p className="col-span-9">
-                    exploring{" "}
+                    Exploring{" "}
                     <span className="text-violet-500 font-medium">
                       new cities
                     </span>{" "}
-                    and learning from new connections
+                    and learning from new connections.
                   </p>
                 </div>
               </li>
