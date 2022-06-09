@@ -24,7 +24,7 @@ export default function GitHubCard({ data }: { data: any }) {
               <a
                 href={repo["node"]["url"]}
                 target="_blank"
-                className="text-gray-700 hover:text-emerald-400"
+                className="text-gray-700 hover:text-emerald-400 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
               >
                 <div className="flex justify-between my-4">
                   <div>

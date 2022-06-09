@@ -687,6 +687,11 @@ video {
   margin-bottom: 0.25rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -1075,6 +1080,11 @@ video {
 .hover\:text-sky-500:hover {
   --tw-text-opacity: 1;
   color: rgba(14, 165, 233, var(--tw-text-opacity));
+}
+
+.hover\:text-violet-700:hover {
+  --tw-text-opacity: 1;
+  color: rgba(109, 40, 217, var(--tw-text-opacity));
 }
 
 .hover\:no-underline:hover {

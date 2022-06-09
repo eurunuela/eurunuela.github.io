@@ -29,7 +29,14 @@ export default function InterestsCard() {
                   <Edit className="text-violet-500 mr-4 mt-0.5" size={20} />
                   <p className="col-span-9">
                     Making the most of my notes on{" "}
-                    <a className="text-violet-500 font-medium">Roam Research</a>.
+                    <a
+                      className="text-violet-500 font-medium hover:text-violet-700"
+                      href="https://roamresearch.com"
+                      target="_blank"
+                    >
+                      Roam Research
+                    </a>
+                    .
                   </p>
                 </div>
               </li>
@@ -38,7 +45,11 @@ export default function InterestsCard() {
                   <Users className="text-violet-500 mr-4 mt-0.5" size={20} />
                   <p className="col-span-9">
                     Making{" "}
-                    <a className="text-violet-500 font-medium">
+                    <a
+                      className="text-violet-500 font-medium hover:text-violet-700"
+                      href="https://brainhack-donostia.github.io/"
+                      target="_blank"
+                    >
                       Brainhack Donostia
                     </a>{" "}
                     projects more accesible to newcomers.
