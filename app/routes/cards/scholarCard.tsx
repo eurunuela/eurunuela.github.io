@@ -12,7 +12,7 @@ export default function ScholarCard({ data }: { data: any }) {
               Recent publications
             </h5>
             <div className="flex justify-end items-center text-right ">
-              <p className="text-gray-800 font-light leading-tight text-sm pt-1">
+              <p className="text-gray-800 dark:text-white font-light leading-tight text-sm pt-1">
                 Cited by {data["citedby"]}
               </p>
             </div>
