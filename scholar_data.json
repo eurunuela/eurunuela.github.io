@@ -124,18 +124,10 @@
             "pub_url": "https://www.sciencedirect.com/science/article/pii/S0896627321002312",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:RLDoUlwYPoQJ:scholar.google.com/",
             "cites_per_year": {
-                "2021": 7,
-                "2022": 5
+                "2021": 6,
+                "2022": 6
             },
             "mandates": [
-                {
-                    "agency": "US National Institutes of Health",
-                    "url_policy": "https://publicaccess.nih.gov/policy.htm",
-                    "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
-                    "effective_date": "2008/4",
-                    "embargo": "12 months",
-                    "acknowledgement": " \u2026NIH K00MH122372 \u2026"
-                },
                 {
                     "agency": "Agence Nationale de la Recherche",
                     "url_policy": "https://anr.fr/fileadmin/documents/2019/anr_depliant_science_ouverte_GB_100x210_final.pdf",
@@ -151,6 +143,14 @@
                     "effective_date": "2021/2",
                     "embargo": "none",
                     "acknowledgement": " \u2026European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement no. 867458 \u2026"
+                },
+                {
+                    "agency": "US National Institutes of Health",
+                    "url_policy": "https://publicaccess.nih.gov/policy.htm",
+                    "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
+                    "effective_date": "2008/4",
+                    "embargo": "12 months",
+                    "acknowledgement": " \u2026NIBIB NIH \u2026"
                 }
             ]
         },
@@ -190,7 +190,7 @@
                     "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
                     "effective_date": "2008/4",
                     "embargo": "12 months",
-                    "acknowledgement": " \u2026Eunice Kennedy Shriver National Institute of Child Health and Human Development of the National Institutes of Health under award number K12HD073945 \u2026"
+                    "grant": "K12 HD073945"
                 },
                 {
                     "agency": "European Commission",
@@ -214,7 +214,7 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "A Low Rank and Sparse Paradigm Free Mapping Algorithm For Deconvolution of FMRI Data",
+                "title": "A low rank and sparse paradigm free mapping algorithm for deconvolution of fMRI data",
                 "pub_year": 2021,
                 "citation": "2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI), 1726-1729, 2021",
                 "author": "Eneko Uru\u00f1uela and Stefano Moia and C\u00e9sar Caballero-Gaudes",
@@ -391,6 +391,7 @@
             "author_pub_id": "KLIjERgAAAAJ:4JMBOYKVnBMC",
             "num_citations": 0,
             "pub_url": "https://archive.ismrm.org/2019/0912.html",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:ciZxhv5HvHUJ:scholar.google.com/",
             "cites_per_year": {}
         },
         {
@@ -420,8 +421,8 @@
     "i10index5y": 2,
     "cites_per_year": {
         "2020": 1,
-        "2021": 20,
-        "2022": 12
+        "2021": 19,
+        "2022": 13
     },
     "coauthors": [
         {
