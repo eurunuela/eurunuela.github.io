@@ -8,6 +8,17 @@
                 "C. Caballero-Gaudes"
             ],
             "year": "2022",
+            "conference": "ISMRM Iberian Chapter 2nd Annual Meeting",
+            "awards": ["Power Pitch"]
+        },
+        {
+            "title": "A multi-echo low-rank and sparse method to estimate neuronal signal with less global signals bias",
+            "authors": [
+                "E. Uruñuela",
+                "S. Moia",
+                "C. Caballero-Gaudes"
+            ],
+            "year": "2022",
             "conference": "OHBM Annual Meeting"
         },
         {
