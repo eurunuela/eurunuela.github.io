@@ -41,7 +41,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
             "num_citations": 2,
-            "citedby_url": "/scholar?hl=en&cites=227638211023025062",
+            "citedby_url": "/scholar?hl=en&num=20&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
             ],
@@ -77,7 +77,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:e5wmG9Sq2KIC",
             "num_citations": 1,
-            "citedby_url": "/scholar?hl=en&cites=10117778681508834011",
+            "citedby_url": "/scholar?hl=en&num=20&cites=10117778681508834011",
             "cites_id": [
                 "10117778681508834011"
             ],
@@ -95,6 +95,14 @@
                     "effective_date": "2007/9",
                     "embargo": "6 months",
                     "acknowledgement": " \u2026Swiss National Science Foundation (grant 205321 163376) \u2026"
+                },
+                {
+                    "agency": "Government of Spain",
+                    "url_policy": "https://www.boe.es/boe/dias/2011/06/02/pdfs/BOE-A-2011-9617.pdf",
+                    "url_policy_cached": "/mandates/boe_es-2021-02-13-es.pdf",
+                    "effective_date": "2011/6",
+                    "embargo": "12 months",
+                    "acknowledgement": " \u2026Basque Government (BERC 2018-2021, PIB 2019 104, PRE 2020 2 0227) \u2026"
                 }
             ]
         },
@@ -116,7 +124,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
             "num_citations": 12,
-            "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
+            "citedby_url": "/scholar?hl=en&num=20&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
             ],
@@ -124,8 +132,8 @@
             "pub_url": "https://www.sciencedirect.com/science/article/pii/S0896627321002312",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:RLDoUlwYPoQJ:scholar.google.com/",
             "cites_per_year": {
-                "2021": 6,
-                "2022": 6
+                "2021": 5,
+                "2022": 7
             },
             "mandates": [
                 {
@@ -137,20 +145,20 @@
                     "acknowledgement": " \u2026ANR-19-DATA-0025 \u2026"
                 },
                 {
-                    "agency": "European Commission",
-                    "url_policy": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/agr-contr/general-mga_horizon-euratom_en.pdf",
-                    "url_policy_cached": "/mandates/horizon-europe-eu-2021-08-14-en.pdf",
-                    "effective_date": "2021/2",
-                    "embargo": "none",
-                    "acknowledgement": " \u2026European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement no. 867458 \u2026"
-                },
-                {
                     "agency": "US National Institutes of Health",
                     "url_policy": "https://publicaccess.nih.gov/policy.htm",
                     "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
                     "effective_date": "2008/4",
                     "embargo": "12 months",
                     "acknowledgement": " \u2026NIBIB NIH \u2026"
+                },
+                {
+                    "agency": "European Commission",
+                    "url_policy": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/agr-contr/general-mga_horizon-euratom_en.pdf",
+                    "url_policy_cached": "/mandates/horizon-europe-eu-2021-08-14-en.pdf",
+                    "effective_date": "2021/2",
+                    "embargo": "none",
+                    "acknowledgement": " \u2026European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement no. 867458 \u2026"
                 }
             ]
         },
@@ -171,7 +179,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
             "num_citations": 10,
-            "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
+            "citedby_url": "/scholar?hl=en&num=20&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
             ],
@@ -185,12 +193,12 @@
             },
             "mandates": [
                 {
-                    "agency": "US National Institutes of Health",
-                    "url_policy": "https://publicaccess.nih.gov/policy.htm",
-                    "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
-                    "effective_date": "2008/4",
+                    "agency": "Government of Spain",
+                    "url_policy": "https://www.boe.es/boe/dias/2011/06/02/pdfs/BOE-A-2011-9617.pdf",
+                    "url_policy_cached": "/mandates/boe_es-2021-02-13-es.pdf",
+                    "effective_date": "2011/6",
                     "embargo": "12 months",
-                    "grant": "K12 HD073945"
+                    "acknowledgement": " \u2026Basque Government (BERC 2018-2021 and PIBA_2019_104 \u2026"
                 },
                 {
                     "agency": "European Commission",
@@ -201,12 +209,12 @@
                     "acknowledgement": " \u2026European Union's Horizon 2020 research and innovation program (Marie Sk\u0142odowska-Curie grant agreement No. 713673) \u2026"
                 },
                 {
-                    "agency": "Government of Spain",
-                    "url_policy": "https://www.boe.es/boe/dias/2011/06/02/pdfs/BOE-A-2011-9617.pdf",
-                    "url_policy_cached": "/mandates/boe_es-2021-02-13-es.pdf",
-                    "effective_date": "2011/6",
+                    "agency": "US National Institutes of Health",
+                    "url_policy": "https://publicaccess.nih.gov/policy.htm",
+                    "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
+                    "effective_date": "2008/4",
                     "embargo": "12 months",
-                    "acknowledgement": " \u2026Basque Government (BERC 2018-2021 and PIBA_2019_104 \u2026"
+                    "grant": "K12 HD073945"
                 }
             ]
         },
@@ -226,7 +234,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:R3hNpaxXUhUC",
             "num_citations": 2,
-            "citedby_url": "/scholar?hl=en&cites=586821217265377317",
+            "citedby_url": "/scholar?hl=en&num=20&cites=586821217265377317",
             "cites_id": [
                 "586821217265377317"
             ],
@@ -238,20 +246,20 @@
             },
             "mandates": [
                 {
-                    "agency": "European Commission",
-                    "url_policy": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/agr-contr/general-mga_horizon-euratom_en.pdf",
-                    "url_policy_cached": "/mandates/horizon-europe-eu-2021-08-14-en.pdf",
-                    "effective_date": "2021/2",
-                    "embargo": "none",
-                    "acknowledgement": " \u2026European Union\u2019s Horizon 2020 research and innovation program (Marie Sk\u0142odowska-Curie grant agreement No. 713673) \u2026"
-                },
-                {
                     "agency": "Government of Spain",
                     "url_policy": "https://www.boe.es/boe/dias/2011/06/02/pdfs/BOE-A-2011-9617.pdf",
                     "url_policy_cached": "/mandates/boe_es-2021-02-13-es.pdf",
                     "effective_date": "2011/6",
                     "embargo": "12 months",
                     "acknowledgement": " \u2026Basque Government (BERC 2018-2021, PIBA 2019 104, PRE 2019 1 0054 \u2026"
+                },
+                {
+                    "agency": "European Commission",
+                    "url_policy": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/agr-contr/general-mga_horizon-euratom_en.pdf",
+                    "url_policy_cached": "/mandates/horizon-europe-eu-2021-08-14-en.pdf",
+                    "effective_date": "2021/2",
+                    "embargo": "none",
+                    "acknowledgement": " \u2026European Union\u2019s Horizon 2020 research and innovation program (Marie Sk\u0142odowska-Curie grant agreement No. 713673) \u2026"
                 }
             ]
         },
@@ -271,7 +279,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hFOr9nPyWt4C",
             "num_citations": 4,
-            "citedby_url": "/scholar?hl=en&cites=8974637943734706401",
+            "citedby_url": "/scholar?hl=en&num=20&cites=8974637943734706401",
             "cites_id": [
                 "8974637943734706401"
             ],
@@ -308,7 +316,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hC7cP41nSMkC",
             "num_citations": 2,
-            "citedby_url": "/scholar?hl=en&cites=7743941460708886334",
+            "citedby_url": "/scholar?hl=en&num=20&cites=7743941460708886334",
             "cites_id": [
                 "7743941460708886334"
             ],
@@ -421,8 +429,8 @@
     "i10index5y": 2,
     "cites_per_year": {
         "2020": 1,
-        "2021": 19,
-        "2022": 13
+        "2021": 18,
+        "2022": 14
     },
     "coauthors": [
         {
@@ -518,7 +526,7 @@
             "filled": [],
             "scholar_id": "ocJSFvUAAAAJ",
             "source": "CO_AUTHORS_LIST",
-            "name": "Ye Tian",
+            "name": "Ye E. Tian",
             "affiliation": "Mary Lugton Postdoctoral Research Fellow, University of Melbourne, Australia"
         },
         {
