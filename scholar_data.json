@@ -22,7 +22,7 @@
     ],
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.eneko-urunuela.com/",
-    "citedby": 33,
+    "citedby": 36,
     "publications": [
         {
             "container_type": "Publication",
@@ -40,7 +40,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 2,
+            "num_citations": 3,
             "citedby_url": "/scholar?hl=en&num=20&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -49,8 +49,7 @@
             "pub_url": "https://joss.theoj.org/papers/10.21105/joss.03669",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:pjNVMb-7KAMJ:scholar.google.com/",
             "cites_per_year": {
-                "2021": 1,
-                "2022": 1
+                "2022": 3
             },
             "mandates": [
                 {
@@ -123,7 +122,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
-            "num_citations": 12,
+            "num_citations": 13,
             "citedby_url": "/scholar?hl=en&num=20&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
@@ -133,17 +132,9 @@
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:RLDoUlwYPoQJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 5,
-                "2022": 7
+                "2022": 8
             },
             "mandates": [
-                {
-                    "agency": "Agence Nationale de la Recherche",
-                    "url_policy": "https://anr.fr/fileadmin/documents/2019/anr_depliant_science_ouverte_GB_100x210_final.pdf",
-                    "url_policy_cached": "/mandates/anr_fr-2021-02-13-en.pdf",
-                    "effective_date": "2019/1",
-                    "embargo": "6 months",
-                    "acknowledgement": " \u2026ANR-19-DATA-0025 \u2026"
-                },
                 {
                     "agency": "US National Institutes of Health",
                     "url_policy": "https://publicaccess.nih.gov/policy.htm",
@@ -151,6 +142,14 @@
                     "effective_date": "2008/4",
                     "embargo": "12 months",
                     "acknowledgement": " \u2026NIBIB NIH \u2026"
+                },
+                {
+                    "agency": "Agence Nationale de la Recherche",
+                    "url_policy": "https://anr.fr/fileadmin/documents/2019/anr_depliant_science_ouverte_GB_100x210_final.pdf",
+                    "url_policy_cached": "/mandates/anr_fr-2021-02-13-en.pdf",
+                    "effective_date": "2019/1",
+                    "embargo": "6 months",
+                    "acknowledgement": " \u2026ANR-19-DATA-0025 \u2026"
                 },
                 {
                     "agency": "European Commission",
@@ -178,7 +177,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 10,
+            "num_citations": 11,
             "citedby_url": "/scholar?hl=en&num=20&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
@@ -189,7 +188,7 @@
             "cites_per_year": {
                 "2020": 1,
                 "2021": 8,
-                "2022": 1
+                "2022": 2
             },
             "mandates": [
                 {
@@ -201,20 +200,20 @@
                     "acknowledgement": " \u2026Basque Government (BERC 2018-2021 and PIBA_2019_104 \u2026"
                 },
                 {
-                    "agency": "European Commission",
-                    "url_policy": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/agr-contr/general-mga_horizon-euratom_en.pdf",
-                    "url_policy_cached": "/mandates/horizon-europe-eu-2021-08-14-en.pdf",
-                    "effective_date": "2021/2",
-                    "embargo": "none",
-                    "acknowledgement": " \u2026European Union's Horizon 2020 research and innovation program (Marie Sk\u0142odowska-Curie grant agreement No. 713673) \u2026"
-                },
-                {
                     "agency": "US National Institutes of Health",
                     "url_policy": "https://publicaccess.nih.gov/policy.htm",
                     "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
                     "effective_date": "2008/4",
                     "embargo": "12 months",
                     "grant": "K12 HD073945"
+                },
+                {
+                    "agency": "European Commission",
+                    "url_policy": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/agr-contr/general-mga_horizon-euratom_en.pdf",
+                    "url_policy_cached": "/mandates/horizon-europe-eu-2021-08-14-en.pdf",
+                    "effective_date": "2021/2",
+                    "embargo": "none",
+                    "acknowledgement": " \u2026European Union's Horizon 2020 research and innovation program (Marie Sk\u0142odowska-Curie grant agreement No. 713673) \u2026"
                 }
             ]
         },
@@ -398,7 +397,7 @@
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:4JMBOYKVnBMC",
             "num_citations": 0,
-            "pub_url": "https://archive.ismrm.org/2019/0912.html",
+            "pub_url": "https://index.mirasmart.com/ISMRM2019/PDFfiles/0912.html",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:ciZxhv5HvHUJ:scholar.google.com/",
             "cites_per_year": {}
         },
@@ -422,15 +421,15 @@
         "available": 7,
         "not_available": 0
     },
-    "citedby5y": 33,
+    "citedby5y": 36,
     "hindex": 3,
     "hindex5y": 3,
     "i10index": 2,
     "i10index5y": 2,
     "cites_per_year": {
         "2020": 1,
-        "2021": 18,
-        "2022": 14
+        "2021": 17,
+        "2022": 18
     },
     "coauthors": [
         {
@@ -512,22 +511,6 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Stephen Jones",
             "affiliation": "Cleveland Clinic"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "LmnMR3MAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Andrew Zalesky",
-            "affiliation": "Engineering & Medicine, University of Melbourne, Australia"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "ocJSFvUAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Ye E. Tian",
-            "affiliation": "Mary Lugton Postdoctoral Research Fellow, University of Melbourne, Australia"
         },
         {
             "container_type": "Author",
@@ -640,6 +623,22 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Ross D. Markello",
             "affiliation": "Octave Bioscience"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "LmnMR3MAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Andrew Zalesky",
+            "affiliation": "Engineering & Medicine, University of Melbourne, Australia"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "ocJSFvUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Ye E. Tian",
+            "affiliation": "Mary Lugton Postdoctoral Fellow, University of Melbourne, Australia"
         }
     ]
 }
