@@ -35,18 +35,16 @@
                 "journal": "Journal of Open Source Software",
                 "volume": "6",
                 "number": "66",
-                "pages": "3669",
-                "abstract": "Functional magnetic resonance imaging (fMRI) is a popular method for in vivo neuroimaging. Modern fMRI sequences are often weighted towards the blood oxygen level dependent (BOLD) signal, which is closely linked to neuronal activity (Logothetis, 2002). This weighting is achieved by tuning several parameters to increase the BOLD-weighted signal contrast. One such parameter is \u201cTE,\u201d or echo time. TE is the amount of time elapsed between when protons are excited (the MRI signal source) and measured. Although the total measured signal magnitude decays with echo time, BOLD sensitivity increases (Silvennoinen et al., 2003). The optimal TE maximizes the BOLD signal weighting based on a number of factors, including several MRI scanner parameters (eg, field strength), imaged tissue composition (eg, grey vs. white matter), and proximity to air-tissue boundaries.Even as optimal TE values vary by brain region, most whole-brain fMRI scans are \u201csingleecho,\u201d where signal is collected at a fixed TE everywhere in the brain. This TE value is often based on either a value that is best on average across all brain regions or an optimised value for a specific region of interest (Peters et al., 2007; St\u00f6cker et al., 2006). Generally, these choices reflect a tradeoff between BOLD weighting, overall signal-to-noise ratio (SNR), and signal loss due to magnetic susceptibility artifacts. Further, for any TE with BOLD signal there is also susceptibility to contamination from noise sources including head motion, respiration, and cardiac pulsation (Caballero-Gaudes & Reynolds, 2017; Chang & Glover, 2009; Murphy et al., 2013; Power et al., 2018)."
+                "pages": "3669"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
             "num_citations": 3,
-            "citedby_url": "/scholar?hl=en&num=20&cites=227638211023025062",
+            "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
             ],
             "public_access": true,
-            "pub_url": "https://joss.theoj.org/papers/10.21105/joss.03669",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:pjNVMb-7KAMJ:scholar.google.com/",
             "cites_per_year": {
                 "2022": 3
@@ -70,18 +68,16 @@
                 "pub_year": 2021,
                 "citation": "arXiv preprint arXiv:2107.12026, 2021",
                 "author": "Eneko Uru\u00f1uela and Thomas AW Bolton and Dimitri Van De Ville and C\u00e9sar Caballero-Gaudes",
-                "journal": "arXiv preprint arXiv:2107.12026",
-                "abstract": "Deconvolution of the hemodynamic response is an important step to access short timescales of brain activity recorded by functional magnetic resonance imaging (fMRI). Albeit conventional deconvolution algorithms have been around for a long time (e.g., Wiener deconvolution), recent state-of-the-art methods based on sparsity-pursuing regularization are attracting increasing interest to investigate brain dynamics and connectivity. This technical note revisits the main concepts underlying two main methods, Paradigm Free Mapping and Total Activation, in the most accessible way. Despite their apparent differences, these methods are theoretically equivalent as they represent the synthesis and analysis sides of the same problem. We demonstrate this equivalence in practice with their best-available implementations using both simulations, with different signal-to-noise ratios, and experimental data of motor task and resting-state fMRI. We evaluate the parameter settings that lead to equivalent results, and showcase the potential of these algorithms compared to other widely-used approaches. This note is useful for practitioners interested in gaining a better understanding of state-of-the-art hemodynamic deconvolution, and who want to make use of them with the most efficient implementation."
+                "journal": "arXiv preprint arXiv:2107.12026"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:e5wmG9Sq2KIC",
             "num_citations": 1,
-            "citedby_url": "/scholar?hl=en&num=20&cites=10117778681508834011",
+            "citedby_url": "/scholar?hl=en&cites=10117778681508834011",
             "cites_id": [
                 "10117778681508834011"
             ],
             "public_access": true,
-            "pub_url": "https://arxiv.org/abs/2107.12026",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:26pawxqSaYwJ:scholar.google.com/",
             "cites_per_year": {
                 "2022": 1
@@ -117,18 +113,16 @@
                 "volume": "109",
                 "number": "11",
                 "pages": "1769-1775",
-                "publisher": "Cell Press",
-                "abstract": "Brainhack is an innovative meeting format that promotes scientific collaboration and education in an open, inclusive environment. This NeuroView describes the myriad benefits for participants and the research community and how Brainhacks complement conventional formats to augment scientific progress."
+                "publisher": "Cell Press"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
             "num_citations": 13,
-            "citedby_url": "/scholar?hl=en&num=20&cites=9529080646369587268",
+            "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
             ],
             "public_access": true,
-            "pub_url": "https://www.sciencedirect.com/science/article/pii/S0896627321002312",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:RLDoUlwYPoQJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 5,
@@ -136,20 +130,12 @@
             },
             "mandates": [
                 {
-                    "agency": "US National Institutes of Health",
-                    "url_policy": "https://publicaccess.nih.gov/policy.htm",
-                    "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
-                    "effective_date": "2008/4",
-                    "embargo": "12 months",
-                    "acknowledgement": " \u2026NIBIB NIH \u2026"
-                },
-                {
-                    "agency": "Agence Nationale de la Recherche",
-                    "url_policy": "https://anr.fr/fileadmin/documents/2019/anr_depliant_science_ouverte_GB_100x210_final.pdf",
-                    "url_policy_cached": "/mandates/anr_fr-2021-02-13-en.pdf",
-                    "effective_date": "2019/1",
+                    "agency": "UK Medical Research Council",
+                    "url_policy": "https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-OpenAccessPolicy.pdf",
+                    "url_policy_cached": "/mandates/ukri_uk-2021-02-13.pdf",
+                    "effective_date": "2013/4",
                     "embargo": "6 months",
-                    "acknowledgement": " \u2026ANR-19-DATA-0025 \u2026"
+                    "grant": "MR/M009041/1"
                 },
                 {
                     "agency": "European Commission",
@@ -158,6 +144,30 @@
                     "effective_date": "2021/2",
                     "embargo": "none",
                     "acknowledgement": " \u2026European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement no. 867458 \u2026"
+                },
+                {
+                    "agency": "US National Institutes of Health",
+                    "url_policy": "https://publicaccess.nih.gov/policy.htm",
+                    "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
+                    "effective_date": "2008/4",
+                    "embargo": "12 months",
+                    "grant": "U54 EB020406"
+                },
+                {
+                    "agency": "Wellcome Trust",
+                    "url_policy": "https://wellcome.org/grant-funding/guidance/open-access-guidance/open-access-policy",
+                    "url_policy_cached": "/mandates/wellcome_uk-2021-02-13.pdf",
+                    "effective_date": "2021/1",
+                    "embargo": "none",
+                    "acknowledgement": " \u2026Wellcome Trust/United Kingdom K00 MH122372/MH/NIMH \u2026"
+                },
+                {
+                    "agency": "Agence Nationale de la Recherche",
+                    "url_policy": "https://anr.fr/fileadmin/documents/2019/anr_depliant_science_ouverte_GB_100x210_final.pdf",
+                    "url_policy_cached": "/mandates/anr_fr-2021-02-13-en.pdf",
+                    "effective_date": "2019/1",
+                    "embargo": "6 months",
+                    "acknowledgement": " \u2026ANR-19-DATA-0025 \u2026"
                 }
             ]
         },
@@ -172,18 +182,16 @@
                 "journal": "NeuroImage",
                 "volume": "233",
                 "pages": "117914",
-                "publisher": "Academic Press",
-                "abstract": "Performing a BOLD functional MRI (fMRI) acquisition during breath-hold (BH) tasks is a non-invasive, robust method to estimate cerebrovascular reactivity (CVR). However, movement and breathing-related artefacts caused by the BH can substantially hinder CVR estimates due to their high temporal collinearity with the effect of interest, and attention has to be paid when choosing which analysis model should be applied to the data. In this study, we evaluate the performance of multiple analysis strategies based on lagged general linear models applied on multi-echo BOLD fMRI data, acquired in ten subjects performing a BH task during ten sessions, to obtain subject-specific CVR and haemodynamic lag estimates. The evaluated approaches range from conventional regression models, i.e. including drifts and motion timecourses as nuisance regressors, applied on single-echo or optimally-combined data, to more \u2026"
+                "publisher": "Academic Press"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
             "num_citations": 11,
-            "citedby_url": "/scholar?hl=en&num=20&cites=4562738519788536351",
+            "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
             ],
             "public_access": true,
-            "pub_url": "https://www.sciencedirect.com/science/article/pii/S1053811921001919",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:H8L8YoIaUj8J:scholar.google.com/",
             "cites_per_year": {
                 "2020": 1,
@@ -192,20 +200,20 @@
             },
             "mandates": [
                 {
-                    "agency": "Government of Spain",
-                    "url_policy": "https://www.boe.es/boe/dias/2011/06/02/pdfs/BOE-A-2011-9617.pdf",
-                    "url_policy_cached": "/mandates/boe_es-2021-02-13-es.pdf",
-                    "effective_date": "2011/6",
-                    "embargo": "12 months",
-                    "acknowledgement": " \u2026Basque Government (BERC 2018-2021 and PIBA_2019_104 \u2026"
-                },
-                {
                     "agency": "US National Institutes of Health",
                     "url_policy": "https://publicaccess.nih.gov/policy.htm",
                     "url_policy_cached": "/mandates/nih-2021-02-13.pdf",
                     "effective_date": "2008/4",
                     "embargo": "12 months",
                     "grant": "K12 HD073945"
+                },
+                {
+                    "agency": "Government of Spain",
+                    "url_policy": "https://www.boe.es/boe/dias/2011/06/02/pdfs/BOE-A-2011-9617.pdf",
+                    "url_policy_cached": "/mandates/boe_es-2021-02-13-es.pdf",
+                    "effective_date": "2011/6",
+                    "embargo": "12 months",
+                    "acknowledgement": " \u2026Basque Government (BERC 2018-2021 and PIBA_2019_104 \u2026"
                 },
                 {
                     "agency": "European Commission",
@@ -227,31 +235,21 @@
                 "author": "Eneko Uru\u00f1uela and Stefano Moia and C\u00e9sar Caballero-Gaudes",
                 "conference": "2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI)",
                 "pages": "1726-1729",
-                "publisher": "IEEE",
-                "abstract": "Current deconvolution algorithms for functional magnetic resonance imaging (fMRI) data are hindered by widespread signal changes arising from motion or physiological processes (e.g. deep breaths) that can be interpreted incorrectly as neuronal-related hemodynamic events. This work proposes a novel deconvolution approach that simultaneously estimates global signal fluctuations and neuronal-related activity with no prior information about the timings of the blood oxygenation level-dependent (BOLD) events by means of a low rank plus sparse decomposition algorithm. The performance of the proposed method is evaluated on simulated and experimental fMRI data, and compared with state-of-the-art sparsity-based deconvolution approaches and with a conventional analysis that is aware of the temporal model of the neuronal-related activity. We demonstrate that the novel low-rank and sparse paradigm free \u2026"
+                "publisher": "IEEE"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:R3hNpaxXUhUC",
             "num_citations": 2,
-            "citedby_url": "/scholar?hl=en&num=20&cites=586821217265377317",
+            "citedby_url": "/scholar?hl=en&cites=586821217265377317",
             "cites_id": [
                 "586821217265377317"
             ],
             "public_access": true,
-            "pub_url": "https://ieeexplore.ieee.org/abstract/document/9433821/",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:JeDDucnOJAgJ:scholar.google.com/",
             "cites_per_year": {
                 "2022": 2
             },
             "mandates": [
-                {
-                    "agency": "Government of Spain",
-                    "url_policy": "https://www.boe.es/boe/dias/2011/06/02/pdfs/BOE-A-2011-9617.pdf",
-                    "url_policy_cached": "/mandates/boe_es-2021-02-13-es.pdf",
-                    "effective_date": "2011/6",
-                    "embargo": "12 months",
-                    "acknowledgement": " \u2026Basque Government (BERC 2018-2021, PIBA 2019 104, PRE 2019 1 0054 \u2026"
-                },
                 {
                     "agency": "European Commission",
                     "url_policy": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/agr-contr/general-mga_horizon-euratom_en.pdf",
@@ -259,6 +257,14 @@
                     "effective_date": "2021/2",
                     "embargo": "none",
                     "acknowledgement": " \u2026European Union\u2019s Horizon 2020 research and innovation program (Marie Sk\u0142odowska-Curie grant agreement No. 713673) \u2026"
+                },
+                {
+                    "agency": "Government of Spain",
+                    "url_policy": "https://www.boe.es/boe/dias/2011/06/02/pdfs/BOE-A-2011-9617.pdf",
+                    "url_policy_cached": "/mandates/boe_es-2021-02-13-es.pdf",
+                    "effective_date": "2011/6",
+                    "embargo": "12 months",
+                    "acknowledgement": " \u2026Basque Government (BERC 2018-2021, PIBA 2019 104, PRE 2019 1 0054 \u2026"
                 }
             ]
         },
@@ -272,18 +278,16 @@
                 "author": "Eneko Uru\u00f1uela and Stephen Jones and Anna Crawford and Wanyong Shin and Sehong Oh and Mark Lowe and C\u00e9sar Caballero-Gaudes",
                 "conference": "2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
                 "pages": "1092-1095",
-                "publisher": "IEEE",
-                "abstract": "Neuronal-related activity can be estimated from functional magnetic resonance imaging (fMRI) data with no knowledge of the timings of blood oxygenation level-dependent (BOLD) events by means of deconvolution with regularized least-squares. This work proposes two improvements on the deconvolution algorithm of sparse paradigm free mapping (SPFM): a new formulation that enables the estimation of neuronal events with long, sustained activity; and the implementation of a subsampling approach based on stability selection that avoids the choice of any regularization parameter. The proposed method is evaluated on real fMRI data and compared with both the original SPFM algorithm and conventional analysis with a general linear model (GLM) that is aware of the temporal model of the neuronal-related activity. We demonstrate that the novel stability-based SPFM algorithm yields activation maps with higher \u2026"
+                "publisher": "IEEE"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hFOr9nPyWt4C",
             "num_citations": 4,
-            "citedby_url": "/scholar?hl=en&num=20&cites=8974637943734706401",
+            "citedby_url": "/scholar?hl=en&cites=8974637943734706401",
             "cites_id": [
                 "8974637943734706401"
             ],
             "public_access": true,
-            "pub_url": "https://ieeexplore.ieee.org/abstract/document/9176137/",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:4aAMAKlRjHwJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 3,
@@ -309,18 +313,16 @@
                 "citation": "Journal of Neural Engineering, 2020",
                 "author": "Thomas Bolton and Eneko Uru\u00f1uela and Ye Tian and Andrew Zalesky and C\u00e9sar Caballero-Gaudes and Dimitri Van De Ville",
                 "journal": "Journal of Neural Engineering",
-                "publisher": "IOP Publishing",
-                "abstract": "Accurate mapping of the functional interactions between remote brain areas with resting-state functional magnetic resonance imaging requires the quantification of their underlying dynamics. In conventional methodological pipelines, a spatial scale of interest is first selected and dynamic analysis then proceeds at this hypothesised level of complexity. If large-scale functional networks or states are studied, more local regional rearrangements are then not described, potentially missing important neurobiological information. Here, we propose a novel mathematical framework that jointly estimates resting-state functional networks and spatially more localised cross-regional modulations. To do so, the changes in activity of each brain region are modelled by a logistic regression including co-activation coefficients (reflective of network assignment, as they highlight simultaneous activations across areas) and causal interplays \u2026"
+                "publisher": "IOP Publishing"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hC7cP41nSMkC",
             "num_citations": 2,
-            "citedby_url": "/scholar?hl=en&num=20&cites=7743941460708886334",
+            "citedby_url": "/scholar?hl=en&cites=7743941460708886334",
             "cites_id": [
                 "7743941460708886334"
             ],
             "public_access": true,
-            "pub_url": "https://iopscience.iop.org/article/10.1088/1741-2552/aba55e/meta",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:Pgf5troBeGsJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 1,
@@ -345,13 +347,11 @@
                 "pub_year": 2019,
                 "citation": "Servicio de Publicaciones. Universidad de Navarra, 2019",
                 "author": "Eneko Uru\u00f1uela",
-                "publisher": "Servicio de Publicaciones. Universidad de Navarra",
-                "abstract": "This thesis presents a novel algorithm for the deconvolution of multi echo fMRI data with no prior information on the timings of the neuronal events. Based on previous work on the field, a new signal model is proposed in order to take the processing from a voxelwise analysis to an entire brain one. Different proximal operators have been studied for solving the optimisation problem present in the deconvolution, since it is an ill-posed inverse problem, and a novel method based on the stability selection procedure has been suggested to answer to the choice of the regularization parameter dilemma. The method takes advantage of the area under the curve (AUC) of the stability paths to avoid the selection of a single regularization parameter. An optimal approach for the thresholding of AUC timeseries is studied and different debiasing methods for removing the sparsity in prolonged events are presented. The results demonstrate that the MvMESPFM algorithm provides promising results when estimating neuronal-related events even on noisy data. Subject to being thoroughly tested on experimental data, testing conducted on simulated signals suggests that the tool could eventually be introduced to the processing pipelines of different research lines regarding fMRI data analysis."
+                "publisher": "Servicio de Publicaciones. Universidad de Navarra"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:qUcmZB5y_30C",
             "num_citations": 0,
-            "pub_url": "https://dadun.unav.edu/handle/10171/58374",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:k4reHddgQuUJ:scholar.google.com/",
             "cites_per_year": {}
         },
@@ -361,13 +361,11 @@
             "bib": {
                 "title": "Assessment of longitudinal cerebrovascular reactivity measurements based on breath-hold and resting state BOLD multi-echo fMRI",
                 "citation": "",
-                "author": "Stefano Moia and Rachael C Stickland and Maite Termenon and Eneko Uru\u00f1uela-Tremi\u00f1o and C\u00e9sar Caballero-Gaudes and Molly G Bright",
-                "abstract": "Cerebrovascular reactivity (CVR) is an important measure of vascular function, but true variability in CVR can be masked by numerous confounds. We explore the variability of CVR maps, extracted using breath-holding and resting state data, over 9 weekly scanning sessions. Our results show that CVR demonstrates robust spatial patterns that vary across known neural networks."
+                "author": "Stefano Moia and Rachael C Stickland and Maite Termenon and Eneko Uru\u00f1uela-Tremi\u00f1o and C\u00e9sar Caballero-Gaudes and Molly G Bright"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:r0BpntZqJG4C",
             "num_citations": 0,
-            "pub_url": "https://archive.ismrm.org/2020/3855.html",
             "cites_per_year": {}
         },
         {
@@ -376,13 +374,11 @@
             "bib": {
                 "title": "Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI",
                 "citation": "",
-                "author": "Stefano Moia and Maite Termenon and Eneko Uru\u00f1uela-Tremi\u00f1o and Rachael C Stickland and Molly G Bright and C\u00e9sar Caballero-Gaudes",
-                "abstract": "Cerebrovascular reactivity (CVR) is an emerging metric for quantifying vascular health. During a BOLD fMRI acquisition, breath-holding is a simple approach for increasing blood CO 2 levels, thereby driving the vasodilatory CVR response. However, breath-holding is associated with increased head motion artifacts, which can confound our estimates of CVR. We demonstrate that multi-echo BOLD fMRI acquisitions, in conjunction with denoising with multi-echo independent component analysis approaches, enable better differentiation of true vasodilatory responses and improve the reliability of CVR estimates across multiple sessions in highly sampled individuals."
+                "author": "Stefano Moia and Maite Termenon and Eneko Uru\u00f1uela-Tremi\u00f1o and Rachael C Stickland and Molly G Bright and C\u00e9sar Caballero-Gaudes"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:j3f4tGmQtD8C",
             "num_citations": 0,
-            "pub_url": "https://archive.ismrm.org/2020/3829.html",
             "cites_per_year": {}
         },
         {
@@ -391,13 +387,11 @@
             "bib": {
                 "title": "Deconvolution of multi-echo functional MRI data with Multivariate Multi-Echo Sparse Paradigm Free Mapping",
                 "citation": "",
-                "author": "Eneko Uru\u00f1uela-Tremi\u00f1o and Stefano Moia and Javier Gonzalez-Castillo and C\u00e9sar Caballero-Gaudes",
-                "abstract": "This work introduces a novel multivariate deconvolution method to blindly estimate neuronal-related-signal changes in multi-echo fMRI data without prior knowledge of their timings. In contrast to current voxel-based approaches, this algorithm simultaneously deconvolves all brain\u2019s voxel time series and uses structured spatio-temporal regularization to improve the quality of the estimates. Besides, it employs stability selection procedures to overcome the selection of regularization parameters of the deconvolution problem. We evaluate its performance in multiple realistic simulations, showing its potential to blindly detect BOLD events in paradigms when no prior information can be obtained."
+                "author": "Eneko Uru\u00f1uela-Tremi\u00f1o and Stefano Moia and Javier Gonzalez-Castillo and C\u00e9sar Caballero-Gaudes"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:4JMBOYKVnBMC",
             "num_citations": 0,
-            "pub_url": "https://index.mirasmart.com/ISMRM2019/PDFfiles/0912.html",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:ciZxhv5HvHUJ:scholar.google.com/",
             "cites_per_year": {}
         },
@@ -407,13 +401,11 @@
             "bib": {
                 "title": "Fingerprinting individual subjects from resting-state functional magnetic resonance imaging head motion",
                 "citation": "",
-                "author": "Thomas Bolton and Stefano Moia and Eneko Urunuela and Dimitri Van De Ville and C\u00e9sar Caballero-Gaudes",
-                "abstract": "Head motion during resting-state functional magnetic resonance imaging acquisitions is an infamous confound requiring dedicated preprocessing steps. Here, we probed the level of complexity at which motion should be characterised. To do so, we designed a clustering-based approach that determines the spatio-temporal motion patterns that can fingerprint an individual. We found that each subject's motion could be fingerprinted at a different space/time granularity, some more easily than others. Our results call for refined motion descriptions in which space and time should not be over-simplified, and point towards the relevance of motion-related fingerprints as an individual's functional trait."
+                "author": "Thomas Bolton and Stefano Moia and Eneko Urunuela and Dimitri Van De Ville and C\u00e9sar Caballero-Gaudes"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:RHpTSmoSYBkC",
             "num_citations": 0,
-            "pub_url": "https://archive.ismrm.org/2020/3865.html",
             "cites_per_year": {}
         }
     ],
@@ -638,7 +630,7 @@
             "scholar_id": "ocJSFvUAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Ye E. Tian",
-            "affiliation": "Mary Lugton Postdoctoral Fellow, University of Melbourne, Australia"
+            "affiliation": "Mary Lugton Postdoc Research Fellow, University of Melbourne, Australia"
         }
     ]
 }
