@@ -1,4 +1,5 @@
 import { Link } from "@remix-run/react";
+import { Award } from "react-feather";
 
 export default function ConferencesCard({ data }: { data: any }) {
   return (
@@ -25,11 +26,19 @@ export default function ConferencesCard({ data }: { data: any }) {
                     <p className="font-light text-sm leading-tight text-gray-600 dark:text-gray-200">
                       {abstract["conference"]} ({abstract["year"]})
                     </p>
-                    {
-                      <p className="font-light text-rose-500 text-sm leading-tight">
-                        {abstract["awards"]}
-                      </p>
-                    }
+                    {abstract["awards"] ? (
+                      <div className="flex flex-row">
+                        {/* Show awards separated with comma if there are more than one */}
+                        <Award className="text-rose-500 mr-1" size={16} />
+                        <p className="font-medium text-rose-500 text-sm leading-tight">
+                          {abstract["awards"].length > 1
+                            ? abstract["awards"].join(", ")
+                            : abstract["awards"][0]}
+                        </p>
+                      </div>
+                    ) : (
+                      ""
+                    )}
                   </div>
                 </div>
               </a>
