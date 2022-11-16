@@ -14,7 +14,7 @@ export async function loader() {
   const conferences_data = await conferences_res.json();
 
   const talks_res = await fetch(
-    "https://raw.githubusercontent.com/eurunuela/eurunuela.github.io/main/conferences_data.json"
+    "https://raw.githubusercontent.com/eurunuela/eurunuela.github.io/main/talks_data.json"
   );
   const talks_data = await talks_res.json();
 

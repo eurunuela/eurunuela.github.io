@@ -12,11 +12,11 @@ export default function GitHubCard({ data }: { data: any }) {
       >
         <div className="block py-6 px-10 rounded-lg shadow-lg bg-white dark:bg-gray-800 h-full ">
           <div className="flex justify-between mb-4">
-            <h5 className="dark:text-emerald-400 text-emerald-500 text-2xl leading-tight font-bold">
+            <h5 className="dark:text-violet-400 text-violet-600 text-2xl leading-tight font-bold">
               Featured projects
             </h5>
             <div className="flex justify-end items-center">
-              <GitHub className="dark:text-emerald-400 text-emerald-500 -mr-0.5 " />
+              <GitHub className="dark:text-violet-400 text-violet-600 -mr-0.5 " />
             </div>
           </div>
           {github_data.map((repo, index) => (
@@ -24,7 +24,7 @@ export default function GitHubCard({ data }: { data: any }) {
               <a
                 href={repo["node"]["url"]}
                 target="_blank"
-                className="text-gray-800 dark:text-white dark:hover:text-emerald-400 hover:text-emerald-500 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
+                className="text-gray-800 dark:text-white dark:hover:text-violet-400 hover:text-violet-600 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
               >
                 <div className="flex justify-between my-4">
                   <div>
