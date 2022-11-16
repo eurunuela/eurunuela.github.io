@@ -13,6 +13,11 @@ export async function loader() {
   );
   const conferences_data = await conferences_res.json();
 
+  const talks_res = await fetch(
+    "https://raw.githubusercontent.com/eurunuela/eurunuela.github.io/main/talks_data.json"
+  );
+  const talks_data = await talks_res.json();
+
   const github_res = await fetch(
     "https://raw.githubusercontent.com/eurunuela/eurunuela.github.io/main/github_data.json"
   );
@@ -24,6 +29,7 @@ export async function loader() {
   return {
     scholar_data,
     conferences_data,
+    talks_data,
     github_data,
     typefully_data,
   };

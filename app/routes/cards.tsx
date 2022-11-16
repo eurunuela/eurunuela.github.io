@@ -5,9 +5,16 @@ import GitHubCard from "./cards/githubCard";
 import TwitterCard from "./cards/twitterCard";
 import ContactCard from "./cards/contactCard";
 import InterestsCard from "./cards/interestsCard";
+import TalksCard from "./cards/talksCard";
 
 export default function Cards({ data }: { data: any }) {
-  const { scholar_data, conferences_data, github_data, typefully_data } = data;
+  const {
+    scholar_data,
+    conferences_data,
+    talks_data,
+    github_data,
+    typefully_data,
+  } = data;
 
   return (
     <div>
@@ -17,11 +24,14 @@ export default function Cards({ data }: { data: any }) {
         <ConferencesCard data={conferences_data} />
       </div>
       <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
+        <TalksCard data={talks_data} />
         <GitHubCard data={github_data} />
-        <TwitterCard data={typefully_data} />
       </div>
       <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
+        <TwitterCard data={typefully_data} />
         <InterestsCard />
+      </div>
+      <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
         <ContactCard />
       </div>
     </div>
