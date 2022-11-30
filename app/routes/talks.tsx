@@ -1,5 +1,5 @@
 import { useLoaderData } from "remix";
-import { Mic } from "react-feather";
+import { Image, Mic } from "react-feather";
 
 export async function loader() {
   const talks_res = await fetch(
@@ -14,8 +14,6 @@ export async function loader() {
 
 export default function talks() {
   const { talks_data } = useLoaderData();
-
-  console.log(talks_data);
 
   // Get years from talks data in key "date" with format "Month day, year"
   const years = talks_data["talks"].map((talk) => talk.date.split(" ")[2]);
@@ -57,7 +55,7 @@ export default function talks() {
                         </div>
                         <div>
                           <h4 className=" leading-tight font-medium mb-1">
-                            {talk["title"]}
+                            <span>{talk["title"]}</span>
                           </h4>
                           <p className="font-light text-sm leading-tight mb-1 dark:text-gray-200">
                             <i key={index}>
@@ -69,6 +67,22 @@ export default function talks() {
                           <p className="font-light text-sm leading-tight mb-1 dark:text-gray-200">
                             {talk["date"]}.
                           </p>
+                          {/* Show link to slides if available */}
+                          {talk["slides"] ? (
+                            //* If talk["slides"] exist then make the title hoverable and open link on new tab */
+                            <div className="flex flex-row">
+                              <a
+                                href={talk["slides"]}
+                                target="_blank"
+                                className="text-emerald-500 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-600 flex flex-row hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
+                              >
+                                <Image className="mr-1" size={16} />
+                                <p className="font-medium text-sm leading-tight mb-1 ">
+                                  Slides available.
+                                </p>
+                              </a>
+                            </div>
+                          ) : null}
                         </div>
                       </div>
                     </div>
