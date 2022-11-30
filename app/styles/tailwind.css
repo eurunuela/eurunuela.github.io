@@ -1043,6 +1043,11 @@ video {
   background-color: rgba(228, 228, 231, var(--tw-bg-opacity));
 }
 
+.hover\:text-emerald-500:hover {
+  --tw-text-opacity: 1;
+  color: rgba(16, 185, 129, var(--tw-text-opacity));
+}
+
 .hover\:text-gray-800:hover {
   --tw-text-opacity: 1;
   color: rgba(39, 39, 42, var(--tw-text-opacity));
@@ -1066,11 +1071,6 @@ video {
 .hover\:text-blue-500:hover {
   --tw-text-opacity: 1;
   color: rgba(59, 130, 246, var(--tw-text-opacity));
-}
-
-.hover\:text-emerald-500:hover {
-  --tw-text-opacity: 1;
-  color: rgba(16, 185, 129, var(--tw-text-opacity));
 }
 
 .hover\:text-sky-500:hover {
@@ -1141,6 +1141,11 @@ video {
     background-color: rgba(24, 24, 27, var(--tw-bg-opacity));
   }
 
+  .dark\:hover\:text-emerald-500:hover {
+    --tw-text-opacity: 1;
+    color: rgba(16, 185, 129, var(--tw-text-opacity));
+  }
+
   .dark\:hover\:text-white:hover {
     --tw-text-opacity: 1;
     color: rgba(255, 255, 255, var(--tw-text-opacity));
@@ -1164,16 +1169,6 @@ video {
   .dark\:hover\:text-emerald-400:hover {
     --tw-text-opacity: 1;
     color: rgba(52, 211, 153, var(--tw-text-opacity));
-  }
-
-  .hover\:dark\:text-emerald-500:hover {
-    --tw-text-opacity: 1;
-    color: rgba(16, 185, 129, var(--tw-text-opacity));
-  }
-
-  .dark\:hover\:text-emerald-500:hover {
-    --tw-text-opacity: 1;
-    color: rgba(16, 185, 129, var(--tw-text-opacity));
   }
 }
 

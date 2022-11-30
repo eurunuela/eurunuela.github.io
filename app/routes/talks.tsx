@@ -1,5 +1,5 @@
 import { useLoaderData } from "remix";
-import { Mic } from "react-feather";
+import { Image, Mic } from "react-feather";
 
 export async function loader() {
   const talks_res = await fetch(
@@ -55,19 +55,7 @@ export default function talks() {
                         </div>
                         <div>
                           <h4 className=" leading-tight font-medium mb-1">
-                            {talk["slides"] ? (
-                              //* If talk["slides"] exist then make the title hoverable and open link on new tab */
-                              <a
-                                href={talk["slides"]}
-                                target="_blank"
-                                className="hover:text-emerald-500 dark:hover:text-emerald-500"
-                              >
-                                <span>{talk["title"]}</span>
-                              </a>
-                            ) : (
-                              //* If talk["slides"] doesn't exist then make the title not hoverable *//
-                              <span>{talk["title"]}</span>
-                            )}
+                            <span>{talk["title"]}</span>
                           </h4>
                           <p className="font-light text-sm leading-tight mb-1 dark:text-gray-200">
                             <i key={index}>
@@ -79,6 +67,25 @@ export default function talks() {
                           <p className="font-light text-sm leading-tight mb-1 dark:text-gray-200">
                             {talk["date"]}.
                           </p>
+                          {/* Show link to slides if available */}
+                          {talk["slides"] ? (
+                            //* If talk["slides"] exist then make the title hoverable and open link on new tab */
+                            <div className="flex flex-row">
+                              <a
+                                href={talk["slides"]}
+                                target="_blank"
+                                className="flex flex-row"
+                              >
+                                <Image
+                                  className="dark:text-emerald-400 text-emerald-500 mr-1"
+                                  size={16}
+                                />
+                                <p className="font-medium text-sm leading-tight mb-1 text-emerald-500 dark:text-emerald-400">
+                                  Slides available.
+                                </p>
+                              </a>
+                            </div>
+                          ) : null}
                         </div>
                       </div>
                     </div>
