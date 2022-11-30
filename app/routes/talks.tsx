@@ -15,8 +15,6 @@ export async function loader() {
 export default function talks() {
   const { talks_data } = useLoaderData();
 
-  console.log(talks_data);
-
   // Get years from talks data in key "date" with format "Month day, year"
   const years = talks_data["talks"].map((talk) => talk.date.split(" ")[2]);
   const years_unique = [...new Set(years)];
@@ -57,7 +55,19 @@ export default function talks() {
                         </div>
                         <div>
                           <h4 className=" leading-tight font-medium mb-1">
-                            {talk["title"]}
+                            {talk["slides"] ? (
+                              //* If talk["slides"] exist then make the title hoverable and open link on new tab */
+                              <a
+                                href={talk["slides"]}
+                                target="_blank"
+                                className="hover:text-emerald-500 dark:hover:text-emerald-500"
+                              >
+                                <span>{talk["title"]}</span>
+                              </a>
+                            ) : (
+                              //* If talk["slides"] doesn't exist then make the title not hoverable *//
+                              <span>{talk["title"]}</span>
+                            )}
                           </h4>
                           <p className="font-light text-sm leading-tight mb-1 dark:text-gray-200">
                             <i key={index}>
