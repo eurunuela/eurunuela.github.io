@@ -1083,6 +1083,11 @@ video {
   color: rgba(63, 63, 70, var(--tw-text-opacity));
 }
 
+.hover\:text-emerald-700:hover {
+  --tw-text-opacity: 1;
+  color: rgba(4, 120, 87, var(--tw-text-opacity));
+}
+
 .hover\:no-underline:hover {
   text-decoration: none;
 }
@@ -1169,6 +1174,11 @@ video {
   .dark\:hover\:text-emerald-400:hover {
     --tw-text-opacity: 1;
     color: rgba(52, 211, 153, var(--tw-text-opacity));
+  }
+
+  .dark\:hover\:text-emerald-600:hover {
+    --tw-text-opacity: 1;
+    color: rgba(5, 150, 105, var(--tw-text-opacity));
   }
 }
 

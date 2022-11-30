@@ -74,13 +74,10 @@ export default function talks() {
                               <a
                                 href={talk["slides"]}
                                 target="_blank"
-                                className="flex flex-row"
+                                className="text-emerald-500 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-600 flex flex-row hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
                               >
-                                <Image
-                                  className="dark:text-emerald-400 text-emerald-500 mr-1"
-                                  size={16}
-                                />
-                                <p className="font-medium text-sm leading-tight mb-1 text-emerald-500 dark:text-emerald-400">
+                                <Image className="mr-1" size={16} />
+                                <p className="font-medium text-sm leading-tight mb-1 ">
                                   Slides available.
                                 </p>
                               </a>

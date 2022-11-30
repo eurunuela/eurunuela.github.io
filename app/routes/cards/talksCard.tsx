@@ -18,9 +18,22 @@ export default function TalksCard({ data }: { data: any }) {
               <a className="dark:hover:text-emerald-400 hover:text-emerald-500 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit">
                 <div className="flex justify-between my-4">
                   <div>
-                    <p className=" leading-tight font-medium">
-                      {talk["title"]}
-                    </p>
+                    {/* If the talk has slides, open the link in new tab */}
+                    {talk["slides"] ? (
+                      <a
+                        href={talk["slides"]}
+                        target="_blank"
+                        className="hover:text-emerald-500 dark:hover:text-emerald-400 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
+                      >
+                        <p className=" leading-tight font-medium">
+                          {talk["title"]}
+                        </p>
+                      </a>
+                    ) : (
+                      <p className=" leading-tight font-medium">
+                        {talk["title"]}
+                      </p>
+                    )}
                     <p className="font-light text-sm leading-tight text-gray-600 dark:text-gray-200">
                       {talk["location"]}.
                     </p>
