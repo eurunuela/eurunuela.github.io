@@ -18,7 +18,13 @@ export default function TwitterCard({ data }: { data: any }) {
             </div>
           </div>
           {data["items"].slice(0, 3).map((thread, index) => (
-            <div key={index} className="border-b-1 border-gray-500 my-6">
+            // Apply top border to all but the first thread
+            <div
+              key={index}
+              className={`${
+                index === 0 ? "" : "my-6 border-t border-gray-400 "
+              } my-6`}
+            >
               <a
                 href={thread["link"]}
                 target="_blank"
