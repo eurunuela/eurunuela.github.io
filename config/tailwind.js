@@ -25,6 +25,9 @@ module.exports = {
       teal: colors.teal,
       lime: colors.lime,
     },
+    borderWidth: {
+      DEFAULT: "0.5px",
+    },
     extend: {
       scale: {
         101: "1.01",
