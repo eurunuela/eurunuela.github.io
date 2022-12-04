@@ -1,3 +1,4 @@
+import { Mic } from "react-feather";
 import { Link } from "@remix-run/react";
 export default function TalksCard({ data }: { data: any }) {
   return (
@@ -12,8 +13,11 @@ export default function TalksCard({ data }: { data: any }) {
             <h5 className="dark:text-emerald-400 text-emerald-500 text-2xl leading-tight font-bold">
               Talks
             </h5>
+            <div className="flex justify-end items-center">
+              <Mic className="dark:text-emerald-400 text-emerald-500 -mr-0.5" />
+            </div>
           </div>
-          {data["talks"].slice(0, 4).map((talk, index) => (
+          {data["talks"].slice(0, 5).map((talk, index) => (
             <div key={index} className="border-b-1 border-gray-500 mb-3">
               <a className="dark:hover:text-emerald-400 hover:text-emerald-500 hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit">
                 <div className="flex justify-between my-4">

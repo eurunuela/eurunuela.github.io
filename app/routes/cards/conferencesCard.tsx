@@ -1,5 +1,5 @@
 import { Link } from "@remix-run/react";
-import { Award } from "react-feather";
+import { Award, Calendar } from "react-feather";
 
 export default function ConferencesCard({ data }: { data: any }) {
   return (
@@ -14,6 +14,9 @@ export default function ConferencesCard({ data }: { data: any }) {
             <h5 className="text-rose-500 text-2xl leading-tight font-bold">
               Conference abstracts
             </h5>
+            <div className="flex justify-end items-center">
+              <Calendar className="text-rose-500 -mr-0.5" />
+            </div>
           </div>
           {data["abstracts"].slice(0, 7).map((abstract, index) => (
             <div key={index} className="border-b-1 border-gray-500 mb-3">
