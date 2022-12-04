@@ -131,8 +131,8 @@ function Document({
       <body className="font-inter">
         {children}
         <ScrollRestoration />
-        <Scripts />
         <script src="https://literal.club/js/widget.js"></script>
+        <Scripts />
         {process.env.NODE_ENV === "development" && <LiveReload />}
       </body>
     </html>
