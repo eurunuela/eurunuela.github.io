@@ -25,7 +25,6 @@ export default function BooksCard() {
                 status="IS_READING"
                 layout="list"
               ></div>
-              <script src="https://literal.club/js/widget.js"></script>
             </div>
           </div>
         </div>

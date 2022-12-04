@@ -22,6 +22,8 @@ module.exports = {
       orange: colors.orange,
       red: colors.red,
       rose: colors.rose,
+      teal: colors.teal,
+      lime: colors.lime,
     },
     extend: {
       scale: {

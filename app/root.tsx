@@ -64,8 +64,11 @@ export function ErrorBoundary({ error }: { error: Error }) {
           <p>{error.message}</p>
           <hr />
           <p>
-            Hey, developer, you should replace this with what you want your
-            users to see.
+            Please let me know{" "}
+            <a href="mailto:e.urunuela@bcbl.eu" target="_blank">
+              via email
+            </a>
+            .
           </p>
         </div>
       </Layout>
@@ -129,6 +132,7 @@ function Document({
         {children}
         <ScrollRestoration />
         <Scripts />
+        <script src="https://literal.club/js/widget.js"></script>
         {process.env.NODE_ENV === "development" && <LiveReload />}
       </body>
     </html>

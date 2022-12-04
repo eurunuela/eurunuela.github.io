@@ -1,4 +1,4 @@
-import { Code, Edit, MapPin, Terminal, Users } from "react-feather";
+import { Code, Tag, MapPin, Terminal, Users } from "react-feather";
 
 export default function InterestsCard() {
   return (
@@ -6,8 +6,11 @@ export default function InterestsCard() {
       <div className="block py-6 px-10 rounded-lg shadow-lg bg-white dark:bg-gray-800 h-full w-full ">
         <div className="flex justify-between mb-4">
           <h5 className="text-pink-500 dark:text-pink-400 text-2xl leading-tight font-bold">
-            My interests 🤔
+            My interests
           </h5>
+          <div className="flex justify-end items-center">
+            <Tag className="text-pink-500 dark:text-pink-400 -mr-0.5" />
+          </div>
         </div>
         <div className="border-b-1 border-gray-500 mb-3">
           <div className="flex flex-col justify-between my-4">
@@ -24,25 +27,6 @@ export default function InterestsCard() {
                       deep learning
                     </span>{" "}
                     projects.
-                  </p>
-                </div>
-              </li>
-              <li className="my-2">
-                <div className="grid grid-cols-10 gap-4">
-                  <Edit
-                    className="text-pink-500 dark:text-pink-400 mr-4 mt-0.5"
-                    size={20}
-                  />
-                  <p className="col-span-9">
-                    Making the most of my notes on{" "}
-                    <a
-                      className="text-pink-500 dark:text-pink-400 font-medium hover:text-pink-700 dark:hover:text-pink-600"
-                      href="https://roamresearch.com"
-                      target="_blank"
-                    >
-                      Roam Research
-                    </a>
-                    .
                   </p>
                 </div>
               </li>
