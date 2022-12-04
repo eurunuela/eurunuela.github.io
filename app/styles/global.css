@@ -244,4 +244,30 @@ input:where([type="search"]) {
       radial-gradient(at 10% 1%, rgb(3, 105, 161) 0, transparent 45%),
       radial-gradient(at 30% 42%, rgb(79, 70, 229) 0, transparent 100%);
   }
+
+  #literal-widget .literal-book-item__title {
+    color: white !important;
+  }
+
+  #literal-widget .literal-book-item__authors {
+    color: rgba(228, 228, 231) !important;
+  }
+}
+
+#literal-widget a:hover {
+  text-decoration: none;
+}
+
+#literal-widget .literal-book-item__title {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+  font-weight: 500 !important;
+}
+
+#literal-widget a:hover .literal-book-item__title {
+  color: rgba(251, 146, 60) !important;
+}
+
+#literal-widget .literal-book-item__authors {
+  font-weight: 300 !important;
 }

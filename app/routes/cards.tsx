@@ -6,6 +6,7 @@ import TwitterCard from "./cards/twitterCard";
 import ContactCard from "./cards/contactCard";
 import InterestsCard from "./cards/interestsCard";
 import TalksCard from "./cards/talksCard";
+import BooksCard from "./cards/booksCard";
 
 export default function Cards({ data }: { data: any }) {
   const {
@@ -29,9 +30,10 @@ export default function Cards({ data }: { data: any }) {
       </div>
       <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
         <TwitterCard data={typefully_data} />
-        <InterestsCard />
+        <BooksCard />
       </div>
       <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
+        <InterestsCard />
         <ContactCard />
       </div>
     </div>

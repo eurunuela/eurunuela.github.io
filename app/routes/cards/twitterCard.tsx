@@ -17,7 +17,7 @@ export default function TwitterCard({ data }: { data: any }) {
               <Twitter className="text-sky-500 -mr-0.5" />
             </div>
           </div>
-          {data["items"].slice(0, 2).map((thread, index) => (
+          {data["items"].slice(0, 3).map((thread, index) => (
             <div key={index} className="border-b-1 border-gray-500 my-6">
               <a
                 href={thread["link"]}
@@ -48,7 +48,7 @@ export default function TwitterCard({ data }: { data: any }) {
                         dangerouslySetInnerHTML={{
                           __html: thread["content"]
                             .split("<br>")
-                            .slice(0, 5)
+                            .slice(0, 6)
                             .join("<br>"),
                         }}
                       />
