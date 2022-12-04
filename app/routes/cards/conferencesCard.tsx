@@ -12,7 +12,7 @@ export default function ConferencesCard({ data }: { data: any }) {
         <div className="block py-6 px-10 rounded-lg shadow-lg bg-white dark:bg-gray-800 h-full ">
           <div className="flex justify-between mb-4">
             <h5 className="text-rose-500 text-2xl leading-tight font-bold">
-              Conference abstracts
+              Conferences
             </h5>
             <div className="flex justify-end items-center">
               <Calendar className="text-rose-500 -mr-0.5" />
