@@ -259,7 +259,7 @@ input:where([type="search"]) {
 }
 
 #literal-widget .literal-book-item__title {
-  font-size: 0.875rem !important;
+  font-size: 1rem !important;
   line-height: 1.25rem !important;
   font-weight: 500 !important;
 }

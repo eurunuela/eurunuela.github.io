@@ -16,7 +16,7 @@ export default function ContactCard() {
             <AtSign className="text-teal-700 dark:text-teal-300 -mr-0.5" />
           </div>
         </div>
-        <div className="grid mt-8 grid-cols-1 gap-4 ">
+        <div className="grid mt-10 grid-cols-1 gap-4 ">
           <TwitterButton />
           <EmailButton />
           <LinkedinButton />
