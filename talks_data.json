@@ -3,13 +3,15 @@
         {
             "title": "Denoising of multi-echo fMRI data with tedana",
             "location": "MRI Together (online)",
-            "date": "Dec 8th, 2022"
+            "date": "Dec 8th, 2022",
+            "slides" : "https://eurunuela.github.io/tedana_tutorial_MRITogether_2022/"
         },
         {
             "title": "tedana: Analysis of echo-time dependent fMRI data",
             "location": "MRI Together (online)",
             "date": "Dec 6th, 2022",
-            "slides": "https://eurunuela.github.io/tedana_MRITogether_2022/"
+            "slides": "https://eurunuela.github.io/tedana_MRITogether_2022/",
+            "video" : "https://www.youtube.com/watch?v=4wsEodepyI8"
         },
         {
             "title": "Brainhack Donostia 2022",
