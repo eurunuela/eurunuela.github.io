@@ -29,7 +29,6 @@ export default function BooksCard() {
           </div>
         </div>
       </a>
-      <script src="https://literal.club/js/widget.js"></script>
     </div>
   );
 }
