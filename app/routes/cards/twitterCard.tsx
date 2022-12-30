@@ -6,7 +6,7 @@ export default function TwitterCard({ data }: { data: any }) {
       <a
         href="https://typefully.com/eurunuela"
         target="_blank"
-        className="hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit"
+        className="hover:no-underline hover:decoration-inherit active:no-underline active:decoration-inherit focus:no-underline focus:decoration-inherit h-full w-full"
       >
         <div className="block py-6 px-10 rounded-lg shadow-lg bg-white dark:bg-gray-800 h-full w-full ">
           <div className="flex justify-between">
