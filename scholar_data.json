@@ -22,8 +22,54 @@
     ],
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.eneko-urunuela.com/",
-    "citedby": 47,
+    "citedby": 51,
     "publications": [
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Automatic detection of spatio-temporal patterns of interictal epileptic activity with fMRI",
+                "pub_year": 2022,
+                "citation": "[Conference Oral Scientific Session] Joint Annual Meeting ISMRM-ESMRMB \u2026, 2022",
+                "author": "Cristina Tob\u00edas and Eneko Uru\u00f1uela and Vicente Ferrer-Gallardo and Hannah Goldberg and Christine Engelman and Mark Lowe and S Jones and C\u00e9sar Caballero-Gaudes",
+                "journal": "[Conference Oral Scientific Session] Joint Annual Meeting ISMRM-ESMRMB & ISMRT 31st Annual Meeting",
+                "abstract": "We propose a novel methodology to identify spatio-temporal patterns of interictal epileptic activity in refractory epileptic patients using only BOLD functional MRI. It is based on clustering the activity-inducing signal deconvolved from the fMRI data with the Infomap algorithm. The proposed approach was validated on data acquired during a finger tapping task, and evaluated in four epileptic patients scanned at 7T. This method obtained activation maps that were concordant with the results obtained with EEG-informed GLM and MEG-based dipole source localization in 3 out of 4 patients, demonstrating its potential for mapping epileptic activity based only on fMRI data."
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:blknAaTinKkC",
+            "num_citations": 1,
+            "citedby_url": "/scholar?hl=en&cites=9554976640422936996",
+            "cites_id": [
+                "9554976640422936996"
+            ],
+            "pub_url": "https://archive.ismrm.org/2022/0585.html",
+            "cites_per_year": {
+                "2022": 1
+            }
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Resting state fluctuations in BOLD fMRI might not systematically reflect measures of cerebrovascular physiology between or within subjects",
+                "pub_year": 2022,
+                "citation": "International Society of Magnetic Resonance in Medicine (ISMRM) 31st Annual \u2026, 2022",
+                "author": "Stefano Moia and Gang Chen and Eneko Uru\u00f1uela and R Stickland and Maite Termenon and C\u00e9sar Caballero-Gaudes and M Bright",
+                "journal": "International Society of Magnetic Resonance in Medicine (ISMRM) 31st Annual Meeting & Exhibition. London, England, UK",
+                "abstract": "Resting State Fluctuations (RSF) metrics are frequently associated with vascular and physiological factors, to the point of being suggested as alternative estimates of cerebrovascular reactivity (CVR) and as tools for fMRI data calibration. Using a densely sampled fMRI dataset, we demonstrate high individual variability in the inter-session relationships between RSF metrics and CVR. Moreover, while physiological factors such as blood pressure show a significant relationship with CVR, they do not with common RSF metrics. These results indicate that RSF parameters might not be suitable alternatives for CVR, and may not properly account for inter-individual physiological variations in BOLD fMRI data."
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:JV2RwH3_ST0C",
+            "num_citations": 1,
+            "citedby_url": "/scholar?hl=en&cites=9088930937008107633",
+            "cites_id": [
+                "9088930937008107633"
+            ],
+            "pub_url": "https://archive.ismrm.org/2022/0401.html",
+            "cites_per_year": {
+                "2022": 1
+            }
+        },
         {
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
@@ -34,7 +80,7 @@
                 "author": "Eneko Uru\u00f1uela and Javier Gonzalez-Castillo and Charles Zheng and Peter Bandettini and Cesar Caballero Gaudes",
                 "journal": "bioRxiv",
                 "publisher": "Cold Spring Harbor Laboratory",
-                "abstract": "Blind estimation of neuronal-related activity from functional magnetic resonance imaging (fMRI) data of resting-state, naturalistic paradigms or clinical conditions can be performed with paradigm free analysis methods such as hemodynamic deconvolution. These methods usually employ a linear hemodynamic convolution model and sparsity-pursuing regularized estimation techniques to detect single-trial blood oxygenation level-dependent (BOLD) responses in the brain. Recently, a deconvolution algorithm tailored for multi-echo fMRI data, named multi-echo sparse paradigm free mapping (ME-SPFM), exploited the linear dependence of the BOLD percent signal change on the echo time (TE) to compute voxel-wise estimates of the changes in the apparent transverse relaxation (\u0394R*2) associated with brain activity, achieving superior performance than its single-echo counterparts. In this work, we propose a novel multivariate formulation that operates at the whole brain level, considering all the voxels as a group in a mixed-norm regularization term to add spatial information in the deconvolution. In addition, we introduce a stability selection procedure that operates voxelwise and avoids the critical selection of the regularization parameter for the deconvolution. This procedure allow us to define a novel metric based on the area under the curve (AUC) of the stability path of the estimation, which provides valuable and complementary information about the probability of having a neuronal-related event at each voxel and time-point. We demonstrate that these novel features yield more robust results compared with the original ME-SPFM algorithm, and \u2026"
+                "abstract": "Conventionally, analysis of functional MRI (fMRI) data relies on available information about the experimental paradigm to establish hypothesized models of brain activity. However, this information can be inaccurate, incomplete or unavailable in multiple scenarios such as resting-state, naturalistic paradigms or clinical conditions. In these cases, blind estimates of neuronal-related activity can be obtained with paradigm-free analysis methods such as hemodynamic deconvolution. Yet, current formulations of the hemodynamic deconvolution problem have three important limitations: 1) their efficacy strongly depends on the appropriate selection of regularization parameters, 2) being univariate, they do not take advantage of the information present across the brain, and 3) they do not provide any measure of statistical certainty associated with each detected event. Here we propose a novel approach that addresses all these limitations. Specifically, we introduce MvME-SPFM (multivariate multi-echo sparse paradigm free mapping), a novel hemodynamic deconvolution algorithm that operates at the whole brain level and adds spatial information via a mixed-norm regularization term over all voxels. Additionally, MvME-SPFM employs a stability selection procedure that removes the need to select regularization parameters and also lets us obtain an estimate of the true probability of having a neuronal-related BOLD event at each voxel and time-point based on the area under the curve (AUC) of the stability paths. Besides, the formulation is tailored for multi-echo fMRI acquisitions, which allows us to better isolate fluctuations of BOLD origin on the basis of their \u2026"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:maZDTaKrznsC",
@@ -58,7 +104,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 7,
+            "num_citations": 8,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -66,7 +112,7 @@
             "pub_url": "https://joss.theoj.org/papers/10.21105/joss.03669",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:pjNVMb-7KAMJ:scholar.google.com/",
             "cites_per_year": {
-                "2022": 7
+                "2022": 8
             }
         },
         {
@@ -118,8 +164,8 @@
             "pub_url": "https://www.sciencedirect.com/science/article/pii/S0896627321002312",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:RLDoUlwYPoQJ:scholar.google.com/",
             "cites_per_year": {
-                "2021": 6,
-                "2022": 8
+                "2021": 5,
+                "2022": 9
             }
         },
         {
@@ -138,7 +184,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 13,
+            "num_citations": 14,
             "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
@@ -148,7 +194,7 @@
             "cites_per_year": {
                 "2020": 1,
                 "2021": 8,
-                "2022": 4
+                "2022": 5
             }
         },
         {
@@ -246,6 +292,21 @@
             "num_citations": 0,
             "pub_url": "https://dadun.unav.edu/handle/10171/58374",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:k4reHddgQuUJ:scholar.google.com/",
+            "cites_per_year": {}
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A multi-echo low-rank and sparse algorithm that reduces the bias of global fluctuations on the estimation of neuronal signal",
+                "citation": "",
+                "author": "Eneko Uru\u00f1uela and Stefano Moia and C\u00e9sar Caballero-Gaudes",
+                "abstract": "This work introduces a novel multi-echo fMRI deconvolution approach that reduces the effect of global fluctuations (eg, motion effects, physiological confounds, artefacts) on blindly mapping the brain\u2019s response to single-trial BOLD events without prior timing information. The new sparse-plus-low-rank multi-echo multivariate paradigm free mapping (SPLORA) algorithm is compared with a trial-based known-timing GLM analysis and its predecessor multivariate multiecho paradigm free mapping (MvME-PFM) approach. This method allows exploring the brain\u2019s functional dynamics during task, naturalistic and resting-state paradigms, being less affected by motion and physiological confounds, thus avoiding global signal regression to estimate neuronal related activity with multi-echo fMRI."
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:M3NEmzRMIkIC",
+            "num_citations": 0,
+            "pub_url": "https://archive.ismrm.org/2022/0249.html",
             "cites_per_year": {}
         },
         {
@@ -386,18 +447,18 @@
         }
     ],
     "public_access": {
-        "available": 6,
+        "available": 7,
         "not_available": 0
     },
-    "citedby5y": 47,
+    "citedby5y": 51,
     "hindex": 4,
     "hindex5y": 4,
     "i10index": 2,
     "i10index5y": 2,
     "cites_per_year": {
         "2020": 1,
-        "2021": 18,
-        "2022": 28
+        "2021": 17,
+        "2022": 33
     },
     "coauthors": [
         {
@@ -479,6 +540,14 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Katherine L Bottenhorn",
             "affiliation": "Postdoctoral Scholar, University of Southern California"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "btIfabIAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Mark Lowe",
+            "affiliation": "Cleveland Clinic"
         },
         {
             "container_type": "Author",
@@ -579,10 +648,10 @@
         {
             "container_type": "Author",
             "filled": [],
-            "scholar_id": "btIfabIAAAAJ",
+            "scholar_id": "xl3D0lYAAAAJ",
             "source": "CO_AUTHORS_LIST",
-            "name": "Mark Lowe",
-            "affiliation": "Cleveland Clinic"
+            "name": "Zaki Ahmed",
+            "affiliation": "Medical Physicist, Beaumont Health"
         },
         {
             "container_type": "Author",
