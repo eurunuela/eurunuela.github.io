@@ -1,6 +1,7 @@
 import { Twitter } from "react-feather";
 
 export default function TwitterCard({ data }: { data: any }) {
+  console.log(data);
   return (
     <div className="flex justify-center relative">
       <a
@@ -40,11 +41,13 @@ export default function TwitterCard({ data }: { data: any }) {
                           parseInt(thread["created"], 10)
                         ).toLocaleString("en-US", { month: "long" }) +
                           " " +
-                          new Date(parseInt(thread["created"], 10)).getDay() +
+                          new Date(
+                            parseInt(thread["created"], 10)
+                          ).toLocaleString("en-US", { day: "numeric" }) +
                           ", " +
                           new Date(
                             parseInt(thread["created"], 10)
-                          ).getFullYear()}
+                          ).toLocaleString("en-US", { year: "numeric" })}
                         {")"}
                       </span>
                     </p>
