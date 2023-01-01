@@ -1,6 +1,7 @@
 import EmailButton from "./buttons/emailButton";
 import LinkedinButton from "./buttons/linkedinButton";
 import TwitterButton from "./buttons/twitterButton";
+import CalButton from "./buttons/appointment";
 
 import { AtSign } from "react-feather";
 
@@ -16,10 +17,11 @@ export default function ContactCard() {
             <AtSign className="text-teal-700 dark:text-teal-300 -mr-0.5" />
           </div>
         </div>
-        <div className="grid mt-10 grid-cols-1 gap-4 ">
+        <div className="grid mt-6 grid-cols-1 gap-4 ">
           <TwitterButton />
           <EmailButton />
           <LinkedinButton />
+          <CalButton />
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ export default function TwitterButton() {
       >
         <div className="flex flex-row">
           <MessageCircle
-            className="mr-1 mt-0.5 text-teal-700 dark:text-teal-300"
+            className="mr-2 mt-0.5 text-teal-700 dark:text-teal-300"
             size={20}
           />
           <span className="dark:text-white">
