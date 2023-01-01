@@ -1,7 +1,6 @@
 import { Twitter } from "react-feather";
 
 export default function TwitterCard({ data }: { data: any }) {
-  console.log(data);
   return (
     <div className="flex justify-center relative">
       <a

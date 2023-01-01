@@ -1,4 +1,12 @@
-import { Code, Tag, MapPin, Terminal, Users } from "react-feather";
+import {
+  Code,
+  Command,
+  Edit2,
+  Tag,
+  MapPin,
+  Terminal,
+  Users,
+} from "react-feather";
 
 export default function InterestsCard() {
   return (
@@ -24,6 +32,10 @@ export default function InterestsCard() {
                   <p className="col-span-9">
                     Working on new{" "}
                     <span className="text-pink-500 dark:text-pink-400 font-medium">
+                      machine
+                    </span>
+                    {" and "}
+                    <span className="text-pink-500 dark:text-pink-400 font-medium">
                       deep learning
                     </span>{" "}
                     projects.
@@ -37,15 +49,15 @@ export default function InterestsCard() {
                     size={20}
                   />
                   <p className="col-span-9">
-                    Making{" "}
+                    Giving to the{" "}
                     <a
                       className="text-pink-500 dark:text-pink-400 font-medium hover:text-pink-700 dark:hover:text-pink-600"
                       href="https://brainhack-donostia.github.io/"
                       target="_blank"
                     >
-                      Brainhack Donostia
+                      Brainhack
                     </a>{" "}
-                    projects more accesible to newcomers.
+                    community.
                   </p>
                 </div>
               </li>
@@ -56,11 +68,11 @@ export default function InterestsCard() {
                     size={20}
                   />
                   <p className="col-span-9">
-                    Learning about frontend development with{" "}
+                    Learning web design and development with{" "}
                     <span className="text-pink-500 dark:text-pink-400 font-medium">
                       React
-                    </span>{" "}
-                    and web design.
+                    </span>
+                    .
                   </p>
                 </div>
               </li>
@@ -75,7 +87,41 @@ export default function InterestsCard() {
                     <span className="text-pink-500 dark:text-pink-400 font-medium">
                       new cities
                     </span>{" "}
-                    and learning from new connections.
+                    and learning from{" "}
+                    <span className="text-pink-500 dark:text-pink-400 font-medium">
+                      new connections
+                    </span>
+                    .
+                  </p>
+                </div>
+              </li>
+              <li className="my-2">
+                <div className="grid grid-cols-10 gap-4">
+                  <Edit2
+                    className="text-pink-500 dark:text-pink-400 mr-4 mt-0.5"
+                    size={20}
+                  />
+                  <p className="col-span-9">
+                    Making the most of{" "}
+                    <span className="text-pink-500 dark:text-pink-400 font-medium">
+                      tools for thought
+                    </span>{" "}
+                    .
+                  </p>
+                </div>
+              </li>
+              <li className="my-2">
+                <div className="grid grid-cols-10 gap-4">
+                  <Command
+                    className="text-pink-500 dark:text-pink-400 mr-4 mt-0.5"
+                    size={20}
+                  />
+                  <p className="col-span-9">
+                    Using{" "}
+                    <span className="text-pink-500 dark:text-pink-400 font-medium">
+                      AI
+                    </span>{" "}
+                    to be more productive with daily tasks.
                   </p>
                 </div>
               </li>

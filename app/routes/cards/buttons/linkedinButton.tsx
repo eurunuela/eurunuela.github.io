@@ -10,7 +10,7 @@ export default function LinkedinButton() {
       >
         <div className="flex flex-row">
           <Linkedin
-            className="mr-1 text-teal-700 dark:text-teal-300"
+            className="mr-2 text-teal-700 dark:text-teal-300"
             size={20}
           />
           <span className="dark:text-white">
