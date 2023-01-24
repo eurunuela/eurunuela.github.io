@@ -1,6 +1,11 @@
 {
     "talks": [
         {
+            "title": "A tutorial on how to use git and GitHub to collaborate",
+            "location": "Institute of Biomedical Engineering, University of Oxford, UK",
+            "date": "Jan 30th, 2023",
+        },
+        {
             "title": "Denoising of multi-echo fMRI data with tedana",
             "location": "MRI Together (online)",
             "date": "Dec 8th, 2022",
@@ -37,6 +42,11 @@
             "title": "Brain Awareness Week 2020",
             "location": "Radio interview for Norteko Ferrokarrila",
             "date": "Mar 10th, 2020"
+        },
+        {
+            "title": "How to use git and GitHub",
+            "location": "Brainhack Donostia 2019",
+            "date": "May 5th, 2019",
         }
     ]
 }
