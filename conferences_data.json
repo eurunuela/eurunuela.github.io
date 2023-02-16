@@ -1,6 +1,29 @@
 {
     "abstracts": [
         {
+            "title" : "A Multi-Subject Deconvolution Algorithm for the Analysis of Naturalistic fMRI Data",
+            "authors": [
+                "E. Uruñuela",
+                "C. Sava-Segal",
+                "M. Leung",
+                "E.S. Finn",
+                "C. Caballero-Gaudes",
+            ],
+            "year": "2023",
+            "conference": "ISMRM 32nd Annual Meeting & Exhibition",
+            "awards": ["Oral Scientific session"]
+        },
+        {
+            "title" : "Exploring Tensor Decomposition as an Alternative to ICA for Denoising Multi-Echo fMRI Data",
+            "authors": [
+                "E. Uruñuela",
+                "M.A. Veganzones",
+                "C. Caballero-Gaudes",
+            ],
+            "year": "2023",
+            "conference": "ISMRM 32nd Annual Meeting & Exhibition"
+        },
+        {
             "title": "A multi-echo low-rank and sparse method to estimate neuronal signal with less global signals bias",
             "authors": [
                 "E. Uruñuela",
