@@ -10,6 +10,7 @@ import {
 } from "remix";
 import type { LinksFunction } from "remix";
 import tailwindUrl from "./styles/tailwind.css";
+import { Analytics } from "@vercel/analytics/react";
 
 import globalStylesUrl from "~/styles/global.css";
 import darkStylesUrl from "~/styles/dark.css";
@@ -41,13 +42,38 @@ export let links: LinksFunction = () => {
   ];
 };
 
+// For Vercel web vitals
+export const loader = () => {
+  return {
+    ENV: {
+      VERCEL_ANALYTICS_ID: process.env.VERCEL_ANALYTICS_ID,
+    },
+  };
+};
+
+// Optional:
+// If you're not already handling TS support for environment variables
+declare global {
+  interface Window {
+    ENV: SerializeFrom<typeof loader>["ENV"];
+  }
+}
+
 // https://remix.run/api/conventions#default-export
 // https://remix.run/api/conventions#route-filenames
 export default function App() {
+  const { ENV } = useLoaderData<typeof loader>();
   return (
     <Document>
       <Layout>
         <Outlet />
+        <Analytics />
+        {/* 👇 Write the ENV values to the window */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.ENV = ${JSON.stringify(ENV)}`,
+          }}
+        />
       </Layout>
     </Document>
   );
