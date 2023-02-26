@@ -10,6 +10,7 @@ import {
 } from "remix";
 import type { LinksFunction } from "remix";
 import tailwindUrl from "./styles/tailwind.css";
+import { Analytics } from "@vercel/analytics/react";
 
 import globalStylesUrl from "~/styles/global.css";
 import darkStylesUrl from "~/styles/dark.css";
@@ -48,6 +49,7 @@ export default function App() {
     <Document>
       <Layout>
         <Outlet />
+        <Analytics />
       </Layout>
     </Document>
   );
