@@ -22,7 +22,7 @@
     ],
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 53,
+    "citedby": 57,
     "publications": [
         {
             "container_type": "Publication",
@@ -114,7 +114,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 8,
+            "num_citations": 9,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -124,7 +124,7 @@
             "cites_per_year": {
                 "2021": 1,
                 "2022": 6,
-                "2023": 1
+                "2023": 2
             }
         },
         {
@@ -168,7 +168,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
-            "num_citations": 15,
+            "num_citations": 18,
             "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
@@ -177,7 +177,8 @@
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:RLDoUlwYPoQJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 5,
-                "2022": 9
+                "2022": 10,
+                "2023": 1
             }
         },
         {
@@ -463,10 +464,10 @@
         }
     ],
     "public_access": {
-        "available": 5,
-        "not_available": 1
+        "available": 6,
+        "not_available": 0
     },
-    "citedby5y": 53,
+    "citedby5y": 57,
     "hindex": 4,
     "hindex5y": 4,
     "i10index": 2,
@@ -474,8 +475,8 @@
     "cites_per_year": {
         "2020": 1,
         "2021": 18,
-        "2022": 30,
-        "2023": 3
+        "2022": 31,
+        "2023": 5
     },
     "coauthors": [
         {
@@ -513,18 +514,10 @@
         {
             "container_type": "Author",
             "filled": [],
-            "scholar_id": "O0zC2skAAAAJ",
+            "scholar_id": "r7BTR4cAAAAJ",
             "source": "CO_AUTHORS_LIST",
-            "name": "Thomas AW Bolton",
-            "affiliation": "Scientific collaborator, Department of Clinical Neuroscience, CHUV"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "kFz4LNMAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Dimitri Van De Ville",
-            "affiliation": "Associate Professor of Bioengineering, EPF Lausanne and University of Geneva"
+            "name": "Rachael Stickland",
+            "affiliation": "The Alan Turing Institute"
         },
         {
             "container_type": "Author",
@@ -545,6 +538,22 @@
         {
             "container_type": "Author",
             "filled": [],
+            "scholar_id": "O0zC2skAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Thomas AW Bolton",
+            "affiliation": "Scientific collaborator, Department of Clinical Neuroscience, CHUV"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "kFz4LNMAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Dimitri Van De Ville",
+            "affiliation": "Associate Professor of Bioengineering, EPF Lausanne and University of Geneva"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
             "scholar_id": "ZXxr85IAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Katherine L Bottenhorn",
@@ -553,18 +562,18 @@
         {
             "container_type": "Author",
             "filled": [],
-            "scholar_id": "btIfabIAAAAJ",
+            "scholar_id": "IPacJoAAAAAJ",
             "source": "CO_AUTHORS_LIST",
-            "name": "Mark Lowe",
-            "affiliation": "Cleveland Clinic"
+            "name": "Taylor Salo",
+            "affiliation": "Postdoctoral fellow, University of Pennsylvania"
         },
         {
             "container_type": "Author",
             "filled": [],
-            "scholar_id": "r7BTR4cAAAAJ",
+            "scholar_id": "btIfabIAAAAJ",
             "source": "CO_AUTHORS_LIST",
-            "name": "Rachael Stickland",
-            "affiliation": "The Alan Turing Institute"
+            "name": "Mark Lowe",
+            "affiliation": "Cleveland Clinic"
         },
         {
             "container_type": "Author",
