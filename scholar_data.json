@@ -11,7 +11,7 @@
     "scholar_id": "KLIjERgAAAAJ",
     "source": "AUTHOR_PROFILE_PAGE",
     "name": "Eneko Uru\u00f1uela",
-    "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=KLIjERgAAAAJ&citpid=3",
+    "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=KLIjERgAAAAJ&citpid=4",
     "affiliation": "Basque Center on Cognition, Brain and Language",
     "organization": 5741100943680040988,
     "interests": [
@@ -22,7 +22,7 @@
     ],
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 57,
+    "citedby": 66,
     "publications": [
         {
             "container_type": "Publication",
@@ -95,7 +95,7 @@
             "pub_url": "https://archive.ismrm.org/2022/0401.html",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:cTBtMIheIn4J:scholar.google.com/",
             "cites_per_year": {
-                "2022": 1
+                "2023": 1
             }
         },
         {
@@ -114,7 +114,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 9,
+            "num_citations": 12,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -124,7 +124,7 @@
             "cites_per_year": {
                 "2021": 1,
                 "2022": 6,
-                "2023": 2
+                "2023": 5
             }
         },
         {
@@ -168,7 +168,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
-            "num_citations": 18,
+            "num_citations": 20,
             "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
@@ -178,7 +178,7 @@
             "cites_per_year": {
                 "2021": 5,
                 "2022": 10,
-                "2023": 1
+                "2023": 3
             }
         },
         {
@@ -197,7 +197,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 14,
+            "num_citations": 16,
             "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
@@ -207,7 +207,8 @@
             "cites_per_year": {
                 "2020": 1,
                 "2021": 8,
-                "2022": 5
+                "2022": 5,
+                "2023": 2
             }
         },
         {
@@ -252,7 +253,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hFOr9nPyWt4C",
-            "num_citations": 5,
+            "num_citations": 7,
             "citedby_url": "/scholar?hl=en&cites=8974637943734706401",
             "cites_id": [
                 "8974637943734706401"
@@ -467,16 +468,16 @@
         "available": 6,
         "not_available": 0
     },
-    "citedby5y": 57,
+    "citedby5y": 66,
     "hindex": 4,
     "hindex5y": 4,
-    "i10index": 2,
-    "i10index5y": 2,
+    "i10index": 3,
+    "i10index5y": 3,
     "cites_per_year": {
         "2020": 1,
         "2021": 18,
-        "2022": 31,
-        "2023": 5
+        "2022": 30,
+        "2023": 13
     },
     "coauthors": [
         {
@@ -538,22 +539,6 @@
         {
             "container_type": "Author",
             "filled": [],
-            "scholar_id": "O0zC2skAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Thomas AW Bolton",
-            "affiliation": "Scientific collaborator, Department of Clinical Neuroscience, CHUV"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "kFz4LNMAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Dimitri Van De Ville",
-            "affiliation": "Associate Professor of Bioengineering, EPF Lausanne and University of Geneva"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
             "scholar_id": "ZXxr85IAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Katherine L Bottenhorn",
@@ -566,6 +551,22 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Taylor Salo",
             "affiliation": "Postdoctoral fellow, University of Pennsylvania"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "O0zC2skAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Thomas AW Bolton",
+            "affiliation": "Scientific collaborator, Department of Clinical Neuroscience, CHUV"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "kFz4LNMAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Dimitri Van De Ville",
+            "affiliation": "Associate Professor of Bioengineering, EPF Lausanne and University of Geneva"
         },
         {
             "container_type": "Author",
