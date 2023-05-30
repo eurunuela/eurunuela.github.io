@@ -19,11 +19,10 @@ export default function ProfileCard() {
                 Hi, I'm Eneko <span className="whitespace-nowrap">👋</span>
               </h1>
               <h2 className="py-2 text-xl text-gray-600 dark:text-gray-200">
-                I am a PhD student working on inverse problems and denoising of
-                functional MRI data.
+                I am a PhD student developing machine learning algorithms for neuroimaging.
               </h2>
               <p className="py-2 italic text-gray-600 dark:text-gray-200">
-                I want to make healthcare more accessible to everyone.
+                I want to make healthcare more accessible and affordable to everyone.
               </p>
             </div>
           </div>
