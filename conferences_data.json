@@ -10,6 +10,19 @@
                 "C. Caballero-Gaudes"
             ],
             "year": "2023",
+            "conference": "ISMRM Iberian Chapter 3rd Annual Meeting",
+            "awards": ["Oral Scientific session"]
+        },
+        {
+            "title" : "A Multi-Subject Deconvolution Algorithm for the Analysis of Naturalistic fMRI Data",
+            "authors": [
+                "E. Uruñuela",
+                "C. Sava-Segal",
+                "M. Leung",
+                "E.S. Finn",
+                "C. Caballero-Gaudes"
+            ],
+            "year": "2023",
             "conference": "ISMRM 32nd Annual Meeting & Exhibition",
             "awards": ["Top 100 abstracts", "Suma Cum Laude Merit Award", "Oral Scientific session"]
         },
