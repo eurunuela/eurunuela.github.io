@@ -11,7 +11,7 @@
             ],
             "year": "2023",
             "conference": "ISMRM Iberian Chapter 3rd Annual Meeting",
-            "awards": ["Oral Scientific session"]
+            "awards": "Oral Scientific session"
         },
         {
             "title" : "A Multi-Subject Deconvolution Algorithm for the Analysis of Naturalistic fMRI Data",
