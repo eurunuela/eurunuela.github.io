@@ -22,7 +22,7 @@
     ],
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 72,
+    "citedby": 73,
     "publications": [
         {
             "container_type": "Publication",
@@ -135,8 +135,7 @@
                 "pub_year": 2021,
                 "citation": "arXiv preprint arXiv:2107.12026, 2021",
                 "author": "Eneko Uru\u00f1uela and Thomas AW Bolton and Dimitri Van De Ville and C\u00e9sar Caballero-Gaudes",
-                "journal": "arXiv preprint arXiv:2107.12026",
-                "abstract": "Deconvolution of the hemodynamic response is an important step to access short timescales of brain activity recorded by functional magnetic resonance imaging (fMRI). Albeit conventional deconvolution algorithms have been around for a long time (e.g., Wiener deconvolution), recent state-of-the-art methods based on sparsity-pursuing regularization are attracting increasing interest to investigate brain dynamics and connectivity with fMRI. This technical note revisits the main concepts underlying two main methods, Paradigm Free Mapping and Total Activation, in the most accessible way. Despite their apparent differences in the formulation, these methods are theoretically equivalent as they represent the synthesis and analysis sides of the same problem, respectively. We demonstrate this equivalence in practice with their best-available implementations using both simulations, with different signal-to-noise ratios, and experimental fMRI data acquired during a motor task and resting-state. We evaluate the parameter settings that lead to equivalent results, and showcase the potential of these algorithms compared to other common approaches. This note is useful for practitioners interested in gaining a better understanding of state-of-the-art hemodynamic deconvolution, and aims to answer questions that practitioners often have regarding the differences between the two methods."
+                "journal": "arXiv preprint arXiv:2107.12026"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:e5wmG9Sq2KIC",
@@ -145,7 +144,6 @@
             "cites_id": [
                 "10117778681508834011"
             ],
-            "pub_url": "https://arxiv.org/abs/2107.12026",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:26pawxqSaYwJ:scholar.google.com/",
             "cites_per_year": {
                 "2022": 2,
@@ -169,17 +167,17 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
-            "num_citations": 22,
+            "num_citations": 23,
             "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
             ],
-            "pub_url": "https://www.sciencedirect.com/science/article/pii/S0896627321002312",
+            "pub_url": "https://www.cell.com/neuron/pdf/S0896-6273(21)00231-2.pdf",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:RLDoUlwYPoQJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 5,
-                "2022": 10,
-                "2023": 4
+                "2022": 11,
+                "2023": 5
             }
         },
         {
@@ -233,7 +231,7 @@
                 "586821217265377317"
             ],
             "pub_url": "https://ieeexplore.ieee.org/abstract/document/9433821/",
-            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:JeDDucnOJAgJ:scholar.google.com/",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&oe=ASCII&q=related:JeDDucnOJAgJ:scholar.google.com/",
             "cites_per_year": {
                 "2022": 2,
                 "2023": 1
@@ -413,7 +411,7 @@
             "author_pub_id": "KLIjERgAAAAJ:r0BpntZqJG4C",
             "num_citations": 0,
             "pub_url": "https://smoia.github.io/cvr-compare-bh-rs/assets/downloadable/3855_ISMRM_Moia.pdf",
-            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:vDaknWq2Jq4J:scholar.google.com/",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&oe=ASCII&q=related:vDaknWq2Jq4J:scholar.google.com/",
             "cites_per_year": {}
         },
         {
@@ -469,7 +467,7 @@
         "available": 6,
         "not_available": 0
     },
-    "citedby5y": 72,
+    "citedby5y": 73,
     "hindex": 4,
     "hindex5y": 4,
     "i10index": 3,
@@ -477,8 +475,8 @@
     "cites_per_year": {
         "2020": 1,
         "2021": 18,
-        "2022": 29,
-        "2023": 19
+        "2022": 30,
+        "2023": 20
     },
     "coauthors": [
         {
@@ -575,6 +573,14 @@
             "scholar_id": "btIfabIAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Mark Lowe",
+            "affiliation": "Cleveland Clinic"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "j0q0f4YAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Stephen Jones",
             "affiliation": "Cleveland Clinic"
         },
         {
@@ -680,14 +686,6 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Se Hong Oh",
             "affiliation": "Associate Professor @ Hankuk University of Foreign Studies, Adjunct Staff @ Cleveland \u2026"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "j0q0f4YAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Stephen Jones",
-            "affiliation": "Cleveland Clinic"
         },
         {
             "container_type": "Author",
