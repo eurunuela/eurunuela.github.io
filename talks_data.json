@@ -1,6 +1,11 @@
 {
     "talks": [
         {
+            "title" : "A Multi-Subject Deconvolution Algorithm to Analyze Naturalistic fMRI Data At The Finest Temporal and Spatial Resolution",
+            "location": "ISMRM Workshop on Current Issues in Brain Function",
+            "date": "September 4th, 2023"
+        },
+        {
             "title" : "A Multi-Subject Deconvolution Algorithm for the Analysis of Naturalistic fMRI Data",
             "location": "ISMRM Iberian Chapter 3rd Annual Meeting",
             "date": "July 4th, 2023"
