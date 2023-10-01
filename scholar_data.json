@@ -22,7 +22,7 @@
     ],
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 81,
+    "citedby": 85,
     "publications": [
         {
             "container_type": "Publication",
@@ -114,7 +114,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 18,
+            "num_citations": 20,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -124,7 +124,7 @@
             "cites_per_year": {
                 "2021": 1,
                 "2022": 5,
-                "2023": 12
+                "2023": 14
             }
         },
         {
@@ -198,7 +198,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 20,
+            "num_citations": 22,
             "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
@@ -208,8 +208,8 @@
             "cites_per_year": {
                 "2020": 1,
                 "2021": 8,
-                "2022": 5,
-                "2023": 6
+                "2022": 6,
+                "2023": 7
             }
         },
         {
@@ -249,8 +249,7 @@
                 "author": "Eneko Uru\u00f1uela and Stephen Jones and Anna Crawford and Wanyong Shin and Sehong Oh and Mark Lowe and C\u00e9sar Caballero-Gaudes",
                 "conference": "2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
                 "pages": "1092-1095",
-                "publisher": "IEEE",
-                "abstract": "Neuronal-related activity can be estimated from functional magnetic resonance imaging (fMRI) data with no knowledge of the timings of blood oxygenation level-dependent (BOLD) events by means of deconvolution with regularized least-squares. This work proposes two improvements on the deconvolution algorithm of sparse paradigm free mapping (SPFM): a new formulation that enables the estimation of neuronal events with long, sustained activity; and the implementation of a subsampling approach based on stability selection that avoids the choice of any regularization parameter. The proposed method is evaluated on real fMRI data and compared with both the original SPFM algorithm and conventional analysis with a general linear model (GLM) that is aware of the temporal model of the neuronal-related activity. We demonstrate that the novel stability-based SPFM algorithm yields activation maps with higher \u2026"
+                "publisher": "IEEE"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hFOr9nPyWt4C",
@@ -259,7 +258,6 @@
             "cites_id": [
                 "8974637943734706401"
             ],
-            "pub_url": "https://ieeexplore.ieee.org/abstract/document/9176137/",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:4aAMAKlRjHwJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 3,
@@ -276,8 +274,7 @@
                 "citation": "Journal of Neural Engineering, 2020",
                 "author": "Thomas Bolton and Eneko Uru\u00f1uela and Ye Tian and Andrew Zalesky and C\u00e9sar Caballero-Gaudes and Dimitri Van De Ville",
                 "journal": "Journal of Neural Engineering",
-                "publisher": "IOP Publishing",
-                "abstract": "Accurate mapping of the functional interactions between remote brain areas with resting-state functional magnetic resonance imaging requires the quantification of their underlying dynamics. In conventional methodological pipelines, a spatial scale of interest is first selected and dynamic analysis then proceeds at this hypothesised level of complexity. If large-scale functional networks or states are studied, more local regional rearrangements are then not described, potentially missing important neurobiological information. Here, we propose a novel mathematical framework that jointly estimates resting-state functional networks and spatially more localised cross-regional modulations. To do so, the changes in activity of each brain region are modelled by a logistic regression including co-activation coefficients (reflective of network assignment, as they highlight simultaneous activations across areas) and causal interplays \u2026"
+                "publisher": "IOP Publishing"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hC7cP41nSMkC",
@@ -286,7 +283,6 @@
             "cites_id": [
                 "7743941460708886334"
             ],
-            "pub_url": "https://iopscience.iop.org/article/10.1088/1741-2552/aba55e/meta",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:Pgf5troBeGsJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 1,
@@ -301,11 +297,13 @@
                 "pub_year": 2019,
                 "citation": "Servicio de Publicaciones. Universidad de Navarra, 2019",
                 "author": "Eneko Uru\u00f1uela",
-                "publisher": "Servicio de Publicaciones. Universidad de Navarra"
+                "publisher": "Servicio de Publicaciones. Universidad de Navarra",
+                "abstract": "This thesis presents a novel algorithm for the deconvolution of multi echo fMRI data with no prior information on the timings of the neuronal events. Based on previous work on the field, a new signal model is proposed in order to take the processing from a voxelwise analysis to an entire brain one. Different proximal operators have been studied for solving the optimisation problem present in the deconvolution, since it is an ill-posed inverse problem, and a novel method based on the stability selection procedure has been suggested to answer to the choice of the regularization parameter dilemma. The method takes advantage of the area under the curve (AUC) of the stability paths to avoid the selection of a single regularization parameter. An optimal approach for the thresholding of AUC timeseries is studied and different debiasing methods for removing the sparsity in prolonged events are presented. The results demonstrate that the MvMESPFM algorithm provides promising results when estimating neuronal-related events even on noisy data. Subject to being thoroughly tested on experimental data, testing conducted on simulated signals suggests that the tool could eventually be introduced to the processing pipelines of different research lines regarding fMRI data analysis."
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:qUcmZB5y_30C",
             "num_citations": 0,
+            "pub_url": "https://dadun.unav.edu/handle/10171/58374",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:k4reHddgQuUJ:scholar.google.com/",
             "cites_per_year": {}
         },
@@ -426,13 +424,11 @@
             "bib": {
                 "title": "Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI",
                 "citation": "",
-                "author": "Stefano Moia and Maite Termenon and Eneko Uru\u00f1uela-Tremi\u00f1o and Rachael C Stickland and Molly G Bright and C\u00e9sar Caballero-Gaudes",
-                "abstract": "Cerebrovascular reactivity (CVR) is an emerging metric for quantifying vascular health. During a BOLD fMRI acquisition, breath-holding is a simple approach for increasing blood CO 2 levels, thereby driving the vasodilatory CVR response. However, breath-holding is associated with increased head motion artifacts, which can confound our estimates of CVR. We demonstrate that multi-echo BOLD fMRI acquisitions, in conjunction with denoising with multi-echo independent component analysis approaches, enable better differentiation of true vasodilatory responses and improve the reliability of CVR estimates across multiple sessions in highly sampled individuals."
+                "author": "Stefano Moia and Maite Termenon and Eneko Uru\u00f1uela-Tremi\u00f1o and Rachael C Stickland and Molly G Bright and C\u00e9sar Caballero-Gaudes"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:j3f4tGmQtD8C",
             "num_citations": 0,
-            "pub_url": "https://archive.ismrm.org/2020/3829.html",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:vEGOC3VyyJAJ:scholar.google.com/",
             "cites_per_year": {}
         },
@@ -470,10 +466,10 @@
         }
     ],
     "public_access": {
-        "available": 6,
+        "available": 7,
         "not_available": 0
     },
-    "citedby5y": 81,
+    "citedby5y": 85,
     "hindex": 4,
     "hindex5y": 4,
     "i10index": 3,
@@ -481,8 +477,8 @@
     "cites_per_year": {
         "2020": 1,
         "2021": 18,
-        "2022": 29,
-        "2023": 29
+        "2022": 30,
+        "2023": 32
     },
     "coauthors": [
         {
@@ -576,6 +572,14 @@
         {
             "container_type": "Author",
             "filled": [],
+            "scholar_id": "vt1EAJcAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Gang Chen",
+            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
             "scholar_id": "btIfabIAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Mark Lowe",
@@ -592,18 +596,10 @@
         {
             "container_type": "Author",
             "filled": [],
-            "scholar_id": "vt1EAJcAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Gang Chen",
-            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
             "scholar_id": "SIwRcDEAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Maryam Vaziri Pashkam",
-            "affiliation": "Research fellow, LBC, NIMH"
+            "affiliation": "Assistant Professor, University of Delaware"
         },
         {
             "container_type": "Author",
@@ -683,7 +679,7 @@
             "scholar_id": "xl3D0lYAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Zaki Ahmed",
-            "affiliation": "Medical Physicist, Beaumont Health"
+            "affiliation": "Medical Physicist, Corewell Health"
         },
         {
             "container_type": "Author",
@@ -708,6 +704,54 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Ye Ella Tian",
             "affiliation": "Mary Lugton Postdoc Research Fellow, University of Melbourne, Australia"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "-gJRja0AAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Vicente Ferrer-Gallardo",
+            "affiliation": "Basque Center on Cognition, brain and language (BCBL)"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "gigXVRIAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Soichi Hayashi",
+            "affiliation": "Indiana University"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "i1uK7zUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Daniel Alcal\u00e1 L\u00f3pez",
+            "affiliation": "Medica Scientia Innovation Research (MEDSIR)"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "eEbaa0UAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Robert Oostenveld",
+            "affiliation": "Associate PI; Donders Institute for Brain, Cognition and Behaviour"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "3Fc8JJQAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Vittorio Iacovella",
+            "affiliation": "Full Stack Open Data and Open Science Technician at the University of Trento"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "mRr2POUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Merel van der Thiel",
+            "affiliation": "Maastricht University Medical Center"
         }
     ]
 }
