@@ -22,7 +22,7 @@
     ],
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 85,
+    "citedby": 90,
     "publications": [
         {
             "container_type": "Publication",
@@ -114,7 +114,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 20,
+            "num_citations": 22,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -122,9 +122,9 @@
             "pub_url": "https://joss.theoj.org/papers/10.21105/joss.03669",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:pjNVMb-7KAMJ:scholar.google.com/",
             "cites_per_year": {
-                "2021": 1,
+                "2021": 2,
                 "2022": 5,
-                "2023": 14
+                "2023": 15
             }
         },
         {
@@ -169,7 +169,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
-            "num_citations": 23,
+            "num_citations": 26,
             "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
@@ -179,7 +179,7 @@
             "cites_per_year": {
                 "2021": 5,
                 "2022": 11,
-                "2023": 5
+                "2023": 8
             }
         },
         {
@@ -249,7 +249,8 @@
                 "author": "Eneko Uru\u00f1uela and Stephen Jones and Anna Crawford and Wanyong Shin and Sehong Oh and Mark Lowe and C\u00e9sar Caballero-Gaudes",
                 "conference": "2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
                 "pages": "1092-1095",
-                "publisher": "IEEE"
+                "publisher": "IEEE",
+                "abstract": "Neuronal-related activity can be estimated from functional magnetic resonance imaging (fMRI) data with no knowledge of the timings of blood oxygenation level-dependent (BOLD) events by means of deconvolution with regularized least-squares. This work proposes two improvements on the deconvolution algorithm of sparse paradigm free mapping (SPFM): a new formulation that enables the estimation of neuronal events with long, sustained activity; and the implementation of a subsampling approach based on stability selection that avoids the choice of any regularization parameter. The proposed method is evaluated on real fMRI data and compared with both the original SPFM algorithm and conventional analysis with a general linear model (GLM) that is aware of the temporal model of the neuronal-related activity. We demonstrate that the novel stability-based SPFM algorithm yields activation maps with higher \u2026"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hFOr9nPyWt4C",
@@ -258,6 +259,7 @@
             "cites_id": [
                 "8974637943734706401"
             ],
+            "pub_url": "https://ieeexplore.ieee.org/abstract/document/9176137/",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:4aAMAKlRjHwJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 3,
@@ -274,7 +276,8 @@
                 "citation": "Journal of Neural Engineering, 2020",
                 "author": "Thomas Bolton and Eneko Uru\u00f1uela and Ye Tian and Andrew Zalesky and C\u00e9sar Caballero-Gaudes and Dimitri Van De Ville",
                 "journal": "Journal of Neural Engineering",
-                "publisher": "IOP Publishing"
+                "publisher": "IOP Publishing",
+                "abstract": "Accurate mapping of the functional interactions between remote brain areas with resting-state functional magnetic resonance imaging requires the quantification of their underlying dynamics. In conventional methodological pipelines, a spatial scale of interest is first selected and dynamic analysis then proceeds at this hypothesised level of complexity. If large-scale functional networks or states are studied, more local regional rearrangements are then not described, potentially missing important neurobiological information. Here, we propose a novel mathematical framework that jointly estimates resting-state functional networks and spatially more localised cross-regional modulations. To do so, the changes in activity of each brain region are modelled by a logistic regression including co-activation coefficients (reflective of network assignment, as they highlight simultaneous activations across areas) and causal interplays \u2026"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hC7cP41nSMkC",
@@ -283,6 +286,7 @@
             "cites_id": [
                 "7743941460708886334"
             ],
+            "pub_url": "https://iopscience.iop.org/article/10.1088/1741-2552/aba55e/meta",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:Pgf5troBeGsJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 1,
@@ -424,11 +428,13 @@
             "bib": {
                 "title": "Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI",
                 "citation": "",
-                "author": "Stefano Moia and Maite Termenon and Eneko Uru\u00f1uela-Tremi\u00f1o and Rachael C Stickland and Molly G Bright and C\u00e9sar Caballero-Gaudes"
+                "author": "Stefano Moia and Maite Termenon and Eneko Uru\u00f1uela-Tremi\u00f1o and Rachael C Stickland and Molly G Bright and C\u00e9sar Caballero-Gaudes",
+                "abstract": "Cerebrovascular reactivity (CVR) is an emerging metric for quantifying vascular health. During a BOLD fMRI acquisition, breath-holding is a simple approach for increasing blood CO 2 levels, thereby driving the vasodilatory CVR response. However, breath-holding is associated with increased head motion artifacts, which can confound our estimates of CVR. We demonstrate that multi-echo BOLD fMRI acquisitions, in conjunction with denoising with multi-echo independent component analysis approaches, enable better differentiation of true vasodilatory responses and improve the reliability of CVR estimates across multiple sessions in highly sampled individuals."
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:j3f4tGmQtD8C",
             "num_citations": 0,
+            "pub_url": "https://archive.ismrm.org/2020/3829.html",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:vEGOC3VyyJAJ:scholar.google.com/",
             "cites_per_year": {}
         },
@@ -469,16 +475,16 @@
         "available": 7,
         "not_available": 0
     },
-    "citedby5y": 85,
+    "citedby5y": 90,
     "hindex": 4,
     "hindex5y": 4,
     "i10index": 3,
     "i10index5y": 3,
     "cites_per_year": {
         "2020": 1,
-        "2021": 18,
+        "2021": 19,
         "2022": 30,
-        "2023": 32
+        "2023": 36
     },
     "coauthors": [
         {
@@ -572,30 +578,6 @@
         {
             "container_type": "Author",
             "filled": [],
-            "scholar_id": "vt1EAJcAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Gang Chen",
-            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "btIfabIAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Mark Lowe",
-            "affiliation": "Cleveland Clinic"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "j0q0f4YAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Stephen Jones",
-            "affiliation": "Cleveland Clinic"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
             "scholar_id": "SIwRcDEAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Maryam Vaziri Pashkam",
@@ -676,10 +658,34 @@
         {
             "container_type": "Author",
             "filled": [],
+            "scholar_id": "vt1EAJcAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Gang Chen",
+            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
             "scholar_id": "xl3D0lYAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Zaki Ahmed",
             "affiliation": "Medical Physicist, Corewell Health"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "btIfabIAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Mark Lowe",
+            "affiliation": "Cleveland Clinic"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "j0q0f4YAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Stephen Jones",
+            "affiliation": "Cleveland Clinic"
         },
         {
             "container_type": "Author",
