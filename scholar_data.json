@@ -22,8 +22,27 @@
     ],
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 90,
+    "citedby": 102,
     "publications": [
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Whole-brain multivariate hemodynamic deconvolution for functional MRI with stability selection",
+                "pub_year": 2023,
+                "citation": "Medical Image Analysis, 103010, 2023",
+                "author": "Eneko Uru\u00f1uela and Javier Gonzalez-Castillo and Charles Zheng and Peter Bandettini and C\u00e9sar Caballero-Gaudes",
+                "journal": "Medical Image Analysis",
+                "pages": "103010",
+                "publisher": "Elsevier",
+                "abstract": "Conventionally, analysis of functional MRI (fMRI) data relies on available information about the experimental paradigm to establish hypothesized models of brain activity. However, this information can be inaccurate, incomplete or unavailable in multiple scenarios such as resting-state, naturalistic paradigms or clinical conditions. In these cases, blind estimates of neuronal-related activity can be obtained with paradigm-free analysis methods such as hemodynamic deconvolution. Yet, current formulations of the hemodynamic deconvolution problem have three important limitations:(1) their efficacy strongly depends on the appropriate selection of regularization parameters,(2) being univariate, they do not take advantage of the information present across the brain, and (3) they do not provide any measure of statistical certainty associated with each detected event. Here we propose a novel approach that addresses all \u2026"
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:NMxIlDl6LWMC",
+            "num_citations": 0,
+            "pub_url": "https://www.sciencedirect.com/science/article/pii/S1361841523002700",
+            "cites_per_year": {}
+        },
         {
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
@@ -63,7 +82,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:blknAaTinKkC",
-            "num_citations": 1,
+            "num_citations": 2,
             "citedby_url": "/scholar?hl=en&cites=9554976640422936996",
             "cites_id": [
                 "9554976640422936996"
@@ -71,7 +90,8 @@
             "pub_url": "https://archive.ismrm.org/2022/0585.html",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:pIGQSaEYmoQJ:scholar.google.com/",
             "cites_per_year": {
-                "2022": 1
+                "2022": 1,
+                "2023": 1
             }
         },
         {
@@ -114,7 +134,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 22,
+            "num_citations": 27,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -124,7 +144,7 @@
             "cites_per_year": {
                 "2021": 2,
                 "2022": 5,
-                "2023": 15
+                "2023": 20
             }
         },
         {
@@ -140,7 +160,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:e5wmG9Sq2KIC",
-            "num_citations": 4,
+            "num_citations": 5,
             "citedby_url": "/scholar?hl=en&cites=10117778681508834011",
             "cites_id": [
                 "10117778681508834011"
@@ -149,7 +169,7 @@
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:26pawxqSaYwJ:scholar.google.com/",
             "cites_per_year": {
                 "2022": 2,
-                "2023": 2
+                "2023": 3
             }
         },
         {
@@ -198,7 +218,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 22,
+            "num_citations": 25,
             "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
@@ -209,7 +229,7 @@
                 "2020": 1,
                 "2021": 8,
                 "2022": 6,
-                "2023": 7
+                "2023": 10
             }
         },
         {
@@ -227,7 +247,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:R3hNpaxXUhUC",
-            "num_citations": 3,
+            "num_citations": 4,
             "citedby_url": "/scholar?hl=en&cites=586821217265377317",
             "cites_id": [
                 "586821217265377317"
@@ -236,7 +256,7 @@
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:JeDDucnOJAgJ:scholar.google.com/",
             "cites_per_year": {
                 "2022": 2,
-                "2023": 1
+                "2023": 2
             }
         },
         {
@@ -254,7 +274,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hFOr9nPyWt4C",
-            "num_citations": 8,
+            "num_citations": 9,
             "citedby_url": "/scholar?hl=en&cites=8974637943734706401",
             "cites_id": [
                 "8974637943734706401"
@@ -264,7 +284,7 @@
             "cites_per_year": {
                 "2021": 3,
                 "2022": 2,
-                "2023": 1
+                "2023": 2
             }
         },
         {
@@ -475,16 +495,16 @@
         "available": 7,
         "not_available": 0
     },
-    "citedby5y": 90,
-    "hindex": 4,
-    "hindex5y": 4,
+    "citedby5y": 102,
+    "hindex": 5,
+    "hindex5y": 5,
     "i10index": 3,
     "i10index5y": 3,
     "cites_per_year": {
         "2020": 1,
         "2021": 19,
         "2022": 30,
-        "2023": 36
+        "2023": 48
     },
     "coauthors": [
         {
@@ -658,14 +678,6 @@
         {
             "container_type": "Author",
             "filled": [],
-            "scholar_id": "vt1EAJcAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Gang Chen",
-            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
             "scholar_id": "xl3D0lYAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Zaki Ahmed",
@@ -686,6 +698,14 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Stephen Jones",
             "affiliation": "Cleveland Clinic"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "vt1EAJcAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Gang Chen",
+            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
         },
         {
             "container_type": "Author",
