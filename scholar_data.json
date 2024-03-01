@@ -22,8 +22,28 @@
     ],
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 105,
+    "citedby": 116,
     "publications": [
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Bayesian Modelling Approaches for Breath-Hold Induced Cerebrovascular Reactivity",
+                "pub_year": 2024,
+                "citation": "bioRxiv, 2024.02. 06.579134, 2024",
+                "author": "Genevieve Hayes and Daniel P Bulte and Stefano Moia and Martin Craig and Michael Chappell and Eneko Urunuela and Sierra Sparks and Cesar Caballero Gaudes and Joana Pinto",
+                "journal": "bioRxiv",
+                "pages": "2024.02. 06.579134",
+                "publisher": "Cold Spring Harbor Laboratory",
+                "abstract": "Cerebrovascular reactivity (CVR) reflects the ability of blood vessels to dilate and constrict in response to a vasoactive stimulus and is an important indicator of cerebrovascular health. CVR can be mapped non-invasively with functional magnetic resonance imaging (fMRI) based on blood oxygen level-dependent (BOLD) contrast in combination with a breath-hold (BH) task. There are several ways to analyse this type of data and retrieve individual CVR amplitude and timing information. The most common approach involves employing a time-shifted general linear model with the measured end-tidal carbon dioxide signal as a regressor of interest. In this work, we introduce a novel method for CVR mapping based on a variational Bayesian approach. We analysed BOLD fMRI data from six participants that performed a BH task in ten different sessions each, and computed the corresponding CVR amplitude and delay maps for each session/subject. No statistically significant differences were observed between the modelling approaches in the CVR delay and amplitude maps in grey matter. Notably, the largest difference between methods was apparent in the case of low CVR amplitude, attributed to how each method addressed noisy voxels, particularly in white matter and cerebral spinal fluid. Both approaches showed highly reproducible CVR amplitude maps where between-subject variability was significantly larger than between-session variability. Furthermore, our results illustrated that the Bayesian approach is more computationally efficient, and future implementations could incorporate more complex noise models, non-linear fitting, and \u2026"
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:YFjsv_pBGBYC",
+            "num_citations": 0,
+            "pub_url": "https://www.biorxiv.org/content/10.1101/2024.02.06.579134.abstract",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:2PXkzK7TcbMJ:scholar.google.com/",
+            "cites_per_year": {}
+        },
         {
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
@@ -42,6 +62,7 @@
             "author_pub_id": "KLIjERgAAAAJ:NMxIlDl6LWMC",
             "num_citations": 0,
             "pub_url": "https://www.sciencedirect.com/science/article/pii/S1361841523002700",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:PhjDCl-850cJ:scholar.google.com/",
             "cites_per_year": {}
         },
         {
@@ -91,7 +112,9 @@
             "pub_url": "https://archive.ismrm.org/2022/0585.html",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:pIGQSaEYmoQJ:scholar.google.com/",
             "cites_per_year": {
-                "2022": 1
+                "2022": 1,
+                "2023": 0,
+                "2024": 1
             }
         },
         {
@@ -134,7 +157,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 29,
+            "num_citations": 34,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -144,7 +167,8 @@
             "cites_per_year": {
                 "2021": 2,
                 "2022": 5,
-                "2023": 22
+                "2023": 20,
+                "2024": 7
             }
         },
         {
@@ -169,7 +193,8 @@
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:26pawxqSaYwJ:scholar.google.com/",
             "cites_per_year": {
                 "2022": 2,
-                "2023": 2
+                "2023": 2,
+                "2024": 1
             }
         },
         {
@@ -189,7 +214,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
-            "num_citations": 26,
+            "num_citations": 30,
             "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
@@ -198,8 +223,9 @@
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:RLDoUlwYPoQJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 5,
-                "2022": 11,
-                "2023": 8
+                "2022": 10,
+                "2023": 8,
+                "2024": 4
             }
         },
         {
@@ -218,7 +244,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 25,
+            "num_citations": 27,
             "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
@@ -229,7 +255,8 @@
                 "2020": 1,
                 "2021": 8,
                 "2022": 6,
-                "2023": 10
+                "2023": 10,
+                "2024": 2
             }
         },
         {
@@ -256,7 +283,8 @@
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:JeDDucnOJAgJ:scholar.google.com/",
             "cites_per_year": {
                 "2022": 2,
-                "2023": 2
+                "2023": 2,
+                "2024": 1
             }
         },
         {
@@ -284,7 +312,8 @@
             "cites_per_year": {
                 "2021": 3,
                 "2022": 2,
-                "2023": 1
+                "2023": 1,
+                "2024": 1
             }
         },
         {
@@ -321,11 +350,13 @@
                 "pub_year": 2019,
                 "citation": "Servicio de Publicaciones. Universidad de Navarra, 2019",
                 "author": "Eneko Uru\u00f1uela",
-                "publisher": "Servicio de Publicaciones. Universidad de Navarra"
+                "publisher": "Servicio de Publicaciones. Universidad de Navarra",
+                "abstract": "This thesis presents a novel algorithm for the deconvolution of multi echo fMRI data with no prior information on the timings of the neuronal events. Based on previous work on the field, a new signal model is proposed in order to take the processing from a voxelwise analysis to an entire brain one. Different proximal operators have been studied for solving the optimisation problem present in the deconvolution, since it is an ill-posed inverse problem, and a novel method based on the stability selection procedure has been suggested to answer to the choice of the regularization parameter dilemma. The method takes advantage of the area under the curve (AUC) of the stability paths to avoid the selection of a single regularization parameter. An optimal approach for the thresholding of AUC timeseries is studied and different debiasing methods for removing the sparsity in prolonged events are presented. The results demonstrate that the MvMESPFM algorithm provides promising results when estimating neuronal-related events even on noisy data. Subject to being thoroughly tested on experimental data, testing conducted on simulated signals suggests that the tool could eventually be introduced to the processing pipelines of different research lines regarding fMRI data analysis."
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:qUcmZB5y_30C",
             "num_citations": 0,
+            "pub_url": "https://dadun.unav.edu/handle/10171/58374",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:k4reHddgQuUJ:scholar.google.com/",
             "cites_per_year": {}
         },
@@ -342,6 +373,7 @@
             "author_pub_id": "KLIjERgAAAAJ:M3NEmzRMIkIC",
             "num_citations": 0,
             "pub_url": "https://archive.ismrm.org/2022/0249.html",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:PMgsDuDBmysJ:scholar.google.com/",
             "cites_per_year": {}
         },
         {
@@ -490,10 +522,10 @@
         }
     ],
     "public_access": {
-        "available": 7,
+        "available": 8,
         "not_available": 0
     },
-    "citedby5y": 105,
+    "citedby5y": 116,
     "hindex": 5,
     "hindex5y": 5,
     "i10index": 3,
@@ -501,8 +533,9 @@
     "cites_per_year": {
         "2020": 1,
         "2021": 19,
-        "2022": 30,
-        "2023": 47
+        "2022": 29,
+        "2023": 45,
+        "2024": 17
     },
     "coauthors": [
         {
@@ -511,7 +544,7 @@
             "scholar_id": "EGyN5_YAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Cesar Caballero Gaudes",
-            "affiliation": "MRI Engineer, Group Leader & Ram\u00f3n y Cajal Fellow, Basque Center on Cognition, Brain \u2026"
+            "affiliation": "Group Leader (Ikerbasque Research Associate), Basque Center on Cognition, Brain and \u2026"
         },
         {
             "container_type": "Author",
@@ -576,22 +609,6 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Taylor Salo",
             "affiliation": "Postdoctoral fellow, University of Pennsylvania"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "O0zC2skAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Thomas AW Bolton",
-            "affiliation": "Scientific collaborator, Department of Clinical Neuroscience, CHUV"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "kFz4LNMAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Dimitri Van De Ville",
-            "affiliation": "Associate Professor of Bioengineering, EPF Lausanne and University of Geneva"
         },
         {
             "container_type": "Author",
@@ -684,6 +701,30 @@
         {
             "container_type": "Author",
             "filled": [],
+            "scholar_id": "O0zC2skAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Thomas AW Bolton",
+            "affiliation": "Scientific collaborator, Department of Clinical Neuroscience, CHUV"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "kFz4LNMAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Dimitri Van De Ville",
+            "affiliation": "Associate Professor of Bioengineering, EPF Lausanne and University of Geneva"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "vt1EAJcAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Gang Chen",
+            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
             "scholar_id": "btIfabIAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Mark Lowe",
@@ -696,14 +737,6 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Stephen Jones",
             "affiliation": "Cleveland Clinic"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "vt1EAJcAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Gang Chen",
-            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
         },
         {
             "container_type": "Author",
@@ -727,7 +760,7 @@
             "scholar_id": "ocJSFvUAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Ye Ella Tian",
-            "affiliation": "Mary Lugton Postdoc Research Fellow, University of Melbourne, Australia"
+            "affiliation": "Research Fellow, University of Melbourne, Australia"
         },
         {
             "container_type": "Author",
@@ -776,6 +809,14 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Merel van der Thiel",
             "affiliation": "Maastricht University Medical Center"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "9Ua0anAAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Kristina M. Zvolanek",
+            "affiliation": "Northwestern University"
         }
     ]
 }
