@@ -22,7 +22,7 @@
     ],
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 116,
+    "citedby": 131,
     "publications": [
         {
             "container_type": "Publication",
@@ -98,7 +98,7 @@
                 "title": "Automatic detection of spatio-temporal patterns of interictal epileptic activity with fMRI",
                 "pub_year": 2022,
                 "citation": "[Conference Oral Scientific Session] Joint Annual Meeting ISMRM-ESMRMB \u2026, 2022",
-                "author": "Cristina Tob\u00edas and Eneko Uru\u00f1uela and Vicente Ferrer-Gallardo and Hannah Goldberg and Christine Engelman and Mark Lowe and S Jones and C\u00e9sar Caballero-Gaudes",
+                "author": "Cristina Tobias and Eneko Uru\u00f1uela and Vicente Ferrer-Gallardo and Hannah Goldberg and Christine Engelman and Mark Lowe and S Jones and C\u00e9sar Caballero-Gaudes",
                 "journal": "[Conference Oral Scientific Session] Joint Annual Meeting ISMRM-ESMRMB & ISMRT 31st Annual Meeting",
                 "abstract": "We propose a novel methodology to identify spatio-temporal patterns of interictal epileptic activity in refractory epileptic patients using only BOLD functional MRI. It is based on clustering the activity-inducing signal deconvolved from the fMRI data with the Infomap algorithm. The proposed approach was validated on data acquired during a finger tapping task, and evaluated in four epileptic patients scanned at 7T. This method obtained activation maps that were concordant with the results obtained with EEG-informed GLM and MEG-based dipole source localization in 3 out of 4 patients, demonstrating its potential for mapping epileptic activity based only on fMRI data."
             },
@@ -157,7 +157,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 34,
+            "num_citations": 42,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -166,9 +166,9 @@
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:pjNVMb-7KAMJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 2,
-                "2022": 5,
-                "2023": 20,
-                "2024": 7
+                "2022": 4,
+                "2023": 24,
+                "2024": 12
             }
         },
         {
@@ -184,7 +184,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:e5wmG9Sq2KIC",
-            "num_citations": 5,
+            "num_citations": 6,
             "citedby_url": "/scholar?hl=en&cites=10117778681508834011",
             "cites_id": [
                 "10117778681508834011"
@@ -192,6 +192,7 @@
             "pub_url": "https://arxiv.org/abs/2107.12026",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:26pawxqSaYwJ:scholar.google.com/",
             "cites_per_year": {
+                "2021": 1,
                 "2022": 2,
                 "2023": 2,
                 "2024": 1
@@ -204,7 +205,7 @@
                 "title": "Brainhack: Developing a culture of open, inclusive, community-driven neuroscience",
                 "pub_year": 2021,
                 "citation": "Neuron 109 (11), 1769-1775, 2021",
-                "author": "R\u00e9mi Gau and Stephanie Noble and Katja Heuer and Katherine L Bottenhorn and Isil P Bilgin and Yu-Fang Yang and Julia M Huntenburg and Johanna MM Bayer and Richard AI Bethlehem and Shawn A Rhoads and Christoph Vogelbacher and Valentina Borghesani and Elizabeth Levitis and Hao-Ting Wang and Sofie Van Den Bossche and Xenia Kobeleva and Jon Haitz Legarreta and Samuel Guay and Selim Melvin Atay and Gael P Varoquaux and Dorien C Huijser and Malin S Sandstr\u00f6m and Peer Herholz and Samuel A Nastase and AmanPreet Badhwar and Guillaume Dumas and Simon Schwab and Stefano Moia and Michael Dayan and Yasmine Bassil and Paula P Brooks and Matteo Mancini and James M Shine and David O\u2019connor and Xihe Xie and Davide Poggiali and Patrick Friedrich and Anibal S Heinsfeld and Lydia Riedl and Roberto Toro and C\u00e9sar Caballero-Gaudes and Anders Eklund and Kelly G Garner and Christopher R Nolan and Damion V Demeter and Fernando A Barrios and Junaid S Merchant and Elizabeth A McDevitt and Robert Oostenveld and R Cameron Craddock and Ariel Rokem and Andrew Doyle and Satrajit S Ghosh and Aki Nikolaidis and Olivia W Stanley and Eneko Uru\u00f1uela and Nasim Anousheh and Aurina Arnatkeviciute and Guillaume Auzias and Dipankar Bachar and Elise Bannier and Ruggero Basanisi and Arshitha Basavaraj and Marco Bedini and Pierre Bellec and R Austin Benn and Kathryn Berluti and Steffen Bollmann and Saskia Bollmann and Claire Bradley and Jesse Brown and Augusto Buchweitz and Patrick Callahan and Micaela Y Chan and Bramsh Q Chandio and Theresa Cheng and Sidhant Chopra and Ai Wern Chung and Thomas G Close and Etienne Combrisson and Giorgia Cona and R Todd Constable and Claire Cury and Kamalaker Dadi and Pablo F Damasceno and Samir Das and Fabrizio De Vico Fallani and Krista Destasio and Erin W Dickie and Lena Dorfschmidt and Eugene P Duff and Elizabeth Dupre and Sarah Dziura and Nathalia B Esper and Oscar Esteban and Shreyas Fadnavis and Guillaume Flandin and Jessica E Flannery and John Flournoy and Stephanie J Forkel and Alexandre R Franco and Saampras Ganesan and Siyuan Gao and Jos\u00e9 C Garc\u00eda Alanis and Eleftherios Garyfallidis and Tristan Glatard and Enrico Glerean and Javier Gonzalez-Castillo and Cassandra D Gould van Praag and Abigail S Greene and Geetika Gupta and Catherine Alice Hahn and Yaroslav O Halchenko and Daniel Handwerker and Thomas S Hartmann and Val\u00e9rie Hayot-Sasson and Stephan Heunis and Felix Hoffstaedter and Daniela M Hohmann and Corey Horien and Horea-Ioan Ioanas and Alexandru Iordan and Chao Jiang and Michael Joseph and Jason Kai and Agah Karakuzu and David N Kennedy and Anisha Keshavan and Ali R Khan and Gregory Kiar and P Christiaan Klink and Vincent Koppelmans and Serge Koudoro and Angela R Laird and Georg Langs and Marissa Laws and Roxane Licandro and Sook-Lei Liew and Tomislav Lipic and Krisanne Litinas and Daniel J Lurie and D\u00e9sir\u00e9e Lussier and Christopher R Madan and Lea-Theresa Mais and Jose Pedro Manzano-Patron and Dimitra Maoutsa and Matheus Marcon and Daniel S Margulies and Giorgio Marinato and Daniele Marinazzo",
+                "author": "R\u00e9mi Gau and Stephanie Noble and Katja Heuer and Katherine L Bottenhorn and Isil P Bilgin and Yu-Fang Yang and Julia M Huntenburg and Johanna MM Bayer and Richard AI Bethlehem and Shawn A Rhoads and Christoph Vogelbacher and Valentina Borghesani and Elizabeth Levitis and Hao-Ting Wang and Sofie Van Den Bossche and Xenia Kobeleva and Jon Haitz Legarreta and Samuel Guay and Selim Melvin Atay and Gael P Varoquaux and Dorien C Huijser and Malin S Sandstr\u00f6m and Peer Herholz and Samuel A Nastase and AmanPreet Badhwar and Guillaume Dumas and Simon Schwab and Stefano Moia and Michael Dayan and Yasmine Bassil and Paula P Brooks and Matteo Mancini and James M Shine and David O\u2019connor and Xihe Xie and Davide Poggiali and Patrick Friedrich and Anibal S Heinsfeld and Lydia Riedl and Roberto Toro and C\u00e9sar Caballero-Gaudes and Anders Eklund and Kelly G Garner and Christopher R Nolan and Damion V Demeter and Fernando A Barrios and Junaid S Merchant and Elizabeth A McDevitt and Robert Oostenveld and R Cameron Craddock and Ariel Rokem and Andrew Doyle and Satrajit S Ghosh and Aki Nikolaidis and Olivia W Stanley and Eneko Uru\u00f1uela and Nasim Anousheh and Aurina Arnatkeviciute and Guillaume Auzias and Dipankar Bachar and Elise Bannier and Ruggero Basanisi and Arshitha Basavaraj and Marco Bedini and Pierre Bellec and R Austin Benn and Kathryn Berluti and Steffen Bollmann and Saskia Bollmann and Claire Bradley and Jesse Brown and Augusto Buchweitz and Patrick Callahan and Micaela Y Chan and Bramsh Q Chandio and Theresa Cheng and Sidhant Chopra and Ai Wern Chung and Thomas G Close and Etienne Combrisson and Giorgia Cona and R Todd Constable and Claire Cury and Kamalaker Dadi and Pablo F Damasceno and Samir Das and Fabrizio De Vico Fallani and Krista DeStasio and Erin W Dickie and Lena Dorfschmidt and Eugene P Duff and Elizabeth Dupre and Sarah Dziura and Nathalia B Esper and Oscar Esteban and Shreyas Fadnavis and Guillaume Flandin and Jessica E Flannery and John Flournoy and Stephanie J Forkel and Alexandre R Franco and Saampras Ganesan and Siyuan Gao and Jos\u00e9 C Garc\u00eda Alanis and Eleftherios Garyfallidis and Tristan Glatard and Enrico Glerean and Javier Gonzalez-Castillo and Cassandra D Gould van Praag and Abigail S Greene and Geetika Gupta and Catherine Alice Hahn and Yaroslav O Halchenko and Daniel Handwerker and Thomas S Hartmann and Val\u00e9rie Hayot-Sasson and Stephan Heunis and Felix Hoffstaedter and Daniela M Hohmann and Corey Horien and Horea-Ioan Ioanas and Alexandru Iordan and Chao Jiang and Michael Joseph and Jason Kai and Agah Karakuzu and David N Kennedy and Anisha Keshavan and Ali R Khan and Gregory Kiar and P Christiaan Klink and Vincent Koppelmans and Serge Koudoro and Angela R Laird and Georg Langs and Marissa Laws and Roxane Licandro and Sook-Lei Liew and Tomislav Lipic and Krisanne Litinas and Daniel J Lurie and D\u00e9sir\u00e9e Lussier and Christopher R Madan and Lea-Theresa Mais and Jose Pedro Manzano-Patron and Dimitra Maoutsa and Matheus Marcon and Daniel S Margulies and Giorgio Marinato and Daniele Marinazzo",
                 "journal": "Neuron",
                 "volume": "109",
                 "number": "11",
@@ -214,7 +215,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
-            "num_citations": 30,
+            "num_citations": 34,
             "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
@@ -223,9 +224,9 @@
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:RLDoUlwYPoQJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 5,
-                "2022": 10,
+                "2022": 11,
                 "2023": 8,
-                "2024": 4
+                "2024": 7
             }
         },
         {
@@ -244,7 +245,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 27,
+            "num_citations": 28,
             "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
@@ -255,15 +256,15 @@
                 "2020": 1,
                 "2021": 8,
                 "2022": 6,
-                "2023": 10,
-                "2024": 2
+                "2023": 9,
+                "2024": 4
             }
         },
         {
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "A low rank and sparse paradigm free mapping algorithm for deconvolution of fMRI data",
+                "title": "A low rank and sparse paradigm free mapping algorithm for deconvolution of FMRI data",
                 "pub_year": 2021,
                 "citation": "2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI), 1726-1729, 2021",
                 "author": "Eneko Uru\u00f1uela and Stefano Moia and C\u00e9sar Caballero-Gaudes",
@@ -359,6 +360,30 @@
             "pub_url": "https://dadun.unav.edu/handle/10171/58374",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:k4reHddgQuUJ:scholar.google.com/",
             "cites_per_year": {}
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Deconvolution of multi-echo functional MRI data with multivariate multi-echo sparse paradigm free mapping",
+                "pub_year": 2019,
+                "citation": "ISMRM 27th Annual Meeting and Exhibition, 2019",
+                "author": "Eneko Uru\u00f1uela-Tremi\u00f1o and Stefano Moia and Javier Gonzalez-Castillo and C\u00e9sar Caballero-Gaudes",
+                "journal": "ISMRM 27th Annual Meeting and Exhibition",
+                "abstract": "This work introduces a novel multivariate deconvolution method to blindly estimate neuronal-related-signal changes in multi-echo fMRI data without prior knowledge of their timings. In contrast to current voxel-based approaches, this algorithm simultaneously deconvolves all brain\u2019s voxel time series and uses structured spatio-temporal regularization to improve the quality of the estimates. Besides, it employs stability selection procedures to overcome the selection of regularization parameters of the deconvolution problem. We evaluate its performance in multiple realistic simulations, showing its potential to blindly detect BOLD events in paradigms when no prior information can be obtained."
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:4JMBOYKVnBMC",
+            "num_citations": 1,
+            "citedby_url": "/scholar?hl=en&cites=280426596074925130",
+            "cites_id": [
+                "280426596074925130"
+            ],
+            "pub_url": "https://archive.ismrm.org/2019/0912.html",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:Siye3IBG5AMJ:scholar.google.com/",
+            "cites_per_year": {
+                "2021": 1
+            }
         },
         {
             "container_type": "Publication",
@@ -492,22 +517,6 @@
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
             "bib": {
-                "title": "Deconvolution of multi-echo functional MRI data with Multivariate Multi-Echo Sparse Paradigm Free Mapping",
-                "citation": "",
-                "author": "Eneko Uru\u00f1uela-Tremi\u00f1o and Stefano Moia and Javier Gonzalez-Castillo and C\u00e9sar Caballero-Gaudes",
-                "abstract": "This work introduces a novel multivariate deconvolution method to blindly estimate neuronal-related-signal changes in multi-echo fMRI data without prior knowledge of their timings. In contrast to current voxel-based approaches, this algorithm simultaneously deconvolves all brain\u2019s voxel time series and uses structured spatio-temporal regularization to improve the quality of the estimates. Besides, it employs stability selection procedures to overcome the selection of regularization parameters of the deconvolution problem. We evaluate its performance in multiple realistic simulations, showing its potential to blindly detect BOLD events in paradigms when no prior information can be obtained."
-            },
-            "filled": true,
-            "author_pub_id": "KLIjERgAAAAJ:4JMBOYKVnBMC",
-            "num_citations": 0,
-            "pub_url": "https://archive.ismrm.org/2019/0912.html",
-            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:ciZxhv5HvHUJ:scholar.google.com/",
-            "cites_per_year": {}
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
                 "title": "Fingerprinting individual subjects from resting-state functional magnetic resonance imaging head motion",
                 "citation": "",
                 "author": "Thomas Bolton and Stefano Moia and Eneko Urunuela and Dimitri Van De Ville and C\u00e9sar Caballero-Gaudes",
@@ -525,17 +534,17 @@
         "available": 8,
         "not_available": 0
     },
-    "citedby5y": 116,
+    "citedby5y": 131,
     "hindex": 5,
     "hindex5y": 5,
     "i10index": 3,
     "i10index5y": 3,
     "cites_per_year": {
         "2020": 1,
-        "2021": 19,
+        "2021": 21,
         "2022": 29,
-        "2023": 45,
-        "2024": 17
+        "2023": 48,
+        "2024": 27
     },
     "coauthors": [
         {
@@ -552,7 +561,7 @@
             "scholar_id": "sKSyDscAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Stefano Moia",
-            "affiliation": "Medical Imaging Processing Lab, EPFL"
+            "affiliation": "MR-METHODS, Department of Cognitive Neuroscience, Maastricht University"
         },
         {
             "container_type": "Author",
@@ -609,6 +618,14 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Taylor Salo",
             "affiliation": "Postdoctoral fellow, University of Pennsylvania"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "vt1EAJcAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Gang Chen",
+            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
         },
         {
             "container_type": "Author",
@@ -712,15 +729,7 @@
             "scholar_id": "kFz4LNMAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Dimitri Van De Ville",
-            "affiliation": "Associate Professor of Bioengineering, EPF Lausanne and University of Geneva"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "vt1EAJcAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Gang Chen",
-            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
+            "affiliation": "Professor, Neuro-X Institute, EPF Lausanne and University of Geneva"
         },
         {
             "container_type": "Author",
