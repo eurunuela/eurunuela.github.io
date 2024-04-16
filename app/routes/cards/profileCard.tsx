@@ -19,7 +19,7 @@ export default function ProfileCard() {
                 Hi, I'm Eneko <span className="whitespace-nowrap">👋</span>
               </h1>
               <h2 className="py-2 text-xl text-gray-600 dark:text-gray-200">
-                I am a PhD student developing machine learning algorithms for neuroimaging.
+                I have a PhD in machine learning algorithms for neuroimaging.
               </h2>
               <p className="py-2 italic text-gray-600 dark:text-gray-200">
                 I want to make healthcare more accessible and affordable to everyone.
