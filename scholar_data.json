@@ -22,8 +22,49 @@
     ],
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 137,
+    "citedby": 142,
     "publications": [
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "PyProximal-scalable convex optimization in Python",
+                "pub_year": 2024,
+                "citation": "Journal of Open Source Software 9 (95), 6326, 2024",
+                "author": "Matteo Ravasi and Marcus Valtonen \u00d6rnhag and Nick Luiken and Olivier Leblanc and Eneko Uru\u00f1uela",
+                "journal": "Journal of Open Source Software",
+                "volume": "9",
+                "number": "95",
+                "pages": "6326",
+                "abstract": "A broad class of problems in scientific disciplines ranging from image processing and astrophysics, to geophysics and medical imaging call for the optimization of convex, non-smooth objective functions. Whereas practitioners are usually familiar with gradient-based algorithms, commonly used to solve unconstrained, smooth optimization problems, proximal algorithms can be viewed as analogous tools for non-smooth and possibly constrained versions of such problems. These algorithms sit at a higher level of abstraction than gradient-based algorithms and require a basic operation to be performed at each iteration: the evaluation of the so-called proximal operator of the functional to be optimized. PyProximal is a Python-based library aimed at democratizing the application of convex optimization to scientific problems; it provides the required building blocks (ie, proximal operators and algorithms) to define and solve complex, convex objective functions in a high-level, abstract fashion, shielding users away from any unneeded mathematical and implementation details."
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:BqipwSGYUEgC",
+            "num_citations": 0,
+            "pub_url": "https://joss.theoj.org/papers/10.21105/joss.06326.pdf",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:UAQOB2cxqUEJ:scholar.google.com/",
+            "cites_per_year": {}
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Individual variability in the relationship between physiological and resting-state fMRI metrics",
+                "pub_year": 2024,
+                "citation": "bioRxiv, 2024.05. 02.592237, 2024",
+                "author": "Stefano Moia and Gang Chen and Eneko Urunuela and Rachael Stickland and Maite Termenon and Cesar Caballero Gaudes and Molly G Bright",
+                "journal": "bioRxiv",
+                "pages": "2024.05. 02.592237",
+                "publisher": "Cold Spring Harbor Laboratory",
+                "abstract": "Cerebrovascular Reactivity (CVR), the brain's vascular response to a vasodilatory stimulus, can be measured using fMRI during breathing challenges that modulate arterial CO2 levels. CVR is an important indicator of cerebrovascular health, although its estimation can be challenging due to the extra experimental setup and/or the subject compliance required. To overcome these limitations, summary metrics  based on resting state fluctuations (RSF), such as the (fractional) amplitude of low frequency fluctuations (f/ALFF) and the resting state fluctuation amplitude (RSFA), have been proposed as alternative estimates of CVR, as they are frequently associated with vascular and physiological factors. Previous studies have reported a significant relationship between CVR estimates obtained by means of respiratory paradigms and RSF metrics. However, the total sample sizes, considering both subjects and sessions, are typically small, and not all studies agree on the degree of the relationship. Furthermore, to our knowledge, these studies have only reported cross-sectional analyses, whereas intra-subject longitudinal relationships between CVR estimates and RSF metrics are unknown. Leveraging a unique dense sampling dataset in which resting state and breath-hold multi-echo fMRI were collected in 7 subjects with 10 sessions each, we provide evidence of high individual variability in the inter-session (i.e. intra-subject) relationship between RSF metrics and CVR. These results indicate that RSF metrics might not be a suitable proxy of CVR in clinical settings or for BOLD signal calibration as they may not properly account for intra-individual \u2026"
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:O3NaXMp0MMsC",
+            "num_citations": 0,
+            "pub_url": "https://www.biorxiv.org/content/10.1101/2024.05.02.592237.abstract",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:9eCJvsbB2dkJ:scholar.google.com/",
+            "cites_per_year": {}
+        },
         {
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
@@ -64,6 +105,34 @@
             "pub_url": "https://www.sciencedirect.com/science/article/pii/S1361841523002700",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:PhjDCl-850cJ:scholar.google.com/",
             "cites_per_year": {}
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Hemodynamic Deconvolution Demystified: Sparsity-Driven Regularization at Work",
+                "pub_year": 2023,
+                "citation": "Aperture Neuro 3, 2023",
+                "author": "Eneko Uru\u00f1uela and Thomas A.W. Bolton and Dimitri Van De Ville and C\u00e9sar Caballero-Gaudes",
+                "journal": "Aperture Neuro",
+                "volume": "3",
+                "abstract": "Deconvolution of the hemodynamic response is an important step to access short timescales of brain activity recorded by functional magnetic resonance imaging (fMRI). Albeit conventional deconvolution algorithms have been around for a long time (e.g., Wiener deconvolution), recent state-of-the-art methods based on sparsity-pursuing regularization are attracting increasing interest to investigate brain dynamics and connectivity with fMRI. This technical note revisits the main concepts underlying two main methods, Paradigm Free Mapping and Total Activation, in the most accessible way. Despite their apparent differences in the formulation, these methods are theoretically equivalent as they represent the synthesis and analysis sides of the same problem, respectively. We demonstrate this equivalence in practice with their best-available implementations using both simulations, with different signal-to-noise ratios, and experimental fMRI data acquired during a motor task and resting-state. We evaluate the parameter settings that lead to equivalent results, and showcase the potential of these algorithms compared to other common approaches. This note is useful for practitioners interested in gaining a better understanding of state-of-the-art hemodynamic deconvolution, and aims to answer questions that practitioners often have regarding the differences between the two methods."
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:GnPB-g6toBAC",
+            "num_citations": 6,
+            "citedby_url": "/scholar?hl=en&cites=10117778681508834011",
+            "cites_id": [
+                "10117778681508834011"
+            ],
+            "pub_url": "https://arxiv.org/abs/2107.12026",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:26pawxqSaYwJ:scholar.google.com/",
+            "cites_per_year": {
+                "2021": 1,
+                "2022": 2,
+                "2023": 2,
+                "2024": 1
+            }
         },
         {
             "container_type": "Publication",
@@ -157,7 +226,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 47,
+            "num_citations": 49,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -167,35 +236,8 @@
             "cites_per_year": {
                 "2021": 2,
                 "2022": 4,
-                "2023": 25,
-                "2024": 16
-            }
-        },
-        {
-            "container_type": "Publication",
-            "source": "AUTHOR_PUBLICATION_ENTRY",
-            "bib": {
-                "title": "Hemodynamic deconvolution demystified: Sparsity-driven regularization at work",
-                "pub_year": 2021,
-                "citation": "arXiv preprint arXiv:2107.12026, 2021",
-                "author": "Eneko Uru\u00f1uela and Thomas AW Bolton and Dimitri Van De Ville and C\u00e9sar Caballero-Gaudes",
-                "journal": "arXiv preprint arXiv:2107.12026",
-                "abstract": "Deconvolution of the hemodynamic response is an important step to access short timescales of brain activity recorded by functional magnetic resonance imaging (fMRI). Albeit conventional deconvolution algorithms have been around for a long time (e.g., Wiener deconvolution), recent state-of-the-art methods based on sparsity-pursuing regularization are attracting increasing interest to investigate brain dynamics and connectivity with fMRI. This technical note revisits the main concepts underlying two main methods, Paradigm Free Mapping and Total Activation, in the most accessible way. Despite their apparent differences in the formulation, these methods are theoretically equivalent as they represent the synthesis and analysis sides of the same problem, respectively. We demonstrate this equivalence in practice with their best-available implementations using both simulations, with different signal-to-noise ratios, and experimental fMRI data acquired during a motor task and resting-state. We evaluate the parameter settings that lead to equivalent results, and showcase the potential of these algorithms compared to other common approaches. This note is useful for practitioners interested in gaining a better understanding of state-of-the-art hemodynamic deconvolution, and aims to answer questions that practitioners often have regarding the differences between the two methods."
-            },
-            "filled": true,
-            "author_pub_id": "KLIjERgAAAAJ:e5wmG9Sq2KIC",
-            "num_citations": 6,
-            "citedby_url": "/scholar?hl=en&cites=10117778681508834011",
-            "cites_id": [
-                "10117778681508834011"
-            ],
-            "pub_url": "https://arxiv.org/abs/2107.12026",
-            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:26pawxqSaYwJ:scholar.google.com/",
-            "cites_per_year": {
-                "2021": 1,
-                "2022": 2,
-                "2023": 2,
-                "2024": 1
+                "2023": 24,
+                "2024": 19
             }
         },
         {
@@ -215,7 +257,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
-            "num_citations": 34,
+            "num_citations": 35,
             "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
@@ -226,7 +268,7 @@
                 "2021": 5,
                 "2022": 11,
                 "2023": 7,
-                "2024": 8
+                "2024": 9
             }
         },
         {
@@ -245,7 +287,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 29,
+            "num_citations": 31,
             "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
@@ -257,7 +299,7 @@
                 "2021": 8,
                 "2022": 6,
                 "2023": 9,
-                "2024": 5
+                "2024": 7
             }
         },
         {
@@ -270,8 +312,7 @@
                 "author": "Eneko Uru\u00f1uela and Stefano Moia and C\u00e9sar Caballero-Gaudes",
                 "conference": "2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI)",
                 "pages": "1726-1729",
-                "publisher": "IEEE",
-                "abstract": "Current deconvolution algorithms for functional magnetic resonance imaging (fMRI) data are hindered by widespread signal changes arising from motion or physiological processes (e.g. deep breaths) that can be interpreted incorrectly as neuronal-related hemodynamic events. This work proposes a novel deconvolution approach that simultaneously estimates global signal fluctuations and neuronal-related activity with no prior information about the timings of the blood oxygenation level-dependent (BOLD) events by means of a low rank plus sparse decomposition algorithm. The performance of the proposed method is evaluated on simulated and experimental fMRI data, and compared with state-of-the-art sparsity-based deconvolution approaches and with a conventional analysis that is aware of the temporal model of the neuronal-related activity. We demonstrate that the novel low-rank and sparse paradigm free \u2026"
+                "publisher": "IEEE"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:R3hNpaxXUhUC",
@@ -280,7 +321,6 @@
             "cites_id": [
                 "586821217265377317"
             ],
-            "pub_url": "https://ieeexplore.ieee.org/abstract/document/9433821/",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:JeDDucnOJAgJ:scholar.google.com/",
             "cites_per_year": {
                 "2022": 2,
@@ -471,11 +511,13 @@
             "bib": {
                 "title": "Long-term stability of cerebrovascular reactivity varies across brain regions",
                 "citation": "",
-                "author": "Stefano Moia and Vicente Ferrer and Rachael C Stickland and Ross Davis Markello and Eneko Uru\u00f1uela and Maite Termenon and C\u00e9sar Caballero-Gaudes and Molly G Bright"
+                "author": "Stefano Moia and Vicente Ferrer and Rachael C Stickland and Ross Davis Markello and Eneko Uru\u00f1uela and Maite Termenon and C\u00e9sar Caballero-Gaudes and Molly G Bright",
+                "abstract": "The reliability of cerebrovascular reactivity varies across brain regions, but little is known about what factors drive such variability. By leveraging a high-quality precision functional mapping dataset of breath-hold induced cerebrovascular reactivity (7 subjects with 10 sessions each), we assessed how much parcellations describing different architectures (ie vascular anatomy, functional networks, subcortical anatomy) could present internal homogeneity, and hence explain these regionally-specific reliability. We found that all architectures taken into account can equally explain these spatial patterns of cerebrovascular reactivity."
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:iH-uZ7U-co4C",
             "num_citations": 0,
+            "pub_url": "https://archive.ismrm.org/2021/3395.html",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:203rsma8wEEJ:scholar.google.com/",
             "cites_per_year": {}
         },
@@ -532,7 +574,7 @@
         "available": 8,
         "not_available": 0
     },
-    "citedby5y": 137,
+    "citedby5y": 142,
     "hindex": 5,
     "hindex5y": 5,
     "i10index": 3,
@@ -541,8 +583,8 @@
         "2020": 1,
         "2021": 21,
         "2022": 29,
-        "2023": 48,
-        "2024": 33
+        "2023": 47,
+        "2024": 39
     },
     "coauthors": [
         {
@@ -580,6 +622,14 @@
         {
             "container_type": "Author",
             "filled": [],
+            "scholar_id": "r7BTR4cAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Rachael Stickland",
+            "affiliation": "The Alan Turing Institute"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
             "scholar_id": "CGQ3Lw4AAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Javier Gonzalez-Castillo",
@@ -596,10 +646,10 @@
         {
             "container_type": "Author",
             "filled": [],
-            "scholar_id": "r7BTR4cAAAAJ",
+            "scholar_id": "vt1EAJcAAAAJ",
             "source": "CO_AUTHORS_LIST",
-            "name": "Rachael Stickland",
-            "affiliation": "The Alan Turing Institute"
+            "name": "Gang Chen",
+            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
         },
         {
             "container_type": "Author",
@@ -616,14 +666,6 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Taylor Salo",
             "affiliation": "Postdoctoral fellow, University of Pennsylvania"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "vt1EAJcAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Gang Chen",
-            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
         },
         {
             "container_type": "Author",
@@ -655,7 +697,7 @@
             "scholar_id": "kSXl63oAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Prantik Kundu, PhD",
-            "affiliation": "Hyperfine Research Inc., Icahn School of Medicine at Mount Sinai"
+            "affiliation": "Ceretype Neuromedicine Inc., Mount Sinai School of Medicine, Brigham and Women's \u2026"
         },
         {
             "container_type": "Author",
@@ -780,6 +822,14 @@
         {
             "container_type": "Author",
             "filled": [],
+            "scholar_id": "GZ_TKZwAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Cristina Tob\u00edas Figuerola",
+            "affiliation": "PhD candidate, Link\u00f6pings Universitet"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
             "scholar_id": "gigXVRIAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Soichi Hayashi",
@@ -824,6 +874,38 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Kristina M. Zvolanek",
             "affiliation": "Northwestern University"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "YFGqyAMAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Daniel Peter Bulte",
+            "affiliation": "University of Oxford"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "arFdkjUAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Genevieve Hayes",
+            "affiliation": "PhD, University of Oxford"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "78ZlU3AAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Michael A Chappell",
+            "affiliation": "University of Nottingham"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "Mg0pUcQAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Sierra Sparks",
+            "affiliation": "DPhil Student, University of Oxford"
         }
     ]
 }
