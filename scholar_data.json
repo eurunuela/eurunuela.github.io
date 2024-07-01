@@ -22,7 +22,7 @@
     ],
     "email_domain": "@bcbl.eu",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 142,
+    "citedby": 155,
     "publications": [
         {
             "container_type": "Publication",
@@ -40,10 +40,16 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:BqipwSGYUEgC",
-            "num_citations": 0,
+            "num_citations": 1,
+            "citedby_url": "/scholar?hl=en&cites=4731367202099168336",
+            "cites_id": [
+                "4731367202099168336"
+            ],
             "pub_url": "https://joss.theoj.org/papers/10.21105/joss.06326.pdf",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:UAQOB2cxqUEJ:scholar.google.com/",
-            "cites_per_year": {}
+            "cites_per_year": {
+                "2024": 1
+            }
         },
         {
             "container_type": "Publication",
@@ -226,7 +232,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 49,
+            "num_citations": 52,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -237,7 +243,7 @@
                 "2021": 2,
                 "2022": 4,
                 "2023": 24,
-                "2024": 19
+                "2024": 22
             }
         },
         {
@@ -247,7 +253,7 @@
                 "title": "Brainhack: Developing a culture of open, inclusive, community-driven neuroscience",
                 "pub_year": 2021,
                 "citation": "Neuron 109 (11), 1769-1775, 2021",
-                "author": "R\u00e9mi Gau and Stephanie Noble and Katja Heuer and Katherine L Bottenhorn and Isil P Bilgin and Yu-Fang Yang and Julia M Huntenburg and Johanna MM Bayer and Richard AI Bethlehem and Shawn A Rhoads and Christoph Vogelbacher and Valentina Borghesani and Elizabeth Levitis and Hao-Ting Wang and Sofie Van Den Bossche and Xenia Kobeleva and Jon Haitz Legarreta and Samuel Guay and Selim Melvin Atay and Gael P Varoquaux and Dorien C Huijser and Malin S Sandstr\u00f6m and Peer Herholz and Samuel A Nastase and AmanPreet Badhwar and Guillaume Dumas and Simon Schwab and Stefano Moia and Michael Dayan and Yasmine Bassil and Paula P Brooks and Matteo Mancini and James M Shine and David O\u2019connor and Xihe Xie and Davide Poggiali and Patrick Friedrich and Anibal S Heinsfeld and Lydia Riedl and Roberto Toro and C\u00e9sar Caballero-Gaudes and Anders Eklund and Kelly G Garner and Christopher R Nolan and Damion V Demeter and Fernando A Barrios and Junaid S Merchant and Elizabeth A McDevitt and Robert Oostenveld and R Cameron Craddock and Ariel Rokem and Andrew Doyle and Satrajit S Ghosh and Aki Nikolaidis and Olivia W Stanley and Eneko Uru\u00f1uela and Nasim Anousheh and Aurina Arnatkeviciute and Guillaume Auzias and Dipankar Bachar and Elise Bannier and Ruggero Basanisi and Arshitha Basavaraj and Marco Bedini and Pierre Bellec and R Austin Benn and Kathryn Berluti and Steffen Bollmann and Saskia Bollmann and Claire Bradley and Jesse Brown and Augusto Buchweitz and Patrick Callahan and Micaela Y Chan and Bramsh Q Chandio and Theresa Cheng and Sidhant Chopra and Ai Wern Chung and Thomas G Close and Etienne Combrisson and Giorgia Cona and R Todd Constable and Claire Cury and Kamalaker Dadi and Pablo F Damasceno and Samir Das and Fabrizio De Vico Fallani and Krista DeStasio and Erin W Dickie and Lena Dorfschmidt and Eugene P Duff and Elizabeth Dupre and Sarah Dziura and Nathalia B Esper and Oscar Esteban and Shreyas Fadnavis and Guillaume Flandin and Jessica E Flannery and John Flournoy and Stephanie J Forkel and Alexandre R Franco and Saampras Ganesan and Siyuan Gao and Jos\u00e9 C Garc\u00eda Alanis and Eleftherios Garyfallidis and Tristan Glatard and Enrico Glerean and Javier Gonzalez-Castillo and Cassandra D Gould van Praag and Abigail S Greene and Geetika Gupta and Catherine Alice Hahn and Yaroslav O Halchenko and Daniel Handwerker and Thomas S Hartmann and Val\u00e9rie Hayot-Sasson and Stephan Heunis and Felix Hoffstaedter and Daniela M Hohmann and Corey Horien and Horea-Ioan Ioanas and Alexandru Iordan and Chao Jiang and Michael Joseph and Jason Kai and Agah Karakuzu and David N Kennedy and Anisha Keshavan and Ali R Khan and Gregory Kiar and P Christiaan Klink and Vincent Koppelmans and Serge Koudoro and Angela R Laird and Georg Langs and Marissa Laws and Roxane Licandro and Sook-Lei Liew and Tomislav Lipic and Krisanne Litinas and Daniel J Lurie and D\u00e9sir\u00e9e Lussier and Christopher R Madan and Lea-Theresa Mais and Jose Pedro Manzano-Patron and Dimitra Maoutsa and Matheus Marcon and Daniel S Margulies and Giorgio Marinato and Daniele Marinazzo",
+                "author": "R\u00e9mi Gau and Stephanie Noble and Katja Heuer and Katherine L Bottenhorn and Isil P Bilgin and Yu-Fang Yang and Julia M Huntenburg and Johanna MM Bayer and Richard AI Bethlehem and Shawn A Rhoads and Christoph Vogelbacher and Valentina Borghesani and Elizabeth Levitis and Hao-Ting Wang and Sofie Van Den Bossche and Xenia Kobeleva and Jon Haitz Legarreta and Samuel Guay and Selim Melvin Atay and Gael P Varoquaux and Dorien C Huijser and Malin S Sandstr\u00f6m and Peer Herholz and Samuel A Nastase and AmanPreet Badhwar and Guillaume Dumas and Simon Schwab and Stefano Moia and Michael Dayan and Yasmine Bassil and Paula P Brooks and Matteo Mancini and James M Shine and David O\u2019connor and Xihe Xie and Davide Poggiali and Patrick Friedrich and Anibal S Heinsfeld and Lydia Riedl and Roberto Toro and C\u00e9sar Caballero-Gaudes and Anders Eklund and Kelly G Garner and Christopher R Nolan and Damion V Demeter and Fernando A Barrios and Junaid S Merchant and Elizabeth A McDevitt and Robert Oostenveld and R Cameron Craddock and Ariel Rokem and Andrew Doyle and Satrajit S Ghosh and Aki Nikolaidis and Olivia W Stanley and Eneko Uru\u00f1uela and Nasim Anousheh and Aurina Arnatkeviciute and Guillaume Auzias and Dipankar Bachar and Elise Bannier and Ruggero Basanisi and Arshitha Basavaraj and Marco Bedini and Pierre Bellec and R Austin Benn and Kathryn Berluti and Steffen Bollmann and Saskia Bollmann and Claire Bradley and Jesse Brown and Augusto Buchweitz and Patrick Callahan and Micaela Y Chan and Bramsh Q Chandio and Theresa Cheng and Sidhant Chopra and Ai Wern Chung and Thomas G Close and Etienne Combrisson and Giorgia Cona and R Todd Constable and Claire Cury and Kamalaker Dadi and Pablo F Damasceno and Samir Das and Fabrizio De Vico Fallani and Krista DeStasio and Erin W Dickie and Lena Dorfschmidt and Eugene P Duff and Elizabeth DuPre and Sarah Dziura and Nathalia B Esper and Oscar Esteban and Shreyas Fadnavis and Guillaume Flandin and Jessica E Flannery and John Flournoy and Stephanie J Forkel and Alexandre R Franco and Saampras Ganesan and Siyuan Gao and Jos\u00e9 C Garc\u00eda Alanis and Eleftherios Garyfallidis and Tristan Glatard and Enrico Glerean and Javier Gonzalez-Castillo and Cassandra D Gould van Praag and Abigail S Greene and Geetika Gupta and Catherine Alice Hahn and Yaroslav O Halchenko and Daniel Handwerker and Thomas S Hartmann and Val\u00e9rie Hayot-Sasson and Stephan Heunis and Felix Hoffstaedter and Daniela M Hohmann and Corey Horien and Horea-Ioan Ioanas and Alexandru Iordan and Chao Jiang and Michael Joseph and Jason Kai and Agah Karakuzu and David N Kennedy and Anisha Keshavan and Ali R Khan and Gregory Kiar and P Christiaan Klink and Vincent Koppelmans and Serge Koudoro and Angela R Laird and Georg Langs and Marissa Laws and Roxane Licandro and Sook-Lei Liew and Tomislav Lipic and Krisanne Litinas and Daniel J Lurie and D\u00e9sir\u00e9e Lussier and Christopher R Madan and Lea-Theresa Mais and Jose Pedro Manzano-Patron and Dimitra Maoutsa and Matheus Marcon and Daniel S Margulies and Giorgio Marinato and Daniele Marinazzo",
                 "journal": "Neuron",
                 "volume": "109",
                 "number": "11",
@@ -257,18 +263,43 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
-            "num_citations": 35,
+            "num_citations": 37,
             "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
             ],
-            "pub_url": "https://www.cell.com/neuron/pdf/S0896-6273(21)00231-2.pdf",
+            "pub_url": "https://www.cell.com/neuron/fulltext/S0896-6273(21)00231-2",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:RLDoUlwYPoQJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 5,
                 "2022": 11,
-                "2023": 7,
+                "2023": 8,
                 "2024": 9
+            }
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "physiopy/phys2bids: BIDS formatting of physiological recordings",
+                "pub_year": 2021,
+                "citation": "",
+                "author": "Daniel Alcal\u00e1 and A Ayyagari and M Bright and V Ferrer and C Caballero-Gaudes and S Hayashi and R Markello and S Moia and R Stickland and E Uru\u00f1uela and K Zvolanek"
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:ns9cj8rnVeAC",
+            "num_citations": 6,
+            "citedby_url": "/scholar?hl=en&cites=3268862874003272426",
+            "cites_id": [
+                "3268862874003272426"
+            ],
+            "pub_url": "https://scholar.google.com/scholar?cluster=3268862874003272426&hl=en&oi=scholarr",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:6nJt-HZVXS0J:scholar.google.com/",
+            "cites_per_year": {
+                "2021": 1,
+                "2022": 1,
+                "2023": 1,
+                "2024": 2
             }
         },
         {
@@ -287,7 +318,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 31,
+            "num_citations": 32,
             "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
@@ -299,7 +330,7 @@
                 "2021": 8,
                 "2022": 6,
                 "2023": 9,
-                "2024": 7
+                "2024": 8
             }
         },
         {
@@ -312,7 +343,8 @@
                 "author": "Eneko Uru\u00f1uela and Stefano Moia and C\u00e9sar Caballero-Gaudes",
                 "conference": "2021 IEEE 18th International Symposium on Biomedical Imaging (ISBI)",
                 "pages": "1726-1729",
-                "publisher": "IEEE"
+                "publisher": "IEEE",
+                "abstract": "Current deconvolution algorithms for functional magnetic resonance imaging (fMRI) data are hindered by widespread signal changes arising from motion or physiological processes (e.g. deep breaths) that can be interpreted incorrectly as neuronal-related hemodynamic events. This work proposes a novel deconvolution approach that simultaneously estimates global signal fluctuations and neuronal-related activity with no prior information about the timings of the blood oxygenation level-dependent (BOLD) events by means of a low rank plus sparse decomposition algorithm. The performance of the proposed method is evaluated on simulated and experimental fMRI data, and compared with state-of-the-art sparsity-based deconvolution approaches and with a conventional analysis that is aware of the temporal model of the neuronal-related activity. We demonstrate that the novel low-rank and sparse paradigm free \u2026"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:R3hNpaxXUhUC",
@@ -321,6 +353,7 @@
             "cites_id": [
                 "586821217265377317"
             ],
+            "pub_url": "https://ieeexplore.ieee.org/abstract/document/9433821/",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:JeDDucnOJAgJ:scholar.google.com/",
             "cites_per_year": {
                 "2022": 2,
@@ -574,17 +607,17 @@
         "available": 8,
         "not_available": 0
     },
-    "citedby5y": 142,
-    "hindex": 5,
-    "hindex5y": 5,
+    "citedby5y": 155,
+    "hindex": 6,
+    "hindex5y": 6,
     "i10index": 3,
     "i10index5y": 3,
     "cites_per_year": {
         "2020": 1,
-        "2021": 21,
-        "2022": 29,
-        "2023": 47,
-        "2024": 39
+        "2021": 22,
+        "2022": 30,
+        "2023": 49,
+        "2024": 46
     },
     "coauthors": [
         {
@@ -790,9 +823,25 @@
         {
             "container_type": "Author",
             "filled": [],
+            "scholar_id": "gigXVRIAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Soichi Hayashi",
+            "affiliation": "Indiana University"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "9Ua0anAAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Kristina M. Zvolanek",
+            "affiliation": "Northwestern University"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
             "scholar_id": "gV3dH1YAAAAJ",
             "source": "CO_AUTHORS_LIST",
-            "name": "Se Hong Oh",
+            "name": "Se-Hong Oh",
             "affiliation": "Associate Professor @ Hankuk University of Foreign Studies, Adjunct Staff @ Cleveland \u2026"
         },
         {
@@ -830,14 +879,6 @@
         {
             "container_type": "Author",
             "filled": [],
-            "scholar_id": "gigXVRIAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Soichi Hayashi",
-            "affiliation": "Indiana University"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
             "scholar_id": "i1uK7zUAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Daniel Alcal\u00e1 L\u00f3pez",
@@ -866,14 +907,6 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Merel van der Thiel",
             "affiliation": "Maastricht University Medical Center"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "9Ua0anAAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Kristina M. Zvolanek",
-            "affiliation": "Northwestern University"
         },
         {
             "container_type": "Author",
