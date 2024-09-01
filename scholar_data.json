@@ -23,8 +23,25 @@
     ],
     "email_domain": "@ucalgary.ca",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 160,
+    "citedby": 166,
     "publications": [
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Unraveling Hidden Patterns of Brain Activity: A Journey Through Hemodynamic Deconvolution in Functional MRI",
+                "pub_year": 2024,
+                "citation": "",
+                "author": "Eneko Uru\u00f1uela Tremi\u00f1o",
+                "abstract": "Functional magnetic resonance imaging data analysis is often directed to identify and disentangle the neural processes that occur in different brain regions during task or at rest, and employs the blood oxygenation-level dependent (BOLD) signal of fMRI as a proxy for neuronal activity mediated through neurovascular coupling. The goal of this thesis is to enhance and expand techniques for identifying and analyzing individual trial event-related BOLD responses based on the Paradigm Free Mapping (PFM) algorithm, which utilizes a linear hemodynamic response model and relies on regularized least squares estimators to deconvolve the neuronal-related signal that drives the BOLD effect. Notably, these techniques estimate neuronal-related activity without relying on prior paradigm information."
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:RYcK_YlVTxYC",
+            "num_citations": 0,
+            "pub_url": "https://scholar.google.com/scholar?cluster=6959322208701663297&hl=en&oi=scholarr",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:QUgmP616lGAJ:scholar.google.com/",
+            "cites_per_year": {}
+        },
         {
             "container_type": "Publication",
             "source": "AUTHOR_PUBLICATION_ENTRY",
@@ -41,7 +58,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:BqipwSGYUEgC",
-            "num_citations": 1,
+            "num_citations": 2,
             "citedby_url": "/scholar?hl=en&cites=4731367202099168336",
             "cites_id": [
                 "4731367202099168336"
@@ -49,7 +66,7 @@
             "pub_url": "https://joss.theoj.org/papers/10.21105/joss.06326.pdf",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:UAQOB2cxqUEJ:scholar.google.com/",
             "cites_per_year": {
-                "2024": 1
+                "2024": 2
             }
         },
         {
@@ -253,7 +270,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 56,
+            "num_citations": 59,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -263,8 +280,8 @@
             "cites_per_year": {
                 "2021": 2,
                 "2022": 4,
-                "2023": 22,
-                "2024": 28
+                "2023": 23,
+                "2024": 30
             }
         },
         {
@@ -339,7 +356,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 32,
+            "num_citations": 34,
             "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
@@ -350,8 +367,8 @@
                 "2020": 1,
                 "2021": 8,
                 "2022": 6,
-                "2023": 9,
-                "2024": 8
+                "2023": 10,
+                "2024": 9
             }
         },
         {
@@ -478,6 +495,38 @@
             "cites_per_year": {
                 "2021": 1
             }
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "A Multi-Subject Deconvolution Algorithm for the Analysis of Naturalistic fMRI data",
+                "citation": "",
+                "author": "Eneko Uru\u00f1uela and Clara Sava-Segal and Megan Leung and Emily S Finn and C\u00e9sar Caballero-Gaudes",
+                "abstract": "Keywords: Brain Connectivity, fMRI, naturalistic paradigmsCollecting fMRI data during naturalistic paradigms has drawn considerable attention in human neuroscience as a way to investigate brain function in ecologically valid conditions. We introduce a novel method (multi-subject paradigm free mapping) to decipher BOLD events in a temporally agnostic manner, and explore concordant group activations and individual idiosyncrasies. Besides, it can operate at the fastest temporal and spatial resolutions of the data. We validate it on simulated and real naturalistic fMRI data, revealing events that track expected features of the stimulus. Overall, this technique substantially increases sensitivity in linking moment-to-moment brain activity to its underlying cause (s)."
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:J_g5lzvAfSwC",
+            "num_citations": 0,
+            "pub_url": "https://archive.ismrm.org/2023/1024.html",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:M6DpMkRzgrkJ:scholar.google.com/",
+            "cites_per_year": {}
+        },
+        {
+            "container_type": "Publication",
+            "source": "AUTHOR_PUBLICATION_ENTRY",
+            "bib": {
+                "title": "Exploring Tensor Decomposition as an Alternative to ICA for Denoising Multi-Echo fMRI data",
+                "citation": "",
+                "author": "Eneko Uru\u00f1uela and Miguel \u00c1nguel Veganzones and C\u00e9sar Caballero-Gaudes",
+                "abstract": "Keywords: Brain Connectivity, fMRI, Tensor DecompositionDenoising of the blood oxygen level-dependent signal is critical for the study of brain dynamics with functional MRI data. However, disentangling neurobiological signals from non-neurobiological ones such as head motion-related artifacts, and cardiac-related and respiration-related fluctuations. Multi-echo ICA approaches are often used to denoise the data by exploiting the echo-time dependence of the BOLD signal. Nevertheless, these rely on the optimally combined data and do not employ the information contained in the different echo-time signals. Here, we explore the potential of tensor decomposition techniques, which can simultaneously consider all the information available, as a way to process multi-echo fMRI data."
+            },
+            "filled": true,
+            "author_pub_id": "KLIjERgAAAAJ:NaGl4SEjCO4C",
+            "num_citations": 0,
+            "pub_url": "https://archive.ismrm.org/2023/2668.html",
+            "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:Kg4_1E4XM3IJ:scholar.google.com/",
+            "cites_per_year": {}
         },
         {
             "container_type": "Publication",
@@ -628,7 +677,7 @@
         "available": 9,
         "not_available": 0
     },
-    "citedby5y": 160,
+    "citedby5y": 166,
     "hindex": 6,
     "hindex5y": 6,
     "i10index": 3,
@@ -637,8 +686,8 @@
         "2020": 1,
         "2021": 22,
         "2022": 30,
-        "2023": 46,
-        "2024": 54
+        "2023": 48,
+        "2024": 58
     },
     "coauthors": [
         {
@@ -735,7 +784,7 @@
             "scholar_id": "3Rr07DkAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Logan T. Dowdle",
-            "affiliation": "Post Doc, Center for Magnetic Resonance Research"
+            "affiliation": "Assistant Professor, Maastricht University"
         },
         {
             "container_type": "Author",
@@ -887,7 +936,7 @@
             "scholar_id": "ocJSFvUAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Ye Ella Tian",
-            "affiliation": "NHMRC Emerging Leadership Fellow, University of Melbourne, Australia"
+            "affiliation": "Senior Research Fellow, University of Melbourne, Australia"
         },
         {
             "container_type": "Author",
