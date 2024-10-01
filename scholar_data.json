@@ -23,7 +23,7 @@
     ],
     "email_domain": "@ucalgary.ca",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 166,
+    "citedby": 181,
     "publications": [
         {
             "container_type": "Publication",
@@ -58,7 +58,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:BqipwSGYUEgC",
-            "num_citations": 2,
+            "num_citations": 3,
             "citedby_url": "/scholar?hl=en&cites=4731367202099168336",
             "cites_id": [
                 "4731367202099168336"
@@ -66,7 +66,7 @@
             "pub_url": "https://joss.theoj.org/papers/10.21105/joss.06326.pdf",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:UAQOB2cxqUEJ:scholar.google.com/",
             "cites_per_year": {
-                "2024": 2
+                "2024": 3
             }
         },
         {
@@ -238,8 +238,7 @@
                 "pub_year": 2022,
                 "citation": "International Society of Magnetic Resonance in Medicine (ISMRM) 31st Annual \u2026, 2022",
                 "author": "Stefano Moia and Gang Chen and Eneko Uru\u00f1uela and R Stickland and Maite Termenon and C\u00e9sar Caballero-Gaudes and M Bright",
-                "journal": "International Society of Magnetic Resonance in Medicine (ISMRM) 31st Annual Meeting & Exhibition. London, England, UK",
-                "abstract": "Resting State Fluctuations (RSF) metrics are frequently associated with vascular and physiological factors, to the point of being suggested as alternative estimates of cerebrovascular reactivity (CVR) and as tools for fMRI data calibration. Using a densely sampled fMRI dataset, we demonstrate high individual variability in the inter-session relationships between RSF metrics and CVR. Moreover, while physiological factors such as blood pressure show a significant relationship with CVR, they do not with common RSF metrics. These results indicate that RSF parameters might not be suitable alternatives for CVR, and may not properly account for inter-individual physiological variations in BOLD fMRI data."
+                "journal": "International Society of Magnetic Resonance in Medicine (ISMRM) 31st Annual Meeting & Exhibition. London, England, UK"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:JV2RwH3_ST0C",
@@ -248,7 +247,6 @@
             "cites_id": [
                 "9088930937008107633"
             ],
-            "pub_url": "https://archive.ismrm.org/2022/0401.html",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:cTBtMIheIn4J:scholar.google.com/",
             "cites_per_year": {
                 "2023": 1
@@ -270,7 +268,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 59,
+            "num_citations": 69,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -280,8 +278,8 @@
             "cites_per_year": {
                 "2021": 2,
                 "2022": 4,
-                "2023": 23,
-                "2024": 30
+                "2023": 22,
+                "2024": 41
             }
         },
         {
@@ -301,7 +299,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
-            "num_citations": 38,
+            "num_citations": 39,
             "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
@@ -312,7 +310,7 @@
                 "2021": 5,
                 "2022": 11,
                 "2023": 8,
-                "2024": 10
+                "2024": 11
             }
         },
         {
@@ -356,7 +354,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 34,
+            "num_citations": 37,
             "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
@@ -368,7 +366,7 @@
                 "2021": 8,
                 "2022": 6,
                 "2023": 10,
-                "2024": 9
+                "2024": 12
             }
         },
         {
@@ -582,13 +580,11 @@
             "bib": {
                 "title": "Dephasing the speaking brain: Cleaning covert sentence production activation maps with a phase-based fMRI data analysis",
                 "citation": "",
-                "author": "I\u00f1igo De Vicente and Eneko Uru\u00f1uela and Maite Termenon and C\u00e9sar Caballero-Gaudes",
-                "abstract": "Phase-based denoising methods in BOLD fMRI can remove signal contributions from large draining veins. Here, we investigate the performance of this methodology in a covert sentence production task, where part of the activations observed in the inferior frontal gyrus (eg Broca\u2019s region) may reflect macrovascular effects from large perisylvian veins. We found significant signal denoising at the left pars orbitalis, a region in Broca\u2019s area which is located next to the Sylvian fissure that thus contains macrovascular veins. Our results demonstrate that this method is efficient to remove undesired signal contributions and improve the spatial specificity of brain activation maps."
+                "author": "I\u00f1igo De Vicente and Eneko Uru\u00f1uela and Maite Termenon and C\u00e9sar Caballero-Gaudes"
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:TFP_iSt0sucC",
             "num_citations": 0,
-            "pub_url": "https://archive.ismrm.org/2021/2691.html",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:F3KMNgaNfXcJ:scholar.google.com/",
             "cites_per_year": {}
         },
@@ -677,7 +673,7 @@
         "available": 9,
         "not_available": 0
     },
-    "citedby5y": 166,
+    "citedby5y": 181,
     "hindex": 6,
     "hindex5y": 6,
     "i10index": 3,
@@ -686,8 +682,8 @@
         "2020": 1,
         "2021": 22,
         "2022": 30,
-        "2023": 48,
-        "2024": 58
+        "2023": 47,
+        "2024": 74
     },
     "coauthors": [
         {
@@ -749,14 +745,6 @@
         {
             "container_type": "Author",
             "filled": [],
-            "scholar_id": "vt1EAJcAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Gang Chen",
-            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
             "scholar_id": "ZXxr85IAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Katherine L Bottenhorn",
@@ -769,6 +757,14 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Taylor Salo",
             "affiliation": "Postdoctoral fellow, University of Pennsylvania"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "vt1EAJcAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Gang Chen",
+            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
         },
         {
             "container_type": "Author",
@@ -1033,6 +1029,22 @@
             "source": "CO_AUTHORS_LIST",
             "name": "Penny A. Gowland",
             "affiliation": "Sir Peter Mansfield Imaging Centre, University of Nottingham"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "c0vFC1MAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Clara Sava-Segal",
+            "affiliation": "PhD Candidate, Dartmouth College"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
+            "scholar_id": "95oJGacAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Emily S. Finn",
+            "affiliation": "Assistant Professor, Psychological and Brain Sciences, Dartmouth College"
         }
     ]
 }
