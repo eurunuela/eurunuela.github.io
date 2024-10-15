@@ -7,10 +7,11 @@ import {
   Scripts,
   ScrollRestoration,
   useCatch,
-} from "remix";
-import type { LinksFunction } from "remix";
+} from "@remix-run/react";
+import type { LinksFunction } from "@remix-run/react";
 import tailwindUrl from "./styles/tailwind.css";
 import { Analytics } from "@vercel/analytics/react";
+import { NextUIProvider } from "@nextui-org/react";
 
 import globalStylesUrl from "~/styles/global.css";
 import darkStylesUrl from "~/styles/dark.css";
@@ -130,12 +131,14 @@ function Document({
         <Meta />
         <Links />
       </head>
-      <body className="font-inter">
-        {children}
-        <ScrollRestoration />
-        <script src="https://literal.club/js/widget.js"></script>
-        <Scripts />
-        {process.env.NODE_ENV === "development" && <LiveReload />}
+      <body className="font-inter h-full">
+        <NextUIProvider>
+          {children}
+          <ScrollRestoration />
+          <script src="https://literal.club/js/widget.js"></script>
+          <Scripts />
+          {process.env.NODE_ENV === "development" && <LiveReload />}
+        </NextUIProvider>
       </body>
     </html>
   );

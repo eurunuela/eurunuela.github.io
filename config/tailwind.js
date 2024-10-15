@@ -1,9 +1,11 @@
 const colors = require("tailwindcss/colors");
+const { nextui } = require("@nextui-org/react");
 
 module.exports = {
+  content: ["./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"],
   mode: "jit", // this will enable Tailwind JIT compiler to make the build faster
   purge: ["./app/**/*.{ts,tsx}"], // Here we are going to tell Tailwind to use any .ts or .tsx file to purge the CSS
-  darkMode: "media", // Use media queries for dark mode, customize it as you want
+  darkMode: "class", // Use media queries for dark mode, customize it as you want
   theme: {
     colors: {
       transparent: "transparent",
@@ -38,5 +40,5 @@ module.exports = {
     },
   }, // customize the theme however you want here
   variants: {}, // activate any variant you want here
-  plugins: [], // add any plugin you need here
+  plugins: [nextui()], // add any plugin you need here
 };

@@ -1,4 +1,4 @@
-import { useLoaderData } from "remix";
+import { useLoaderData } from "@remix-run/react";
 import { Award, CheckCircle } from "react-feather";
 
 export async function loader() {
