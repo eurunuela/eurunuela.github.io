@@ -1,6 +1,11 @@
 {
     "talks": [
         {
+            "title": "Unraveling Hidden Patterns of Brain Activity: A Journey Through Hemodynamic Deconvolution in fMRI",
+            "location": "Advanced Medical Imaging Seminar Series - University of Calgary",
+            "date": "November 21st, 2024",
+        },
+        {
             "title" : "A Multi-Subject Deconvolution Algorithm to Analyze Naturalistic fMRI Data At The Finest Temporal and Spatial Resolution",
             "location": "ISMRM Workshop on Current Issues in Brain Function",
             "date": "September 4th, 2023"
