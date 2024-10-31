@@ -62,7 +62,7 @@ export default function InterestsCard() {
                   <p className="col-span-9">
                     Staying{" "}
                     <span className="text-pink-500 dark:text-pink-400 font-medium">
-                      Active
+                      active
                     </span>
                     .
                   </p>
