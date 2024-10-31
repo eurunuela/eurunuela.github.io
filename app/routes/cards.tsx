@@ -28,10 +28,10 @@ export default function Cards({ data }: { data: any }) {
         <TalksCard data={talks_data} />
         <GitHubCard data={github_data} />
       </div>
-      <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
+      {/* <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
         <TwitterCard data={typefully_data} />
         <BooksCard />
-      </div>
+      </div> */}
       <div className="grid my-8 sm:grid-cols-1 lg:grid-cols-2 gap-8 ">
         <InterestsCard />
         <ContactCard />

@@ -1,5 +1,5 @@
 import {
-  Code,
+  Activity,
   Command,
   Edit2,
   Tag,
@@ -32,10 +32,6 @@ export default function InterestsCard() {
                   <p className="col-span-9">
                     Working on new{" "}
                     <span className="text-pink-500 dark:text-pink-400 font-medium">
-                      machine
-                    </span>
-                    {" and "}
-                    <span className="text-pink-500 dark:text-pink-400 font-medium">
                       deep learning
                     </span>{" "}
                     projects.
@@ -50,27 +46,23 @@ export default function InterestsCard() {
                   />
                   <p className="col-span-9">
                     Giving to the{" "}
-                    <a
-                      className="text-pink-500 dark:text-pink-400 font-medium hover:text-pink-700 dark:hover:text-pink-600"
-                      href="https://brainhack-donostia.github.io/"
-                      target="_blank"
-                    >
-                      Brainhack
-                    </a>{" "}
-                    community.
+                    <span className="text-pink-500 dark:text-pink-400 font-medium hover:text-pink-700 dark:hover:text-pink-600">
+                      research community in Calgary
+                    </span>{" "}
+                    .
                   </p>
                 </div>
               </li>
               <li className="my-2">
                 <div className="grid grid-cols-10 gap-4">
-                  <Code
+                  <Activity
                     className="text-pink-500 dark:text-pink-400 mr-4 mt-0.5"
                     size={20}
                   />
                   <p className="col-span-9">
-                    Learning web design and development with{" "}
+                    Staying{" "}
                     <span className="text-pink-500 dark:text-pink-400 font-medium">
-                      React
+                      Active
                     </span>
                     .
                   </p>
