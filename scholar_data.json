@@ -23,7 +23,7 @@
     ],
     "email_domain": "@ucalgary.ca",
     "homepage": "https://www.enekourunuela.com/",
-    "citedby": 181,
+    "citedby": 191,
     "publications": [
         {
             "container_type": "Publication",
@@ -164,7 +164,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:GnPB-g6toBAC",
-            "num_citations": 6,
+            "num_citations": 8,
             "citedby_url": "/scholar?hl=en&cites=10117778681508834011",
             "cites_id": [
                 "10117778681508834011"
@@ -173,7 +173,7 @@
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:26pawxqSaYwJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 1,
-                "2022": 2,
+                "2022": 4,
                 "2023": 2,
                 "2024": 1
             }
@@ -211,7 +211,7 @@
                 "title": "Automatic detection of spatio-temporal patterns of interictal epileptic activity with fMRI",
                 "pub_year": 2022,
                 "citation": "[Conference Oral Scientific Session] Joint Annual Meeting ISMRM-ESMRMB \u2026, 2022",
-                "author": "Cristina Tobias and Eneko Uru\u00f1uela and Vicente Ferrer-Gallardo and Hannah Goldberg and Christine Engelman and Mark Lowe and S Jones and C\u00e9sar Caballero-Gaudes",
+                "author": "Cristina Tob\u00edas and Eneko Uru\u00f1uela and Vicente Ferrer-Gallardo and Hannah Goldberg and Christine Engelman and Mark Lowe and S Jones and C\u00e9sar Caballero-Gaudes",
                 "journal": "[Conference Oral Scientific Session] Joint Annual Meeting ISMRM-ESMRMB & ISMRT 31st Annual Meeting",
                 "abstract": "We propose a novel methodology to identify spatio-temporal patterns of interictal epileptic activity in refractory epileptic patients using only BOLD functional MRI. It is based on clustering the activity-inducing signal deconvolved from the fMRI data with the Infomap algorithm. The proposed approach was validated on data acquired during a finger tapping task, and evaluated in four epileptic patients scanned at 7T. This method obtained activation maps that were concordant with the results obtained with EEG-informed GLM and MEG-based dipole source localization in 3 out of 4 patients, demonstrating its potential for mapping epileptic activity based only on fMRI data."
             },
@@ -238,7 +238,8 @@
                 "pub_year": 2022,
                 "citation": "International Society of Magnetic Resonance in Medicine (ISMRM) 31st Annual \u2026, 2022",
                 "author": "Stefano Moia and Gang Chen and Eneko Uru\u00f1uela and R Stickland and Maite Termenon and C\u00e9sar Caballero-Gaudes and M Bright",
-                "journal": "International Society of Magnetic Resonance in Medicine (ISMRM) 31st Annual Meeting & Exhibition. London, England, UK"
+                "journal": "International Society of Magnetic Resonance in Medicine (ISMRM) 31st Annual Meeting & Exhibition. London, England, UK",
+                "abstract": "Resting State Fluctuations (RSF) metrics are frequently associated with vascular and physiological factors, to the point of being suggested as alternative estimates of cerebrovascular reactivity (CVR) and as tools for fMRI data calibration. Using a densely sampled fMRI dataset, we demonstrate high individual variability in the inter-session relationships between RSF metrics and CVR. Moreover, while physiological factors such as blood pressure show a significant relationship with CVR, they do not with common RSF metrics. These results indicate that RSF parameters might not be suitable alternatives for CVR, and may not properly account for inter-individual physiological variations in BOLD fMRI data."
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:JV2RwH3_ST0C",
@@ -247,6 +248,7 @@
             "cites_id": [
                 "9088930937008107633"
             ],
+            "pub_url": "https://archive.ismrm.org/2022/0401.html",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:cTBtMIheIn4J:scholar.google.com/",
             "cites_per_year": {
                 "2023": 1
@@ -268,7 +270,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:_Qo2XoVZTnwC",
-            "num_citations": 69,
+            "num_citations": 72,
             "citedby_url": "/scholar?hl=en&cites=227638211023025062",
             "cites_id": [
                 "227638211023025062"
@@ -278,8 +280,8 @@
             "cites_per_year": {
                 "2021": 2,
                 "2022": 4,
-                "2023": 22,
-                "2024": 41
+                "2023": 23,
+                "2024": 43
             }
         },
         {
@@ -299,7 +301,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:HDshCWvjkbEC",
-            "num_citations": 39,
+            "num_citations": 40,
             "citedby_url": "/scholar?hl=en&cites=9529080646369587268",
             "cites_id": [
                 "9529080646369587268"
@@ -310,7 +312,7 @@
                 "2021": 5,
                 "2022": 11,
                 "2023": 8,
-                "2024": 11
+                "2024": 12
             }
         },
         {
@@ -354,7 +356,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:-f6ydRqryjwC",
-            "num_citations": 37,
+            "num_citations": 40,
             "citedby_url": "/scholar?hl=en&cites=4562738519788536351",
             "cites_id": [
                 "4562738519788536351"
@@ -364,9 +366,9 @@
             "cites_per_year": {
                 "2020": 1,
                 "2021": 8,
-                "2022": 6,
-                "2023": 10,
-                "2024": 12
+                "2022": 7,
+                "2023": 9,
+                "2024": 13
             }
         },
         {
@@ -412,7 +414,7 @@
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:hFOr9nPyWt4C",
-            "num_citations": 9,
+            "num_citations": 10,
             "citedby_url": "/scholar?hl=en&cites=8974637943734706401",
             "cites_id": [
                 "8974637943734706401"
@@ -421,7 +423,7 @@
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:4aAMAKlRjHwJ:scholar.google.com/",
             "cites_per_year": {
                 "2021": 3,
-                "2022": 2,
+                "2022": 3,
                 "2023": 1,
                 "2024": 1
             }
@@ -580,11 +582,13 @@
             "bib": {
                 "title": "Dephasing the speaking brain: Cleaning covert sentence production activation maps with a phase-based fMRI data analysis",
                 "citation": "",
-                "author": "I\u00f1igo De Vicente and Eneko Uru\u00f1uela and Maite Termenon and C\u00e9sar Caballero-Gaudes"
+                "author": "I\u00f1igo De Vicente and Eneko Uru\u00f1uela and Maite Termenon and C\u00e9sar Caballero-Gaudes",
+                "abstract": "Phase-based denoising methods in BOLD fMRI can remove signal contributions from large draining veins. Here, we investigate the performance of this methodology in a covert sentence production task, where part of the activations observed in the inferior frontal gyrus (eg Broca\u2019s region) may reflect macrovascular effects from large perisylvian veins. We found significant signal denoising at the left pars orbitalis, a region in Broca\u2019s area which is located next to the Sylvian fissure that thus contains macrovascular veins. Our results demonstrate that this method is efficient to remove undesired signal contributions and improve the spatial specificity of brain activation maps."
             },
             "filled": true,
             "author_pub_id": "KLIjERgAAAAJ:TFP_iSt0sucC",
             "num_citations": 0,
+            "pub_url": "https://archive.ismrm.org/2021/2691.html",
             "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:F3KMNgaNfXcJ:scholar.google.com/",
             "cites_per_year": {}
         },
@@ -673,17 +677,17 @@
         "available": 9,
         "not_available": 0
     },
-    "citedby5y": 181,
+    "citedby5y": 191,
     "hindex": 6,
     "hindex5y": 6,
-    "i10index": 3,
-    "i10index5y": 3,
+    "i10index": 4,
+    "i10index5y": 4,
     "cites_per_year": {
         "2020": 1,
         "2021": 22,
-        "2022": 30,
+        "2022": 34,
         "2023": 47,
-        "2024": 74
+        "2024": 78
     },
     "coauthors": [
         {
@@ -745,6 +749,14 @@
         {
             "container_type": "Author",
             "filled": [],
+            "scholar_id": "vt1EAJcAAAAJ",
+            "source": "CO_AUTHORS_LIST",
+            "name": "Gang Chen",
+            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
+        },
+        {
+            "container_type": "Author",
+            "filled": [],
             "scholar_id": "ZXxr85IAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Katherine L Bottenhorn",
@@ -756,15 +768,7 @@
             "scholar_id": "IPacJoAAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Taylor Salo",
-            "affiliation": "Postdoctoral fellow, University of Pennsylvania"
-        },
-        {
-            "container_type": "Author",
-            "filled": [],
-            "scholar_id": "vt1EAJcAAAAJ",
-            "source": "CO_AUTHORS_LIST",
-            "name": "Gang Chen",
-            "affiliation": "Scientific and Statistical Computing Core, NIMH Intramural Research Program, National \u2026"
+            "affiliation": "Senior software developer, University of Pennsylvania"
         },
         {
             "container_type": "Author",
@@ -820,7 +824,7 @@
             "scholar_id": "9FzK0bcAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Elizabeth DuPre",
-            "affiliation": "Stanford University"
+            "affiliation": "CRIUGM"
         },
         {
             "container_type": "Author",
@@ -932,7 +936,7 @@
             "scholar_id": "ocJSFvUAAAAJ",
             "source": "CO_AUTHORS_LIST",
             "name": "Ye Ella Tian",
-            "affiliation": "Senior Research Fellow, University of Melbourne, Australia"
+            "affiliation": "NHMRC Senior Research Fellow, University of Melbourne, Australia"
         },
         {
             "container_type": "Author",
