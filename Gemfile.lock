@@ -39,6 +39,8 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-feed (0.17.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-watch (2.2.1)
@@ -79,9 +81,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 4.3)
+  jekyll (~> 4.3.0)
+  jekyll-feed (~> 0.12)
   jekyll-last-modified-at!
-  nokogiri (= 1.13.10)
+  nokogiri
+  tzinfo (~> 1.2)
+  tzinfo-data
+  wdm (~> 0.1.1)
   webrick (~> 1.9)
 
 BUNDLED WITH
