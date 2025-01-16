@@ -19,6 +19,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.17.1)
     forwardable-extended (2.6.0)
+    google-protobuf (3.23.4)
     google-protobuf (3.23.4-arm64-darwin)
     google-protobuf (3.23.4-x86_64-linux)
     http_parser.rb (0.8.0)
@@ -53,6 +54,10 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
+    mini_portile2 (2.8.8)
+    nokogiri (1.13.10)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogiri (1.13.10-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.13.10-x86_64-linux)
@@ -77,6 +82,7 @@ GEM
     webrick (1.9.1)
 
 PLATFORMS
+  ruby
   universal-darwin-24
   x86_64-linux
 
