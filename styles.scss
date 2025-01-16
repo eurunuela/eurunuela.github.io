@@ -1,0 +1,159 @@
+---
+---
+
+// :root {
+//     color-scheme: light dark;
+//   }
+  
+// @media (prefers-color-scheme: dark) {
+//     :root {
+//       --color-bg: rgb(254, 253, 252);
+//       --color-primary: rgb(32, 94, 166);
+//       --color-text: rgb(16, 15, 15);
+//       --color-subtext: rgb(111, 110, 105);
+//       --color-border: rgb(32, 94, 166);
+//       --color-box-background: mix(var(--color-primary), white, 4%);
+//       --color-highlight: rgb(246, 226, 160);
+//     }
+//   }
+
+
+// /* Dark mode */
+// @media (prefers-color-scheme: dark) {
+//     :root {
+//       --color-bg: rgb(16, 15, 15);
+//       --color-primary: rgb(32, 94, 166);
+//       --color-text: rgb(16, 15, 15);
+//       --color-subtext: rgb(111, 110, 105);
+//       --color-border: rgb(32, 94, 166);
+//       --color-box-background: mix(var(--color-primary), white, 4%);
+//       --color-highlight: rgb(246, 226, 160);
+//      }
+//    }
+
+@import "../_sass/normalize";
+@import "../_sass/code";
+@import "../_sass/style";
+
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.profile-text {
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+    text-align: center;
+}
+
+.profile-title {
+    margin: 0;
+}
+
+.profile-description {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-style: italic;
+}
+
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2em;
+    height: 100%;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: auto;
+    height: 60%; /* Adjusted height to make the photo smaller */
+    display: block;
+    max-width: 60%; /* Adjusted max-width to make the photo smaller */
+}
+
+@media (min-width: 768px) {
+    .profile-container {
+        flex-direction: row;
+    }
+    .profile-pic-container {
+        order: 1;
+        margin-right: 1em;
+    }
+}
+
+.publication {
+    margin-bottom: 20px;
+}
+.publication .title {
+    font-weight:bold;
+    font-style: normal;
+    color: var(--color-text);
+}
+.publication .citation {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.citation-me {
+    background-color: var(--color-highlight);
+}
+
+.award {
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.text-color-highlight {
+    color: var(--color-primary);
+}
+
+.footer {
+    color: var(--color-text);
+    font-weight: 300;
+}
+
+.landing-note-container {
+    margin: 0;
+}
+
+.note-date {
+    margin: 0;
+    font-weight: 300;
+    // No change of color on hover
+    color: var(--color-subtext) !important;
+}
+
+.note-date:hover {
+    color: var(--color-subtext) !important;
+}
+
+.note-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.note-excerpt {
+    margin: 0;
+    font-weight: 300;
+    color: var(--color-subtext) !important;
+}
+
+.nav-text {
+    font-weight: 500;
+}
+
+.publication-container {
+    padding: 1em 2em;
+    background: var(--color-publication-container);
+    border-radius: 4px;
+}

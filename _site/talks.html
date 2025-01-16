@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"></html>
+  <head>
+  <meta charset="UTF-8" />
+
+  <link rel="canonical" href="http://localhost:4000/talks" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Eneko Uruñuela"
+  />
+
+  <meta property="og:site_name" content="Eneko Uruñuela" />
+
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=" />
+
+  <link rel="stylesheet" href="/styles.css" />
+
+  
+  <meta
+    property="og:description"
+    content="Eneko Uruñuela"
+  />
+   
+  <meta property="og:title" content="Talks" />
+  <meta property="og:type" content="article" />
+   
+
+  <meta property="og:url" content="http://localhost:4000/talks" />
+
+  
+
+  <title>
+     Talks
+    &mdash; Eneko Uruñuela 
+  </title>
+</head>
+
+  <body>
+    <nav><div style="display: flex; justify-content: space-between">
+  <div>
+    <a class="internal-link nav-text" href="/"
+      ><b>Eneko Uruñuela</b></a
+    >
+  </div>
+  <div style="display: flex; gap: 2em">
+    <div>
+      <a class="internal-link nav-text" href="/about"
+        >About</a
+      >
+    </div>
+    <div class="theme-toggle-container">
+      <span
+        id="theme-toggle"
+        title="Toggle dark mode"
+        aria-label="Toggle dark mode"
+        type="button"
+        role="switch"
+        aria-checked="false"
+        onclick="toggleTheme()"
+        style="display: flex; align-items: center"
+      >
+        <div
+          class="theme-toggle-slide"
+          style="display: flex; align-items: center"
+        >
+          <div class="theme-toggle-switch"></div>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", newTheme);
+    updateThemeToggle(newTheme);
+  }
+
+  function updateThemeToggle(theme) {
+    const themeToggle = document.getElementById("theme-toggle");
+    themeToggle.setAttribute("aria-checked", theme === "dark");
+    if (theme === "dark") {
+      themeToggle.classList.add("theme-dark");
+    } else {
+      themeToggle.classList.remove("theme-dark");
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const currentTheme =
+      document.documentElement.getAttribute("data-theme") ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light");
+    document.documentElement.setAttribute("data-theme", currentTheme);
+    updateThemeToggle(currentTheme);
+  });
+</script>
+</nav>
+    <div class="wrapper">
+      <main><content>
+  <h1 id="talks">Talks</h1>
+
+<div>
+    <ul>
+        <li>
+<strong>Unraveling Hidden Patterns of Brain Activity: A Journey Through Hemodynamic Deconvolution in fMRI</strong>. Advanced Medical Imaging Seminar Series - University of Calgary. November 21st, 2024.</li>
+        <li>
+<strong>A Multi-Subject Deconvolution Algorithm to Analyze Naturalistic fMRI Data At The Finest Temporal and Spatial Resolution</strong>. ISMRM Workshop on Current Issues in Brain Function. September 4th, 2023.</li>
+        <li>
+<strong>A Multi-Subject Deconvolution Algorithm for the Analysis of Naturalistic fMRI Data</strong>. ISMRM Iberian Chapter 3rd Annual Meeting. July 4th, 2023.</li>
+        <li>
+<strong>A Multi-Subject Deconvolution Algorithm for the Analysis of Naturalistic fMRI Data</strong>. ISMRM 32nd Annual Meeting &amp; Exhibition. June 7th, 2023.</li>
+        <li>
+<strong>Multi-Subject Paradigm Free Mapping: A Promising Frontier for Analyzing Naturalistic fMRI Data</strong>. Cambridge Babylab, University of Cambridge, UK. May 24th, 2023.</li>
+        <li>
+<strong>Advancing fMRI Data Analysis with Deconvolution Models: Paradigm Free Mapping Revisited</strong>. Developmental Cognition and Neuroimaging (DCAN), University of Minnesota, US. April 17th, 2023.</li>
+        <li>
+<strong>A tutorial on how to use git and GitHub to collaborate</strong>. Institute of Biomedical Engineering, University of Oxford, UK. Jan 30th, 2023.</li>
+        <li>
+<strong>Denoising of multi-echo fMRI data with tedana</strong>. MRI Together (online). Dec 8th, 2022. <a href="https://eurunuela.github.io/tedana_tutorial_MRITogether_2022/" target="_blank">Slides</a>.</li>
+        <li>
+<strong>tedana: Analysis of echo-time dependent fMRI data</strong>. MRI Together (online). Dec 6th, 2022. <a href="https://eurunuela.github.io/tedana_MRITogether_2022/" target="_blank">Slides</a>. <a href="https://www.youtube.com/watch?v=4wsEodepyI8" target="_blank">Video</a>.</li>
+        <li>
+<strong>Brainhack Donostia 2022</strong>. Radio interview for La Mecánica del Caracol. Nov 16th, 2022.</li>
+        <li>
+<strong>Paradigm Free Mapping: Extending the algorithms that blindly estimate neuronal-related activity from fMRI data</strong>. Institute of Biomedical Engineering, University of Oxford, UK. Nov 14th, 2022.</li>
+        <li>
+<strong>Paradigm Free Mapping: Extending the algorithms that blindly estimate neuronal-related activity from fMRI data</strong>. Functional Imaging and Naturalistic Neuroscience lab, Dartmouth College, US. Apr 27th, 2022.</li>
+        <li>
+<strong>Multi-echo Tensor Decomposition: A first attempt into higher-dimensional decomposition for denoising multi-echo fMRI data</strong>. Section on Functional Imaging Methods, NIH, Bethesda, US. May 12th, 2021.</li>
+        <li>
+<strong>Brain Awareness Week 2020</strong>. Radio interview for Norteko Ferrokarrila. Mar 10th, 2020.</li>
+        <li>
+<strong>How to use git and GitHub</strong>. Brainhack Donostia 2019. May 5th, 2019.</li>
+    </ul>
+</div>
+
+</content>
+</main>
+      <footer><p class="footer">
+  Reach out to me via
+  <a href="https://bsky.app/profile/enekourunuela.com">Bluesky</a> or
+  <a href="https://www.linkedin.com/in/eneko-urunuela/">LinkedIn</a>, or if you
+  prefer, you can
+  <a href="https://cal.com/eneko/short">schedule a meeting with me</a>.
+</p>
+</footer>
+    </div>
+
+    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<!-- <style>
+  content a.internal-link {
+    border-color: rgb(32, 94, 166);
+    /* background-color: rgb(226, 217, 233); */
+  }
+
+  #tooltip-wrapper {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    font-size: 0.8em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 100ms;
+  }
+
+  #tooltip-wrapper:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1) 90%
+    );
+    width: 100%;
+    height: 75px;
+  }
+</style>
+
+<div style="opacity: 0; display: none" id="tooltip-wrapper">
+  <div id="tooltip-content"></div>
+</div>
+
+<iframe
+  style="display: none; height: 0; width: 0"
+  id="link-preview-iframe"
+  src=""
+>
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+
+  var iframe = document.getElementById("link-preview-iframe");
+  var tooltipWrapper = document.getElementById("tooltip-wrapper");
+  var tooltipContent = document.getElementById("tooltip-content");
+
+  var linkHistories = {};
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function () {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function () {
+        tooltipContent.innerHTML = "";
+        tooltipWrapper.style.display = "none";
+      }, transitionDurationMs + 1);
+    }, transitionDurationMs);
+  }
+
+  function showTooltip(event) {
+    var elem = event.target;
+    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+    var top = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (event.target.host === window.location.host) {
+      if (!linkHistories[event.target.href]) {
+        iframe.src = event.target.href;
+        iframe.onload = function () {
+          tooltipContentHtml = "";
+          tooltipContentHtml +=
+            '<div style="font-weight: bold;">' +
+            iframe.contentWindow.document.querySelector("h1").innerHTML +
+            "</div>";
+          tooltipContentHtml +=
+            iframe.contentWindow.document.querySelector("content").innerHTML;
+
+          tooltipContent.innerHTML = tooltipContentHtml;
+          linkHistories[event.target.href] = tooltipContentHtml;
+
+          tooltipWrapper.style.display = "block";
+          setTimeout(function () {
+            tooltipWrapper.style.opacity = 1;
+          }, 1);
+        };
+      } else {
+        tooltipContent.innerHTML = linkHistories[event.target.href];
+        tooltipWrapper.style.display = "block";
+        setTimeout(function () {
+          tooltipWrapper.style.opacity = 1;
+        }, 1);
+      }
+
+      tooltipWrapper.style.left =
+        elem_props.left -
+        tooltipWrapper.offsetWidth / 2 +
+        elem_props.width / 2 +
+        "px";
+      if (window.innerHeight - elem_props.top < tooltipWrapper.offsetHeight) {
+        tooltipWrapper.style.top =
+          elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+      } else if (
+        window.innerHeight - elem_props.top >
+        tooltipWrapper.offsetHeight
+      ) {
+        tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+      }
+
+      if (
+        elem_props.left + elem_props.width / 2 <
+        tooltipWrapper.offsetWidth / 2
+      ) {
+        tooltipWrapper.style.left = "10px";
+      } else if (
+        document.body.clientWidth - elem_props.left - elem_props.width / 2 <
+        tooltipWrapper.offsetWidth / 2
+      ) {
+        tooltipWrapper.style.left =
+          document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+      }
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener("mouseleave", function (_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener("mouseleave", function (_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener("touchend", function (_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener("touchend", function (_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener("mouseenter", function (event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener("mouseenter", function (event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  document
+    .querySelectorAll("content a")
+    .forEach(setupListeners);
+</script> -->
+
+    <script>
+      // Set theme based on browser preference
+      const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (prefersDarkScheme) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    </script>
+  </body>
+</html>
