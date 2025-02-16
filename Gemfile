@@ -8,7 +8,7 @@ gem "jekyll", "~> 4.3.0"
 gem "webrick", "~> 1.9"
 
 # Use pre-compiled nokogiri
-gem 'nokogiri', '1.13.10', require: false, platforms: [:ruby], force_ruby_platform: true
+gem 'nokogiri', '1.13.10', require: false, force_ruby_platform: true
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
