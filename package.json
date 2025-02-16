@@ -1,0 +1,11 @@
+{
+  "name": "eurunuela-github-io",
+  "private": true,
+  "scripts": {
+    "prebuild": "xz --version || apt-get update && apt-get install -y xz-utils",
+    "build": "bundle install && bundle exec jekyll build"
+  },
+  "dependencies": {
+    "xz-utils": "^1.0.0"
+  }
+}

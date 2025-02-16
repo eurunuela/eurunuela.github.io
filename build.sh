@@ -19,8 +19,8 @@ gem install bundler -v 2.3.24
 bundle config build.nokogiri --use-system-libraries
 bundle config set --local path 'vendor/bundle'
 
-# Install dependencies
-bundle install
+# Install dependencies using npm
+npm install
 
-# Build the site
-JEKYLL_ENV=production bundle exec jekyll build
+# Use npx to run the jekyll build
+npm run build
