@@ -7,8 +7,8 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "jekyll", "~> 4.3.0"
 gem "webrick", "~> 1.9"
 
-# Use pre-compiled nokogiri without native extensions
-gem 'nokogiri', '~> 1.13.10', require: false
+# Use a specific version of nokogiri with fewer dependencies
+gem 'nokogiri', '1.13.10', require: false, force_ruby_platform: true
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

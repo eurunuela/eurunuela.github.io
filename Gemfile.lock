@@ -84,7 +84,7 @@ DEPENDENCIES
   jekyll (~> 4.3.0)
   jekyll-feed (~> 0.12)
   jekyll-last-modified-at!
-  nokogiri (~> 1.13.10)
+  nokogiri (= 1.13.10)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

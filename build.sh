@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Install system dependencies
+yum install -y xz-utils build-essential zlib1g-dev || true
+
 # Install Ruby if not present
 if ! command -v ruby &> /dev/null; then
     curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash
@@ -12,9 +15,12 @@ fi
 # Install bundler
 gem install bundler -v 2.3.24
 
-# Install dependencies
+# Configure bundler
+bundle config build.nokogiri --use-system-libraries
 bundle config set --local path 'vendor/bundle'
+
+# Install dependencies
 bundle install
 
 # Build the site
-bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build
