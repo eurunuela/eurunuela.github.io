@@ -223,3 +223,7 @@
 @keyframes spin {
     to { transform: rotate(360deg); }
 }
+
+.citation-me {
+    background-color: var(--color-highlight);
+}

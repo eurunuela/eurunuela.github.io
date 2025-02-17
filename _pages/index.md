@@ -77,9 +77,10 @@ For the full list of publications, please see <a class="internal-link" href="{{ 
                                 publicationDiv.className = "publication";
                                 const citationDiv = document.createElement("div");
                                 citationDiv.className = "citation";
-                                citationDiv.innerHTML = citation.replace(/Uruñuela, E./g, '<span class="citation-me">Uruñuela, E.</span>')
-                                                             .replace(title, `<strong>${title}</strong>`)
-                                                             .replace(/https:\/\/doi.org\/[^\s]+/g, '');
+                                citationDiv.innerHTML = citation
+                                    .replace(/Uruñuela, E\./g, '<span class="citation-me">Uruñuela, E.</span>')
+                                    .replace(title, `<strong>${title}</strong>`)
+                                    .replace(/https:\/\/doi.org\/[^\s]+/g, '');
                                 
                                 if (workType !== "journal-article") {
                                     citationDiv.innerHTML += ` (${workType.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')})`;
@@ -110,4 +111,4 @@ For the full list of publications, please see <a class="internal-link" href="{{ 
     });
 </script>
 
-I have also presented my work at international <a class="internal-link" href="{{ site.baseurl }}/conferences/">conferences</a> and given <a class="internal-link" href="{{ site.baseurl }}/talks/">talks</a> at various reknown institutions.
+I have also presented my work at international <a class="internal-link" href="{{ site.baseurl }}/conferences/">conferences</a> and given <a class="internal-link" href="{{ site.baseurl }}/talks/">presentations</a> at various reknown institutions.
