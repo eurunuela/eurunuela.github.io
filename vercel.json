@@ -1,5 +1,11 @@
 {
   "framework": null,
-  "buildCommand": "npm run vercel-build",
-  "outputDirectory": "_site"
+  "buildCommand": "bundle install && bundle exec jekyll build",
+  "outputDirectory": "_site",
+  "env": {
+    "BUNDLE_DEPLOYMENT": "true",
+    "BUNDLE_PATH": "vendor/bundle",
+    "JEKYLL_ENV": "production",
+    "RUBY_VERSION": "3.2.0"
+  }
 }
