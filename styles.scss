@@ -92,7 +92,21 @@
 
 .publication {
     margin-bottom: 20px;
+  
+    a {
+        word-break: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+        font-size: 0.8em;
+        display: inline;
+        margin-top: 0.5em;
+        color: var(--color-primary);
+        text-decoration-line: underline;
+        text-decoration-skip-ink: none;
+        text-underline-position: under;
+    }
 }
+
 .publication .title {
     font-weight:bold;
     font-style: normal;
@@ -189,4 +203,3 @@
       font-size: 0.75em;
     }
   }
-  
