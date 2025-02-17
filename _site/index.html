@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"></html>
+  <head>
+  <meta charset="UTF-8" />
+
+  <link rel="canonical" href="http://localhost:4000/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Eneko Uruñuela"
+  />
+
+  <meta property="og:site_name" content="Eneko Uruñuela" />
+
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=" />
+
+  <link rel="stylesheet" href="/styles.css" />
+
+  
+  <meta
+    property="og:description"
+    content="Eneko Uruñuela"
+  />
+   
+  <meta property="og:title" content="Home" />
+  <meta property="og:type" content="article" />
+   
+
+  <meta property="og:url" content="http://localhost:4000/" />
+
+  
+
+  <title>
+     Home
+    &mdash; Eneko Uruñuela 
+  </title>
+</head>
+
+  <body>
+    <nav><div style="display: flex; justify-content: space-between">
+  <div>
+    <a class="internal-link nav-text" href="/"
+      ><b>Eneko Uruñuela</b></a
+    >
+  </div>
+  <div style="display: flex; gap: 2em">
+    <div>
+      <a class="internal-link nav-text" href="/about"
+        >About</a
+      >
+    </div>
+    <div class="theme-toggle-container">
+      <span
+        id="theme-toggle"
+        title="Toggle dark mode"
+        aria-label="Toggle dark mode"
+        type="button"
+        role="switch"
+        aria-checked="false"
+        onclick="toggleTheme()"
+        style="display: flex; align-items: center"
+      >
+        <div
+          class="theme-toggle-slide"
+          style="display: flex; align-items: center"
+        >
+          <div class="theme-toggle-switch"></div>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", newTheme);
+    updateThemeToggle(newTheme);
+  }
+
+  function updateThemeToggle(theme) {
+    const themeToggle = document.getElementById("theme-toggle");
+    themeToggle.setAttribute("aria-checked", theme === "dark");
+    if (theme === "dark") {
+      themeToggle.classList.add("theme-dark");
+    } else {
+      themeToggle.classList.remove("theme-dark");
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const currentTheme =
+      document.documentElement.getAttribute("data-theme") ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light");
+    document.documentElement.setAttribute("data-theme", currentTheme);
+    updateThemeToggle(currentTheme);
+  });
+</script>
+</nav>
+    <div class="wrapper">
+      <main><content>
+  <div class="profile-container">
+  <div class="profile-text">
+    <!-- <h1 class="profile-title"> Eneko Uruñuela</h1> -->
+    <p class="profile-description">A postdoctoral researcher at the University of Calgary, developing AI models to predict tissue outcome in stroke patients.</p>
+  </div>
+  <div class="profile-pic-container" style="margin-top: 1em;">
+    <img src="assets/profile.jpg" alt="Eneko Uruñuela" class="profile-pic">
+  </div>
+</div>
+
+<h2 id="latest">Latest</h2>
+
+<div class="landing-note-container">
+  
+  
+    <a class="internal-link" href="/notes/open-source-publishing/">
+      <p class="note-title">Open Source - The Key to a Transparent and Collaborative Scientific Publishing Landscape</p>
+      <p class="note-date">November 21, 2023</p>
+      <p class="note-excerpt">
+
+The scientific publication process often suffers from inefficiency and delays. Valuable knowledge that could save lives can take up to two years to be published and shared among scientists. This is primarily due to the lengthy peer review process, which involves a paper being reviewed by two to... →</p>
+    </a>
+  
+</div>
+
+<h2 id="recent-publications">Recent publications</h2>
+
+<p>For the full list of publications, please see <a class="internal-link" href="/publications">publications</a> or visit my <a href="https://scholar.google.com/citations?user=KLIjERgAAAAJ&amp;hl=en" target="_blank">Google Scholar profile</a>.</p>
+
+<div id="publications" class="publication-container"></div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      fetchPublications();
+  });
+
+  function fetchPublications() {
+      var orcidId = "0000-0001-6849-9088";
+      var orcidEndpoint = "https://pub.orcid.org/v3.0/" + orcidId + "/works";
+      var headers = new Headers({
+          "Accept": "application/json"
+      });
+
+      fetch(orcidEndpoint, { headers: headers })
+          .then(response => response.json())
+          .then(data => {
+              var publications = data["group"].slice(0, 5); // Get only the 5 newest publications
+              var publicationList = document.getElementById("publications");
+
+              publications.forEach(publication => {
+                  var title = publication["work-summary"][0]["title"]["title"]["value"];
+                  var workType = publication["work-summary"][0]["type"];
+                  var doi = publication["external-ids"]["external-id"][0]["external-id-value"];
+                  var crossciteEndpoint = "https://citation.crosscite.org/format?doi=" + encodeURIComponent(doi) + "&style=apa&lang=en-US";
+
+                  fetch(crossciteEndpoint)
+                      .then(response => {
+                          if (response.ok) {
+                              return response.text();
+                          } else {
+                              throw new Error('Metadata for DOI not found');
+                          }
+                      })
+                      .then(citation => {
+                          var highlightedCitation = citation.replace(/Uruñuela, E./g, '<span class="citation-me">Uruñuela, E.</span>');
+                          // Replace the title with a bold case title
+                          highlightedCitation = highlightedCitation.replace(title, `<span class="publication title">${title}</span>`);
+                          var publicationDiv = document.createElement("div");
+                          publicationDiv.className = "publication";
+
+                          var citationDiv = document.createElement("div");
+                          citationDiv.className = "citation";
+                          citationDiv.innerHTML = highlightedCitation.replace(/https:\/\/doi.org\/[^\s]+/g, '');
+                          // Append the work type if it is not "journal-article"
+                          if (workType !== "journal-article") {
+                                  var formattedWorkType = workType.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                                  citationDiv.innerHTML += ` (${formattedWorkType}).`;
+                          }
+                          publicationDiv.appendChild(citationDiv);
+
+                          var doiLink = document.createElement("a");
+                          // Add style to the doi link to make the text smaller
+                          doiLink.style.fontSize = "0.8em";
+                          doiLink.href = "https://doi.org/" + doi;
+                          doiLink.textContent = "https://doi.org/" + doi;
+                          publicationDiv.appendChild(doiLink);
+
+                          publicationList.appendChild(publicationDiv);
+                      })
+                      .catch(error => {
+                          var publicationDiv = document.createElement("div");
+                          publicationDiv.className = "publication";
+
+                          var citationDiv = document.createElement("div");
+                          citationDiv.className = "citation";
+                          citationDiv.innerHTML = `<strong style="font-style: normal">${title}</strong>`;
+                          // Append the work type if it is not "journal-article"
+                          if (workType !== "journal-article") {
+                                  var formattedWorkType = workType.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                                  citationDiv.innerHTML += ` (${formattedWorkType}).`;
+                          }
+                          publicationDiv.appendChild(citationDiv);
+
+                          var doiLink = document.createElement("a");
+                          doiLink.href = "https://doi.org/" + doi;
+                          doiLink.textContent = "https://doi.org/" + doi;
+                          publicationDiv.appendChild(doiLink);
+
+                          publicationList.appendChild(publicationDiv);
+                      });
+              });
+          });
+  }
+</script>
+
+<p>I have also presented my work at international <a class="internal-link" href="/conferences/">conferences</a> and given <a class="internal-link" href="/talks/">talks</a> at various reknown institutions.</p>
+
+</content>
+</main>
+      <footer><p class="footer">
+  Reach out to me via
+  <a href="https://bsky.app/profile/enekourunuela.com">Bluesky</a> or
+  <a href="https://www.linkedin.com/in/eneko-urunuela/">LinkedIn</a>, or if you
+  prefer, you can
+  <a href="https://cal.com/eneko/short">schedule a meeting with me</a>.
+</p>
+</footer>
+    </div>
+
+    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<!-- <style>
+  content a.internal-link {
+    border-color: rgb(32, 94, 166);
+    /* background-color: rgb(226, 217, 233); */
+  }
+
+  #tooltip-wrapper {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    font-size: 0.8em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 100ms;
+  }
+
+  #tooltip-wrapper:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1) 90%
+    );
+    width: 100%;
+    height: 75px;
+  }
+</style>
+
+<div style="opacity: 0; display: none" id="tooltip-wrapper">
+  <div id="tooltip-content"></div>
+</div>
+
+<iframe
+  style="display: none; height: 0; width: 0"
+  id="link-preview-iframe"
+  src=""
+>
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+
+  var iframe = document.getElementById("link-preview-iframe");
+  var tooltipWrapper = document.getElementById("tooltip-wrapper");
+  var tooltipContent = document.getElementById("tooltip-content");
+
+  var linkHistories = {};
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function () {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function () {
+        tooltipContent.innerHTML = "";
+        tooltipWrapper.style.display = "none";
+      }, transitionDurationMs + 1);
+    }, transitionDurationMs);
+  }
+
+  function showTooltip(event) {
+    var elem = event.target;
+    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+    var top = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (event.target.host === window.location.host) {
+      if (!linkHistories[event.target.href]) {
+        iframe.src = event.target.href;
+        iframe.onload = function () {
+          tooltipContentHtml = "";
+          tooltipContentHtml +=
+            '<div style="font-weight: bold;">' +
+            iframe.contentWindow.document.querySelector("h1").innerHTML +
+            "</div>";
+          tooltipContentHtml +=
+            iframe.contentWindow.document.querySelector("content").innerHTML;
+
+          tooltipContent.innerHTML = tooltipContentHtml;
+          linkHistories[event.target.href] = tooltipContentHtml;
+
+          tooltipWrapper.style.display = "block";
+          setTimeout(function () {
+            tooltipWrapper.style.opacity = 1;
+          }, 1);
+        };
+      } else {
+        tooltipContent.innerHTML = linkHistories[event.target.href];
+        tooltipWrapper.style.display = "block";
+        setTimeout(function () {
+          tooltipWrapper.style.opacity = 1;
+        }, 1);
+      }
+
+      tooltipWrapper.style.left =
+        elem_props.left -
+        tooltipWrapper.offsetWidth / 2 +
+        elem_props.width / 2 +
+        "px";
+      if (window.innerHeight - elem_props.top < tooltipWrapper.offsetHeight) {
+        tooltipWrapper.style.top =
+          elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+      } else if (
+        window.innerHeight - elem_props.top >
+        tooltipWrapper.offsetHeight
+      ) {
+        tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+      }
+
+      if (
+        elem_props.left + elem_props.width / 2 <
+        tooltipWrapper.offsetWidth / 2
+      ) {
+        tooltipWrapper.style.left = "10px";
+      } else if (
+        document.body.clientWidth - elem_props.left - elem_props.width / 2 <
+        tooltipWrapper.offsetWidth / 2
+      ) {
+        tooltipWrapper.style.left =
+          document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+      }
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener("mouseleave", function (_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener("mouseleave", function (_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener("touchend", function (_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener("touchend", function (_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener("mouseenter", function (event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener("mouseenter", function (event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  document
+    .querySelectorAll("content a")
+    .forEach(setupListeners);
+</script> -->
+
+    <script>
+      // Set theme based on browser preference
+      const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (prefersDarkScheme) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    </script>
+  </body>
+</html>

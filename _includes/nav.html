@@ -1,0 +1,61 @@
+<div style="display: flex; justify-content: space-between">
+  <div>
+    <a class="internal-link nav-text" href="{{ site.baseurl }}/"
+      ><b>{{ site.title }}</b></a
+    >
+  </div>
+  <div style="display: flex; gap: 2em">
+    <div>
+      <a class="internal-link nav-text" href="{{ site.baseurl }}/about"
+        >About</a
+      >
+    </div>
+    <div class="theme-toggle-container">
+      <span
+        id="theme-toggle"
+        title="Toggle dark mode"
+        aria-label="Toggle dark mode"
+        type="button"
+        role="switch"
+        aria-checked="false"
+        onclick="toggleTheme()"
+        style="display: flex; align-items: center"
+      >
+        <div
+          class="theme-toggle-slide"
+          style="display: flex; align-items: center"
+        >
+          <div class="theme-toggle-switch"></div>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", newTheme);
+    updateThemeToggle(newTheme);
+  }
+
+  function updateThemeToggle(theme) {
+    const themeToggle = document.getElementById("theme-toggle");
+    themeToggle.setAttribute("aria-checked", theme === "dark");
+    if (theme === "dark") {
+      themeToggle.classList.add("theme-dark");
+    } else {
+      themeToggle.classList.remove("theme-dark");
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const currentTheme =
+      document.documentElement.getAttribute("data-theme") ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light");
+    document.documentElement.setAttribute("data-theme", currentTheme);
+    updateThemeToggle(currentTheme);
+  });
+</script>
