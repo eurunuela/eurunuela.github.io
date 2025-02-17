@@ -3,7 +3,7 @@ title: Open Source - The Key to a Transparent and Collaborative Scientific Publi
 date: 2023-11-21
 ---
 
-![alt text](assets/open_source_publishing_header.png)
+![alt text]({{site.baseurl}}/assets/open_source_publishing_header.png)
 
 The scientific publication process often suffers from inefficiency and delays. Valuable knowledge that could save lives can take up to two years to be published and shared among scientists. This is primarily due to the lengthy peer review process, which involves a paper being reviewed by two to three scientists before acceptance. Let's examine the current peer review process in more detail and explore opportunities for improvement.
 
@@ -87,4 +87,6 @@ I would like to end this article with a quote from someone whose work I admire:
 
 If you reached the end of this brain dump of mine thank you 💜 I hope you found it interesting.
 
-^ The banner was generated using DALLE-3.
+---
+
+The banner was generated using DALLE-3.

@@ -166,3 +166,27 @@
     background: var(--color-publication-container);
     border-radius: 4px;
 }
+
+.note {
+    .footnotes {
+      margin-top: 3em;
+      border-top: 1px solid var(--color-border);
+      padding-top: 1em;
+      
+      ol {
+        padding-left: 1em;
+        margin: 0;
+      }
+      
+      p {
+        margin: 0;
+        display: inline;
+      }
+    }
+  
+    sup {
+      vertical-align: super;
+      font-size: 0.75em;
+    }
+  }
+  

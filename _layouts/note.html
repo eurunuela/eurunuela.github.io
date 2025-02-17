@@ -8,5 +8,7 @@ layout: default
     >{{ page.date | date: "%B %-d, %Y" }}</time
   >
 
-  {{ content }}
+  {{ content }} {% if content contains "footnotes" %}
+  <div class="footnotes">{{ page.footnotes }}</div>
+  {% endif %}
 </article>
