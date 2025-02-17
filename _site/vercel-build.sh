@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Set Ruby environment
+export RUBY_VERSION=3.2.0
+export BUNDLE_DEPLOYMENT=true
+export BUNDLE_PATH=vendor/bundle
+export JEKYLL_ENV=production
+
 # Install dependencies
 npm install
 
@@ -17,4 +23,4 @@ bundle config set --local path 'vendor/bundle'
 bundle install
 
 # Build the site
-JEKYLL_ENV=production bundle exec jekyll build
+bundle exec jekyll build --trace

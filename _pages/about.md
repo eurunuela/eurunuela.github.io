@@ -1,15 +1,19 @@
 ---
-layout: page
 title: About
-permalink: /about
+layout: page
+permalink: /about/
 ---
 
-# About me
+# About
 
-Hello! I’m Eneko Uruñuela, a biomedical engineer with a PhD focused on machine learning for brain imaging. I’m currently a postdoctoral researcher at the [University of Calgary, Canada](https://ucalgary.ca/labs/miplab/home), where I develop deep learning models aimed at predicting tissue outcomes in stroke patients.
+I am a postdoctoral researcher at the [University of Calgary](https://www.ucalgary.ca/) and [Hotchkiss Brain Institute](https://hbi.ucalgary.ca/), working with Dr. Nils Forkert on developing AI models that predict tissue outcome in stroke patients.
 
-<span class="text-color-highlight">I am passionate about making healthcare more accessible and believe that technology can play a crucial role in achieving this goal.</span> Beyond my research, I’m deeply interested in personal knowledge management and note-taking strategies that enhance productivity and personal growth.
+Previously, I worked at [BCBL](https://bcbl.eu) with Dr. César Caballero-Gaudes, where I focused on developing methods to analyze fMRI data, particularly the Paradigm Free Mapping method.
 
-In my free time, I enjoy running, savoring coffee, and capturing the world through photography. I’m also an avid reader and a music enthusiast, always on the lookout for new books and playlists to inspire me.
+I am a strong advocate for open science and open source software development. A significant portion of my time is dedicated to developing and maintaining open-source tools for the neuroimaging community, such as:
 
-Let's connect! 👇
+- [tedana](https://github.com/ME-ICA/tedana): An open-source Python library for denoising multi-echo fMRI data
+- [Rica](https://github.com/eurunuela/rica): A Python tool to classify ICA components from multi-echo fMRI data
+- [Phys2bids](https://github.com/physiopy/phys2bids): A Python tool to format physiological recordings to BIDS format
+
+You can find more about my work and contributions in my [GitHub profile](https://github.com/eurunuela).
