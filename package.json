@@ -8,5 +8,11 @@
   },
   "engines": {
     "node": ">=16"
+  },
+  "dependencies": {
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.2.0"
   }
 }
