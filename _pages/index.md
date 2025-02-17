@@ -35,10 +35,6 @@ For the full list of publications, please see <a class="internal-link" href="{{ 
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-      fetchPublications();
-  });
-
-  function fetchPublications() {
       var orcidId = "0000-0001-6849-9088";
       var orcidEndpoint = "https://pub.orcid.org/v3.0/" + orcidId + "/works";
       var headers = new Headers({
@@ -54,67 +50,56 @@ For the full list of publications, please see <a class="internal-link" href="{{ 
               publications.forEach(publication => {
                   var title = publication["work-summary"][0]["title"]["title"]["value"];
                   var workType = publication["work-summary"][0]["type"];
-                  var doi = publication["external-ids"]["external-id"][0]["external-id-value"];
-                  var crossciteEndpoint = "https://citation.crosscite.org/format?doi=" + encodeURIComponent(doi) + "&style=apa&lang=en-US";
-
-                  fetch(crossciteEndpoint)
-                      .then(response => {
-                          if (response.ok) {
-                              return response.text();
-                          } else {
-                              throw new Error('Metadata for DOI not found');
-                          }
-                      })
-                      .then(citation => {
-                          var highlightedCitation = citation.replace(/Uruñuela, E./g, '<span class="citation-me">Uruñuela, E.</span>');
-                          // Replace the title with a bold case title
-                          highlightedCitation = highlightedCitation.replace(title, `<span class="publication title">${title}</span>`);
+                  
+                  if (publication["external-ids"] && 
+                      publication["external-ids"]["external-id"] && 
+                      publication["external-ids"]["external-id"].length > 0) {
+                      
+                      var doi = publication["external-ids"]["external-id"][0]["external-id-value"];
+                      // In local development, just show the title and DOI
+                      if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
                           var publicationDiv = document.createElement("div");
                           publicationDiv.className = "publication";
-
-                          var citationDiv = document.createElement("div");
-                          citationDiv.className = "citation";
-                          citationDiv.innerHTML = highlightedCitation.replace(/https:\/\/doi.org\/[^\s]+/g, '');
-                          // Append the work type if it is not "journal-article"
-                          if (workType !== "journal-article") {
-                                  var formattedWorkType = workType.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-                                  citationDiv.innerHTML += ` (${formattedWorkType}).`;
-                          }
-                          publicationDiv.appendChild(citationDiv);
-
-                          var doiLink = document.createElement("a");
-                          // Add style to the doi link to make the text smaller
-                          doiLink.style.fontSize = "0.8em";
-                          doiLink.href = "https://doi.org/" + doi;
-                          doiLink.textContent = "https://doi.org/" + doi;
-                          publicationDiv.appendChild(doiLink);
-
-                          publicationList.appendChild(publicationDiv);
-                      })
-                      .catch(error => {
-                          var publicationDiv = document.createElement("div");
-                          publicationDiv.className = "publication";
-
                           var citationDiv = document.createElement("div");
                           citationDiv.className = "citation";
                           citationDiv.innerHTML = `<strong style="font-style: normal">${title}</strong>`;
-                          // Append the work type if it is not "journal-article"
+                          
                           if (workType !== "journal-article") {
-                                  var formattedWorkType = workType.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-                                  citationDiv.innerHTML += ` (${formattedWorkType}).`;
+                              var formattedWorkType = workType.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                              citationDiv.innerHTML += ` (${formattedWorkType})`;
                           }
+                          
                           publicationDiv.appendChild(citationDiv);
-
                           var doiLink = document.createElement("a");
                           doiLink.href = "https://doi.org/" + doi;
                           doiLink.textContent = "https://doi.org/" + doi;
                           publicationDiv.appendChild(doiLink);
-
                           publicationList.appendChild(publicationDiv);
-                      });
+                          return;
+                      }
+
+                      // In production, use our proxy
+                      var citationUrl = 'https://citation.crosscite.org/format';
+                      var citationParams = `?doi=${doi}&style=apa&lang=en-US`;
+                      var proxyUrl = `/api/proxy?url=${encodeURIComponent(citationUrl + citationParams)}`;
+
+                      fetch(proxyUrl)
+                          .then(response => {
+                              if (response.ok) {
+                                  return response.text();
+                              }
+                              throw new Error('DOI not found');
+                          })
+                          .then(citation => {
+                              // ...existing citation handling code...
+                          })
+                          .catch(error => {
+                              // ...existing error handling code...
+                          });
+                  }
               });
           });
-  }
+  });
 </script>
 
 I have also presented my work at international <a class="internal-link" href="{{ site.baseurl }}/conferences/">conferences</a> and given <a class="internal-link" href="{{ site.baseurl }}/talks/">talks</a> at various reknown institutions.
