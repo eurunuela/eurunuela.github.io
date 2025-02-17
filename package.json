@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "bundle exec jekyll serve --livereload",
-    "build": "bundle exec jekyll build"
+    "build": "bundle exec jekyll build",
+    "vercel-build": "bash ./vercel-build.sh"
   },
   "engines": {
     "node": ">=16"
