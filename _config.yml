@@ -1,7 +1,7 @@
 title: Eneko Uruñuela
 include: ["_pages"]
-exclude: ["_includes/notes_graph.json", "*.md"] # Exclude md files from root
-# You may need to change the base URL depending on your deploy configuration.
+exclude: ["_includes/notes_graph.json"]
+
 baseurl: ""
 url: "https://eurunuela.github.io"
 
@@ -36,14 +36,6 @@ collections:
 
 # Default front matter for collections
 defaults:
-  - scope:
-      path: "**/*"
-    values:
-      layout: "default"
-  - scope:
-      path: "_notes/**/*.md"
-    values:
-      layout: "note"
   - scope:
       path: "_pages"
     values:
