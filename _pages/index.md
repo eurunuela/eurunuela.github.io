@@ -18,9 +18,9 @@ permalink: /
 ## Latest
 
 <div class="landing-note-container">
-  {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
+  {% assign recent_notes = site.notes | sort: "date" | reverse %}
   {% for note in recent_notes limit: 1 %}
-    <a class="internal-link" href="{{ note.url | relative_url }}">
+    <a class="internal-link" href="{{ site.baseurl }}/notes/{{ note.slug }}">
       <p class="note-title">{{ note.title }}</p>
       <p class="note-date">{{ note.date | date: "%B %-d, %Y" }}</p>
       <p class="note-excerpt">{{ note.content | strip_html | truncate: 300}} →</p>
