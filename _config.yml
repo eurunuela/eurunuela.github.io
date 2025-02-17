@@ -21,6 +21,13 @@ embed_tweets: false
 
 relative_permalinks: false
 
+# Remove GitHub Pages specific settings
+# github_pages: true  <-- Remove this linedified-at
+
+# Remove environment-specific settings
+# environment: production
+# future: false
+
 plugins:
   - jekyll-last-modified-at
 
@@ -28,7 +35,6 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-# Collections
 collections:
   notes:
     output: true

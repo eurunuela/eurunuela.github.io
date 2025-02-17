@@ -2,9 +2,9 @@
   "name": "eurunuela-github-io",
   "private": true,
   "scripts": {
-    "prebuild": "npm install -g xz-pack",
-    "vercel-build": "bash ./vercel-build.sh",
-    "build": "bundle exec jekyll build"
+    "dev": "bundle exec jekyll serve --livereload",
+    "build": "bundle exec jekyll build",
+    "vercel-build": "bash ./vercel-build.sh"
   },
   "engines": {
     "node": ">=16"

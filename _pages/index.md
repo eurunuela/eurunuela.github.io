@@ -7,7 +7,7 @@ permalink: /
 <div class="profile-container">
   <div class="profile-text">
     <!-- <h1 class="profile-title"> Eneko Uruñuela</h1> -->
-    <p class="profile-description">A postdoctoral researcher at the University of Calgary, developing AI models to predict tissue outcome in stroke patients.</p>
+    <p class="profile-description">An AI researcher and engineer at the University of Calgary, developing AI models to predict tissue outcome in stroke patients.</p>
   </div>
   <div class="profile-pic-container" style="margin-top: 1em;">
     <img src="assets/profile.jpg" alt="Eneko Uruñuela" class="profile-pic">
