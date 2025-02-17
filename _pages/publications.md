@@ -1,6 +1,6 @@
 ---
 title: Publications
-layout: page
+layout: debug
 permalink: /publications/
 ---
 
