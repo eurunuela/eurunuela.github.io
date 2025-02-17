@@ -1,8 +1,9 @@
 title: Eneko Uruñuela
 include: ["_pages"]
-exclude: ["_includes/notes_graph.json"]
+exclude: ["_includes/notes_graph.json", "*.md"] # Exclude md files from root
 # You may need to change the base URL depending on your deploy configuration.
 baseurl: ""
+url: "https://eurunuela.github.io"
 
 # If you are using a host that cannot resolve URLs that do
 # not end with .html (such as Neocities), set this to 'true'.
@@ -17,7 +18,7 @@ open_external_links_in_new_tab: true
 # as their browser will communicate with Twitter's servers.
 embed_tweets: false
 
-permalink: pretty
+permalink: /:title/
 relative_permalinks: false
 
 plugins:
@@ -31,7 +32,7 @@ sass:
 collections:
   notes:
     output: true
-    permalink: /notes/:slug
+    permalink: /notes/:title/
 
 # Default front matter for collections
 defaults:
@@ -44,7 +45,11 @@ defaults:
     values:
       layout: "note"
   - scope:
-      path: ""
+      path: "_pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "_notes"
       type: "notes"
     values:
       layout: "note"
