@@ -30,6 +30,8 @@ sass:
 
 # Collections
 collections:
+  pages:
+    output: true
   notes:
     output: true
     permalink: /notes/:title/
@@ -38,8 +40,10 @@ collections:
 defaults:
   - scope:
       path: "_pages"
+      type: "pages"
     values:
       layout: "page"
+      permalink: /:basename/
   - scope:
       path: "_notes"
       type: "notes"
