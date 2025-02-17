@@ -1,5 +1,0 @@
-{
-  "framework": null,
-  "buildCommand": "npm run vercel-build",
-  "outputDirectory": "_site"
-}
