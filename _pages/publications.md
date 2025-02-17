@@ -1,8 +1,7 @@
 ---
-layout: page
 title: Publications
-id: publications
-permalink: /publications
+layout: page
+permalink: /publications/
 ---
 
 <div id="publications"></div>

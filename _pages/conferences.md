@@ -1,8 +1,7 @@
 ---
-layout: page
 title: Conferences
-id: conferences
-permalink: /conferences
+layout: page
+permalink: /conferences/
 ---
 
 # Conferences

@@ -1,8 +1,7 @@
 ---
-layout: page
 title: Talks
-id: talks
-permalink: /talks
+layout: page
+permalink: /talks/
 ---
 
 # Talks

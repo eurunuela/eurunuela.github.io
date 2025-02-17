@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"></html>
+  <head>
+  <meta charset="UTF-8" />
+
+  <link rel="canonical" href="https://eurunuela.github.io/conferences/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Eneko Uruñuela"
+  />
+
+  <meta property="og:site_name" content="Eneko Uruñuela" />
+
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=" />
+
+  <link rel="stylesheet" href="/styles.css" />
+
+  
+  <meta
+    property="og:description"
+    content="Eneko Uruñuela"
+  />
+   
+  <meta property="og:title" content="Conferences" />
+  <meta property="og:type" content="article" />
+   
+
+  <meta property="og:url" content="https://eurunuela.github.io/conferences/" />
+
+  
+
+  <title>
+     Conferences
+    &mdash; Eneko Uruñuela 
+  </title>
+</head>
+
+  <body>
+    <nav><div style="display: flex; justify-content: space-between">
+  <div>
+    <a class="internal-link nav-text" href="/"
+      ><b>Eneko Uruñuela</b></a
+    >
+  </div>
+  <div style="display: flex; gap: 2em">
+    <div>
+      <a class="internal-link nav-text" href="/about"
+        >About</a
+      >
+    </div>
+    <div class="theme-toggle-container">
+      <span
+        id="theme-toggle"
+        title="Toggle dark mode"
+        aria-label="Toggle dark mode"
+        type="button"
+        role="switch"
+        aria-checked="false"
+        onclick="toggleTheme()"
+        style="display: flex; align-items: center"
+      >
+        <div
+          class="theme-toggle-slide"
+          style="display: flex; align-items: center"
+        >
+          <div class="theme-toggle-switch"></div>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", newTheme);
+    updateThemeToggle(newTheme);
+  }
+
+  function updateThemeToggle(theme) {
+    const themeToggle = document.getElementById("theme-toggle");
+    themeToggle.setAttribute("aria-checked", theme === "dark");
+    if (theme === "dark") {
+      themeToggle.classList.add("theme-dark");
+    } else {
+      themeToggle.classList.remove("theme-dark");
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const currentTheme =
+      document.documentElement.getAttribute("data-theme") ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light");
+    document.documentElement.setAttribute("data-theme", currentTheme);
+    updateThemeToggle(currentTheme);
+  });
+</script>
+</nav>
+    <div class="wrapper">
+      <main><content>
+  <h1 id="conferences">Conferences</h1>
+
+<div>
+    <ul>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>C. Sava-Segal, M. Leung, E.S. Finn, C. Caballero-Gaudes</em>. <strong>A Multi-Subject Deconvolution Algorithm for the Analysis of Naturalistic fMRI Data</strong>. (2023). ISMRM Iberian Chapter 3rd Annual Meeting. <span class="award">Oral Scientific session, Best presentation</span>.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>C. Sava-Segal, M. Leung, E.S. Finn, C. Caballero-Gaudes</em>. <strong>A Multi-Subject Deconvolution Algorithm for the Analysis of Naturalistic fMRI Data</strong>. (2023). ISMRM 32nd Annual Meeting &amp; Exhibition. <span class="award">Best abstract, Suma Cum Laude Merit Award, Oral Scientific session</span>.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>M.A. Veganzones, C. Caballero-Gaudes</em>. <strong>Exploring Tensor Decomposition as an Alternative to ICA for Denoising Multi-Echo fMRI Data</strong>. (2023). ISMRM 32nd Annual Meeting &amp; Exhibition. <span class="award">Oral Scientific session</span>.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>S. Moia, C. Caballero-Gaudes</em>. <strong>A multi-echo low-rank and sparse method to estimate neuronal signal with less global signals bias</strong>. (2022). ISMRM Iberian Chapter 2nd Annual Meeting. <span class="award">Power Pitch</span>.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>S. Moia, C. Caballero-Gaudes</em>. <strong>A multi-echo low-rank and sparse method to estimate neuronal signal with less global signals bias</strong>. (2022). OHBM Annual Meeting.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>. <strong>Rica - Reports for visualizing and classifying ICA components of multi-echo fMRI</strong>. (2022). OHBM Annual Meeting.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>V. Ferrer, C. Caballero-Gaudes</em>. <strong>Blind estimation of neuronal-related activity in fMRI informed by co-fluctuations of brain regions</strong>. (2022). OHBM Annual Meeting.</li>
+        <li>
+<em>D. Handwerker, Z. Ahmed, P. Bandettini, K. Bottenhorn, C. Caballero-Gaudes, L. Dowdle, E. DuPre, S. Heunis, M. Kitzbicher, A. Laird, S. Moia, T. Salo, J. Teves</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>M. Vaziri-Pashkam</em>. <strong>Tedana+: Multi-echo fMRI and related open tools</strong>. (2022). OHBM Annual Meeting.</li>
+        <li>
+<em>C. Tobias</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>V. Ferrer, H. Goldberg, C. Engelman, M. Lowe, S. Jones, C. Caballero-Gaudes</em>. <strong>Automatic detection of spatio-temporal patterns of interictal epileptic activity with fMRI</strong>. (2022). OHBM Annual Meeting.</li>
+        <li>
+<em>C. Tobias</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>V. Ferrer, H. Goldberg, C. Engelman, M. Lowe, S. Jones</em>. <strong>Clustintime - a computational and visualization tool for time clustering of fMRI data</strong>. (2022). OHBM Annual Meeting.</li>
+        <li>
+<em>C. Markiewicz, E. DuPre, O. Esteban, M. Goncalves, J. Gonzalez-Castillo, D. Handwerker, E. MacNicol, T. Salo, L. Sepeta, J. Teves</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>X. You</em>. <strong>Standardizing support for multi-echo fMRI data across the NiPreps ecosystem</strong>. (2022). OHBM Annual Meeting.</li>
+        <li>
+<em>D. Romero-Bascones, S. Moia, D. Alcalá-López, A. Ayyagari, K. Bottenhorn, M. Bright, C. Caballero-Gaudes, I. Chavarria, N. Duncan, V. Ferrer, S. Hayashi, V. Iacovella, T. Lenc, F. Lespinasse, R. Oostenveld, T. Salo, R. Stickland</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>H. Wang, K. Zvolanek, M. Zwiers</em>. <strong>Physiopy: a Python suite for handling physiological data recorded in MRI settings</strong>. (2022). OHBM Annual Meeting.</li>
+        <li>
+<em>S. Moia, G. Chen, M. Termenon</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>R. Stickland, C. Caballero-Gaudes, M. Bright</em>. <strong>Dense mapping reveals disconnect between resting state fMRI metrics and cerebrovascular physiology</strong>. (2022). OHBM Annual Meeting.</li>
+        <li>
+<em>C. Tobias</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>V. Ferrer-Gallardo, H. Goldberg, C. Engelman, M. Lowe, S. Jones, C. Caballero-Gaudes</em>. <strong>Automatic detection of spatio-temporal patterns of interictal epileptic activity with fMRI</strong>. (2022). ISMRM 31st Annual Meeting &amp; Exhibition. <span class="award">Oral Scientific session</span>.</li>
+        <li>
+<em>S. Moia, G. Chen, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, R. Stickland, M. Termenon, C. Caballero-Gaudes, M.G. Bright</em>. <strong>Resting state fluctuations in BOLD fMRI might not systematically reflect measures of cerebrovascular physiology between or within subjects</strong>. (2022). ISMRM 31st Annual Meeting &amp; Exhibition. <span class="award">Oral Scientific session</span>.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>S. Moia, C. Caballero-Gaudes</em>. <strong>A multi-echo low-rank and sparse algorithm that reduces the bias of global fluctuations on the estimation of neuronal signal</strong>. (2022). ISMRM 31st Annual Meeting &amp; Exhibition. <span class="award">Power Pitch</span>.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>S. Moia, C. Caballero-Gaudes</em>. <strong>Simultaneous blind estimation of global fluctuations and neuronal-related activity from fMRI data</strong>. (2021). OHBM Annual Meeting.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>S. Moia, C. Caballero-Gaudes</em>. <strong>Synthesis-based paradigm free mapping and analysis-based total activation operate identically</strong>. (2021). OHBM Annual Meeting.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>S. Moia, C. Caballero-Gaudes</em>. <strong>Physiopy/phys2bids v2.3.3: BIDS formatting of physiological recordings</strong>. (2021). OHBM Annual Meeting.</li>
+        <li>
+<em>I. De Vicente</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>M. Termenon, C. Caballero-Gaudes</em>. <strong>Cleaning covert sentence production activation maps with a phase-based fMRI data analysis</strong>. (2021). OHBM Annual Meeting.</li>
+        <li>
+<em>D. Handwerker, Z. Ahmed, P. Bandettini, K. Bottenhorn, C. Caballero-Gaudes, L. Dowdle, E. DuPre, J. Gonzalez-Castillo, A. Laird, R. Markello, S. Moia, T. Salo, J. Teves</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>M. Vaziri-Pashkam, K. Whitaker</em>. <strong>Tedana: Multi-echo fMRI tools and resources</strong>. (2021). OHBM Annual Meeting.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>S. Moia, C. Caballero-Gaudes</em>. <strong>Simultaneous blind estimation of global fluctuations and neuronal-related activity from fMRI data</strong>. (2021). ISMRM Iberian Chapter 1st Annual Meeting. <span class="award">Oral Scientific session</span>.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>S. Moia, C. Caballero-Gaudes</em>. <strong>Synthesis-based Paradigm Free Mapping and analysis-based Total Activation are identical for temporal deconvolution of fMRI data</strong>. (2021). ISMRM Iberian Chapter 1st Annual Meeting.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>S. Moia, C. Caballero-Gaudes</em>. <strong>fMRI deconvolution with synthesis-based Paradigm Free Mapping and analysis-based Total Activation operate identically</strong>. (2021). ISMRM 29th Annual Meeting &amp; Exhibition. <span class="award">Oral Scientific session, Magna Cum Laude Merit Award</span>.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>S. Moia, C. Caballero-Gaudes</em>. <strong>Low-rank and sparse simultaneous blind estimation of global fluctuations and neuronal-related activity from fMRI data</strong>. (2021). ISMRM 29th Annual Meeting &amp; Exhibition.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>S. Jones, A. Crawford, W. Shin, S. Oh, M. Lowe, C. Caballero-Gaudes</em>. <strong>Improving deconvolution of fMRI signal with Sparse Paradigm Free Mapping using stability selection</strong>. (2020). OHBM Annual Meeting.</li>
+        <li>
+<span class="citation-me"><strong><em>S. Moia</em></strong></span>, <em>M. Termenon</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>R. Stickland, M.G. Bright, C. Caballero-Gaudes</em>. <strong>ICA-based denoising strategies in highly motion correlated tasks with Multi Echo BOLD fMRI</strong>. (2020). OHBM Annual Meeting.</li>
+        <li>
+<em>D. Alcalá-López, A. Ayyagari, M.G. Bright, C. Caballero-Gaudes, V. Ferrer-Gallardo, S. Hayashi, R. Markello, S. Moia, R. Stickland</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>K. Zvolanek</em>. <strong>Physiopy/phys2bids: BIDS formatting of physiological recordings</strong>. (2020). OHBM Annual Meeting.</li>
+        <li>
+<em>S. Moia, R.C. Stickland, M. Termenon</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>C. Caballero-Gaudes, M.G. Bright</em>. <strong>Assessment of longitudinal cerebrovascular reactivity measurements based on breath-hold and resting state BOLD multi-echo fMRI</strong>. (2020). ISMRM 28th Annual Meeting &amp; Exhibition.</li>
+        <li>
+<em>S. Moia, M. Termenon</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>R.C. Stickland, M.G. Bright, C. Caballero-Gaudes</em>. <strong>Improving breath-hold cerebrovascular reactivity mapping with multi-echo BOLD fMRI</strong>. (2020). ISMRM 28th Annual Meeting &amp; Exhibition.</li>
+        <li>
+<em>S. Moia, V. Ferrer-Gallardo, R.C. Stickland</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>M. Termenon, C. Caballero-Gaudes, M.G. Bright</em>. <strong>Multi-session CVR variability within functional networks</strong>. (2020). OHBM Annual Meeting.</li>
+        <li>
+<span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>S. Moia, J. Gonzalez-Castillo, C. Caballero-Gaudes</em>. <strong>Deconvolution of multi-echo functional MRI data with Multivariate Multi-Echo Sparse Paradigm Free Mapping</strong>. (2019). ISMRM 27th Annual Meeting &amp; Exhibition. <span class="award">Power Pitch</span>.</li>
+        <li>
+<em>S. Moia, M. Termenon</em>, <span class="citation-me"><strong><em>E. Uruñuela</em></strong></span>, <em>M.G. Bright, C. Caballero-Gaudes</em>. <strong>Comparison of ICA-based denoising approaches in breath-holding task with ME-fMRI data</strong>. (2019). 4th ICP Network Symposium.</li>
+    </ul>
+</div>
+
+</content>
+</main>
+      <footer><p class="footer">
+  Reach out to me via
+  <a href="https://bsky.app/profile/enekourunuela.com">Bluesky</a> or
+  <a href="https://www.linkedin.com/in/eneko-urunuela/">LinkedIn</a>, or if you
+  prefer, you can
+  <a href="https://cal.com/eneko/short">schedule a meeting with me</a>.
+</p>
+</footer>
+    </div>
+
+    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<!-- <style>
+  content a.internal-link {
+    border-color: rgb(32, 94, 166);
+    /* background-color: rgb(226, 217, 233); */
+  }
+
+  #tooltip-wrapper {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    font-size: 0.8em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 100ms;
+  }
+
+  #tooltip-wrapper:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1) 90%
+    );
+    width: 100%;
+    height: 75px;
+  }
+</style>
+
+<div style="opacity: 0; display: none" id="tooltip-wrapper">
+  <div id="tooltip-content"></div>
+</div>
+
+<iframe
+  style="display: none; height: 0; width: 0"
+  id="link-preview-iframe"
+  src=""
+>
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+
+  var iframe = document.getElementById("link-preview-iframe");
+  var tooltipWrapper = document.getElementById("tooltip-wrapper");
+  var tooltipContent = document.getElementById("tooltip-content");
+
+  var linkHistories = {};
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function () {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function () {
+        tooltipContent.innerHTML = "";
+        tooltipWrapper.style.display = "none";
+      }, transitionDurationMs + 1);
+    }, transitionDurationMs);
+  }
+
+  function showTooltip(event) {
+    var elem = event.target;
+    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+    var top = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (event.target.host === window.location.host) {
+      if (!linkHistories[event.target.href]) {
+        iframe.src = event.target.href;
+        iframe.onload = function () {
+          tooltipContentHtml = "";
+          tooltipContentHtml +=
+            '<div style="font-weight: bold;">' +
+            iframe.contentWindow.document.querySelector("h1").innerHTML +
+            "</div>";
+          tooltipContentHtml +=
+            iframe.contentWindow.document.querySelector("content").innerHTML;
+
+          tooltipContent.innerHTML = tooltipContentHtml;
+          linkHistories[event.target.href] = tooltipContentHtml;
+
+          tooltipWrapper.style.display = "block";
+          setTimeout(function () {
+            tooltipWrapper.style.opacity = 1;
+          }, 1);
+        };
+      } else {
+        tooltipContent.innerHTML = linkHistories[event.target.href];
+        tooltipWrapper.style.display = "block";
+        setTimeout(function () {
+          tooltipWrapper.style.opacity = 1;
+        }, 1);
+      }
+
+      tooltipWrapper.style.left =
+        elem_props.left -
+        tooltipWrapper.offsetWidth / 2 +
+        elem_props.width / 2 +
+        "px";
+      if (window.innerHeight - elem_props.top < tooltipWrapper.offsetHeight) {
+        tooltipWrapper.style.top =
+          elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+      } else if (
+        window.innerHeight - elem_props.top >
+        tooltipWrapper.offsetHeight
+      ) {
+        tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+      }
+
+      if (
+        elem_props.left + elem_props.width / 2 <
+        tooltipWrapper.offsetWidth / 2
+      ) {
+        tooltipWrapper.style.left = "10px";
+      } else if (
+        document.body.clientWidth - elem_props.left - elem_props.width / 2 <
+        tooltipWrapper.offsetWidth / 2
+      ) {
+        tooltipWrapper.style.left =
+          document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+      }
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener("mouseleave", function (_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener("mouseleave", function (_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener("touchend", function (_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener("touchend", function (_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener("mouseenter", function (event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener("mouseenter", function (event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  document
+    .querySelectorAll("content a")
+    .forEach(setupListeners);
+</script> -->
+
+    <script>
+      // Set theme based on browser preference
+      const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (prefersDarkScheme) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    </script>
+  </body>
+</html>
