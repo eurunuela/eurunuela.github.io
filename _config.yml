@@ -27,11 +27,13 @@ sass:
   sass_dir: _sass
   style: :compressed
 
+# Collections
 collections:
   notes:
     output: true
-    permalink: /:slug
+    permalink: /notes/:title
 
+# Default front matter for collections
 defaults:
   - scope:
       path: "**/*"
@@ -41,3 +43,8 @@ defaults:
       path: "_notes/**/*.md"
     values:
       layout: "note"
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
