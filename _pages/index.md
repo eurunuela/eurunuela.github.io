@@ -31,90 +31,84 @@ permalink: /
 
 For the full list of publications, please see <a class="internal-link" href="{{ site.baseurl }}/publications">publications</a> or visit my [Google Scholar profile](https://scholar.google.com/citations?user=KLIjERgAAAAJ&hl=en).
 
-<div id="publications" class="publication-container"></div>
+<div id="publications" class="publication-container">
+    <div id="loading-publications" class="loading-spinner">Loading recent publications... <span class="spinner"></span></div>
+</div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-      fetchPublications();
-  });
+    document.addEventListener("DOMContentLoaded", function() {
+        const publicationList = document.getElementById("publications");
+        const loadingEl = document.getElementById("loading-publications");
+        const orcidId = "0000-0001-6849-9088";
+        
+        // Set timeout for fallback
+        const timeout = setTimeout(() => {
+            if (loadingEl) {
+                loadingEl.remove();
+                publicationList.innerHTML = '<p>View my <a href="/publications">full publication list</a>.</p>';
+            }
+        }, 5000);
 
-  function fetchPublications() {
-      var orcidId = "0000-0001-6849-9088";
-      var orcidEndpoint = "https://pub.orcid.org/v3.0/" + orcidId + "/works";
-      var headers = new Headers({
-          "Accept": "application/json"
-      });
+        fetch(`https://pub.orcid.org/v3.0/${orcidId}/works`, {
+            headers: { "Accept": "application/json" }
+        })
+            .then(response => response.json())
+            .then(data => {
+                clearTimeout(timeout);
+                loadingEl.remove();
+                
+                const publications = data.group.slice(0, 5);
+                publications.forEach(publication => {
+                    const title = publication["work-summary"][0]["title"]["title"]["value"];
+                    const workType = publication["work-summary"][0]["type"];
+                    
+                    if (publication["external-ids"]?.["external-id"]?.[0]) {
+                        const doi = publication["external-ids"]["external-id"][0]["external-id-value"];
+                        const citationUrl = 'https://citation.crosscite.org/format';
+                        const citationParams = `?doi=${doi}&style=apa&lang=en-US`;
+                        const proxyUrl = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
+                            ? `https://api.crossref.org/works/${doi}/transform/text/x-bibliography`
+                            : `/api/proxy?url=${encodeURIComponent(citationUrl + citationParams)}`;
 
-      fetch(orcidEndpoint, { headers: headers })
-          .then(response => response.json())
-          .then(data => {
-              var publications = data["group"].slice(0, 5); // Get only the 5 newest publications
-              var publicationList = document.getElementById("publications");
-
-              publications.forEach(publication => {
-                  var title = publication["work-summary"][0]["title"]["title"]["value"];
-                  var workType = publication["work-summary"][0]["type"];
-                  var doi = publication["external-ids"]["external-id"][0]["external-id-value"];
-                  var crossciteEndpoint = "https://citation.crosscite.org/format?doi=" + encodeURIComponent(doi) + "&style=apa&lang=en-US";
-
-                  fetch(crossciteEndpoint)
-                      .then(response => {
-                          if (response.ok) {
-                              return response.text();
-                          } else {
-                              throw new Error('Metadata for DOI not found');
-                          }
-                      })
-                      .then(citation => {
-                          var highlightedCitation = citation.replace(/Uruñuela, E./g, '<span class="citation-me">Uruñuela, E.</span>');
-                          // Replace the title with a bold case title
-                          highlightedCitation = highlightedCitation.replace(title, `<span class="publication title">${title}</span>`);
-                          var publicationDiv = document.createElement("div");
-                          publicationDiv.className = "publication";
-
-                          var citationDiv = document.createElement("div");
-                          citationDiv.className = "citation";
-                          citationDiv.innerHTML = highlightedCitation.replace(/https:\/\/doi.org\/[^\s]+/g, '');
-                          // Append the work type if it is not "journal-article"
-                          if (workType !== "journal-article") {
-                                  var formattedWorkType = workType.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-                                  citationDiv.innerHTML += ` (${formattedWorkType}).`;
-                          }
-                          publicationDiv.appendChild(citationDiv);
-
-                          var doiLink = document.createElement("a");
-                          // Add style to the doi link to make the text smaller
-                          doiLink.style.fontSize = "0.8em";
-                          doiLink.href = "https://doi.org/" + doi;
-                          doiLink.textContent = "https://doi.org/" + doi;
-                          publicationDiv.appendChild(doiLink);
-
-                          publicationList.appendChild(publicationDiv);
-                      })
-                      .catch(error => {
-                          var publicationDiv = document.createElement("div");
-                          publicationDiv.className = "publication";
-
-                          var citationDiv = document.createElement("div");
-                          citationDiv.className = "citation";
-                          citationDiv.innerHTML = `<strong style="font-style: normal">${title}</strong>`;
-                          // Append the work type if it is not "journal-article"
-                          if (workType !== "journal-article") {
-                                  var formattedWorkType = workType.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-                                  citationDiv.innerHTML += ` (${formattedWorkType}).`;
-                          }
-                          publicationDiv.appendChild(citationDiv);
-
-                          var doiLink = document.createElement("a");
-                          doiLink.href = "https://doi.org/" + doi;
-                          doiLink.textContent = "https://doi.org/" + doi;
-                          publicationDiv.appendChild(doiLink);
-
-                          publicationList.appendChild(publicationDiv);
-                      });
-              });
-          });
-  }
+                        fetch(proxyUrl)
+                            .then(response => response.ok ? response.text() : Promise.reject('Failed to fetch citation'))
+                            .then(citation => {
+                                const publicationDiv = document.createElement("div");
+                                publicationDiv.className = "publication";
+                                const citationDiv = document.createElement("div");
+                                citationDiv.className = "citation";
+                                citationDiv.innerHTML = citation
+                                    .replace(/Uruñuela, E\./g, '<span class="citation-me">Uruñuela, E.</span>')
+                                    .replace(title, `<strong>${title}</strong>`)
+                                    .replace(/https:\/\/doi.org\/[^\s]+/g, '');
+                                
+                                if (workType !== "journal-article") {
+                                    citationDiv.innerHTML += ` (${workType.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')})`;
+                                }
+                                
+                                publicationDiv.appendChild(citationDiv);
+                                const doiLink = document.createElement("a");
+                                doiLink.href = `https://doi.org/${doi}`;
+                                doiLink.textContent = `https://doi.org/${doi}`;
+                                publicationDiv.appendChild(doiLink);
+                                publicationList.appendChild(publicationDiv);
+                            })
+                            .catch(() => {
+                                // Fallback to simple display on error
+                                const publicationDiv = document.createElement("div");
+                                publicationDiv.className = "publication";
+                                publicationDiv.innerHTML = `<div class="citation"><strong>${title}</strong></div>`;
+                                publicationList.appendChild(publicationDiv);
+                            });
+                    }
+                });
+            })
+            .catch(error => {
+                clearTimeout(timeout);
+                loadingEl.remove();
+                publicationList.innerHTML = '<p>View my <a href="/publications">full publication list</a>.</p>';
+            });
+    });
 </script>
 
-I have also presented my work at international <a class="internal-link" href="{{ site.baseurl }}/conferences/">conferences</a> and given <a class="internal-link" href="{{ site.baseurl }}/talks/">talks</a> at various reknown institutions.
+I have also presented my work at international <a class="internal-link" href="{{ site.baseurl }}/conferences/">conferences</a> and given <a class="internal-link" href="{{ site.baseurl }}/talks/">presentations</a> at various reknown institutions.

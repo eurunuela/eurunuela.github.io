@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light"></html>
+<html
+  lang="en"
+  data-theme="light"
+>
   <head>
+    <head>
   <meta charset="UTF-8" />
 
   <link rel="canonical" href="https://eurunuela.github.io/404.html" />
@@ -38,6 +42,8 @@
   </title>
 </head>
 
+    <link rel="icon" href="/assets/favicon.ico" />
+  </head>
   <body>
     <nav><div style="display: flex; justify-content: space-between">
   <div>
@@ -287,11 +293,13 @@
 
     <script>
       // Set theme based on browser preference
-      const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const prefersDarkScheme = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
       if (prefersDarkScheme) {
-        document.documentElement.setAttribute('data-theme', 'dark');
+        document.documentElement.setAttribute("data-theme", "dark");
       } else {
-        document.documentElement.setAttribute('data-theme', 'light');
+        document.documentElement.setAttribute("data-theme", "light");
       }
     </script>
   </body>
