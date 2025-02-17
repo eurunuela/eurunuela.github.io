@@ -147,7 +147,17 @@
 
 .landing-note-container {
     margin: 0;
+
+    a.internal-link {
+        border-bottom: none;
+        text-decoration: none;
+
+        &:hover {
+            border-bottom: none;
+        }
+    }
 }
+
 
 .note-date {
     margin: 0;
