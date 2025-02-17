@@ -1,0 +1,12 @@
+{
+  "name": "eurunuela-github-io",
+  "private": true,
+  "scripts": {
+    "prebuild": "npm install -g xz-pack",
+    "vercel-build": "bash ./vercel-build.sh",
+    "build": "bundle exec jekyll build"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
